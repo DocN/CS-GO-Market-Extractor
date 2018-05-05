@@ -1,0 +1,969 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<title>Steam Community Market :: Listings for AWP | BOOM (Field-Tested)</title>
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/motiva_sans.css?v=F3z3QpekjE2f" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/buttons.css?v=43FYQIsUvs0y" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/shared_global.css?v=i5aBvwlu3g6x" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/globalv2.css?v=935p86M6IRaZ" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/economy.css?v=XinXBy98PH5b" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/economy_market.css?v=eKbnRCQZ_xdy" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/html5.css?v=.MtSlvoLZL0Tb" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/header.css?v=quvm2wU5yG0p" rel="stylesheet" type="text/css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/prototype-1.7.js?v=.55t44gwuwgvw"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/scriptaculous/_combined.js?v=9XVsa_Ni33oN&amp;l=english&amp;load=effects,controls,slider,dragdrop"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/global.js?v=OlZi9wbs5O5-&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/tooltip.js?v=.nCjeRtNcVhbG"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/shared_global.js?v=2EUy2xoM_Rkn&amp;l=english"></script>
+<script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/json2.js?v=pmScf4470EZP&amp;l=english\"><\/script>\n" ); };
+</script><script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/economy_common.js?v=1LohOdoSLPYI&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/economy.js?v=HRgy3uGJYQPv&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/market.js?v=5k5ze7AyHxZp&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/modalv2.js?v=HsicoS9FYYTz&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/jquery.jqplot.min.js?v=.MtKHlYxlI0Rv"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/plugins/jqplot.cursor.min.js?v=.M2KHp3--unVY"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/plugins/jqplot.dateAxisRenderer.min.js?v=.4qfJsdWiq0OT"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/plugins/jqplot.highlighter.min.js?v=.bt1BStJ5PY3c"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33779068-1']);
+  _gaq.push(['_setSampleRate', '0.4']);
+  _gaq.push(['_setCustomVar', 1, 'Logged In', 'false', 2]);
+  _gaq.push(['_setCustomVar', 2, 'Client Type', 'External', 2]);
+  _gaq.push(['_setCustomVar', 3, 'Cntrlr', 'market', 3]);
+  _gaq.push(['_setCustomVar', 4, 'Method', "market\/listings", 3]);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_setSessionCookieTimeout', 900000]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div style="width: 100%; text-align: center">
+<!-- header bar, contains info browsing user if logged in -->
+
+	<div id="global_header">
+		<div class="content">
+
+			<div class="logo">
+				<span id="logo_holder">
+					<a href="http://store.steampowered.com/">
+						<img src="http://steamcommunity-a.akamaihd.net/public/images/header/globalheader_logo.png" width="176" height="44" border="0" alt="Steam Logo">
+					</a>
+				</span>
+				<!--[if lt IE 7]>
+				<style type="text/css">
+				#logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+				#logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://steamcommunity-a.akamaihd.net/public/images/header/globalheader_logo.png'); }
+				</style>
+				<![endif]-->
+			</div>
+
+			<div style="position: absolute; left: 200px;" id="supernav">
+	<a class="menuitem supernav" href="http://store.steampowered.com/" data-tooltip-content="
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/&quot;&gt;Featured&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/explore/&quot;&gt;Explore&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/curators/&quot;&gt;Curators&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/my/wishlist/&quot;&gt;Wishlist&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/news/&quot;&gt;News&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/stats/&quot;&gt;STATS&lt;/a&gt;
+	">
+		STORE	</a>
+
+
+	<a class="menuitem supernav" style="display: block" href="http://steamcommunity.com/" data-tooltip-content="
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/&quot;&gt;Home&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/discussions/&quot;&gt;DISCUSSIONS&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/workshop/&quot;&gt;Workshop&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/greenlight/&quot;&gt;Greenlight&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/market/&quot;&gt;Market&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/?subsection=broadcasts&quot;&gt;Broadcasts&lt;/a&gt;
+													">
+
+		COMMUNITY	</a>
+
+	
+
+	
+	<a class="menuitem" href="http://store.steampowered.com/about/">
+		ABOUT	</a>
+
+	<a class="menuitem" href="http://support.steampowered.com/">
+		SUPPORT	</a>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function($) { 
+		$('.tooltip').v_tooltip();
+		$('.supernav').v_tooltip({'location':'bottom', 'tooltipClass': 'supernav_content', 'offsetY':-4, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#supernav', 'correctForScreenSize': false});
+	});
+</script>
+			<div id="global_actions">
+								<div id="global_action_menu">
+
+					<div class="header_installsteam_btn header_installsteam_btn_green">
+						<div class="header_installsteam_btn_leftcap"></div>
+						<div class="header_installsteam_btn_rightcap"></div>
+						<a class="header_installsteam_btn_content" href="http://store.steampowered.com/about/">
+							Install Steam						</a>
+					</div>
+
+																							<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=market%2Flistings%2F730%2FAWP+%7C+BOOM+%28Field-Tested%29">Login</a>
+							&nbsp;|&nbsp;
+												<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block" id="language_dropdown" style="display: none;">
+							<div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div>							<div class="popup_body popup_menu shadow_content">
+																										<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">Български (Bulgarian)</a>
+																										<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">čeština (Czech)</a>
+																										<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">Dansk (Danish)</a>
+																										<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">Nederlands (Dutch)</a>
+																																			<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">Suomi (Finnish)</a>
+																										<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">Français (French)</a>
+																										<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">Deutsch (German)</a>
+																										<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">Ελληνικά (Greek)</a>
+																										<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">Magyar (Hungarian)</a>
+																										<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">Italiano (Italian)</a>
+																										<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">日本語 (Japanese)</a>
+																										<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">한국어 (Korean)</a>
+																										<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">Norsk (Norwegian)</a>
+																										<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">Polski (Polish)</a>
+																										<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">Português (Portuguese)</a>
+																										<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">Português-Brasil (Portuguese-Brazil)</a>
+																										<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">Română (Romanian)</a>
+																										<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">Русский (Russian)</a>
+																										<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">简体中文 (Simplified Chinese)</a>
+																										<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">Español (Spanish)</a>
+																										<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">Svenska (Swedish)</a>
+																										<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">繁體中文 (Traditional Chinese)</a>
+																										<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">ไทย (Thai)</a>
+																										<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe (Turkish)</a>
+																										<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська (Ukrainian)</a>
+																<a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank">Help us translate Steam</a>
+							</div>
+						</div>
+									</div>
+			</div>
+			
+			
+			
+		</div>
+
+	</div>
+
+
+<div id="modalBG" style="display: none"></div><script type="text/javascript">
+	g_sessionID = "c6392538bd1ef1ea5d407a20";
+	g_steamID = false;
+	$J( InitMiniprofileHovers );
+	$J( InitEmoticonHovers );
+
+	$J( function() {
+		window.BindCommunityTooltip = function( $Selector ) { $Selector.v_tooltip( {'tooltipClass': 'community_tooltip', 'dataName': 'communityTooltip' } ); };
+		BindCommunityTooltip( $J('[data-community-tooltip]') );
+	})
+
+	$J( function() { InitEconomyHovers( "http:\/\/steamcommunity-a.akamaihd.net\/public\/css\/skin_1\/economy.css?v=XinXBy98PH5b", "http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy_common.js?v=1LohOdoSLPYI&l=english", "http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy.js?v=HRgy3uGJYQPv&l=english" );});</script><!-- /header bar -->
+</div>
+
+<div id="NotLoggedInWarning" class="modal_frame" style="display: none">
+	<div class="modal_box">
+		<div class="modal_box_ctn">
+			<div class="notLoggedInText">You need to sign in or create an account to do that.</div>
+			<div class="notLoggedInButtons">
+				<a class="btn_green_white_innerfade btn_medium" href="https://steamcommunity.com/login/home/?goto=market%2Flistings%2F730%2FAWP%2520%257C%2520BOOM%2520%2528Field-Tested%2529"><span>Sign In</span></a>
+				<a class="btn_green_white_innerfade btn_medium" href="http://store.steampowered.com/join"><span>Create an Account</span></a>
+				<a class="btn_grey_black btn_medium" onclick="hideModal( 'NotLoggedInWarning' )"><span>Cancel</span></a>
+				<div style="clear: left"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="pagecontent no_header ">
+<!-- top content -->
+<div id="modalContentScrollbarHack" style="display: none"></div>
+
+<div id="modalContent" class="modal_frame" style="display: none">
+	<div id="modalContentTitleBar">
+		<a id="modalContentTitleBarLink" href="" target="_blank">&nbsp;</a>
+		<a id="modalContentTitleBarImageLink" href="" target="_blank"><img src="http://steamcommunity-a.akamaihd.net/public/images/skin_1/ico_external_link.gif" alt=""></a>
+		<div id="modalContentDismiss" class="modalContentDismissImage" onclick="HideModalContent();">
+			<img src="http://steamcommunity-a.akamaihd.net/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close">
+		</div>
+	</div>
+	<div id="modalContentWait"><img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Loading"></div>
+	<div id="modalContentFrameContainer"></div>
+</div><div id="BG_top">
+	<h1 class="market_header_title">
+		<a href="http://steamcommunity.com/market/">
+			<img src="http://steamcommunity-a.akamaihd.net/public/images/economy/market/header/header_en.png" alt="Steam Community Market">
+		</a>
+	</h1>
+		<div class="market_header_hidden">
+		<p>Buy and sell items with community members for Steam Wallet funds.</p>
+	</div>
+	</div><!-- /top content -->
+<!-- main body -->
+<div id="BG_bottom">
+	<div id="mainContents">
+		<div class="market_listing_nav_container">
+						<div class="market_listing_nav">
+									<a href="http://steamcommunity.com/market/search?appid=730">Counter-Strike: Global Offensive</a>
+					&gt;
+															<a href="http://steamcommunity.com/market/listings/730/AWP%20%7C%20BOOM%20%28Field-Tested%29">AWP | BOOM (Field-Tested)</a>
+							</div>
+		</div>
+					<div class="market_listing_warning_msg">
+				Note: Some items purchased for Counter-Strike: Global Offensive either in-game or on the Steam Community Market will not be tradable or marketable for one week after purchase. We are making this change to combat fraud and scams, and to help maintain a safe and healthy item economy within Counter-Strike: Global Offensive.			</div>
+							<div class="market_page_fullwidth market_listing_firstsection">
+				<div class="market_listing_iteminfo">
+                    <div class="market_listing_largeimage">
+        <img src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY/360fx360f" alt="">
+</div>
+<div id="largeiteminfo">
+    <div class="inventory_iteminfo hover_box" id="largeiteminfo_clienthover" style="border-color: rgb(210, 210, 210);">
+        <div class="item_desc_content app730 context2" id="largeiteminfo_content">
+            <div class="item_desc_icon">
+                <div class="item_desc_icon_center">
+                    <img id="largeiteminfo_item_icon" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY/330x192" alt="AWP | BOOM">
+                </div>
+            </div>
+            <div class="item_desc_description">
+                <h1 class="hover_item_name" id="largeiteminfo_item_name" style="color: rgb(210, 210, 210);">AWP | BOOM</h1>
+                <div class="fraud_warning" id="largeiteminfo_fraud_warnings"><div class="fraud_warning_box"><img class="fraud_warning_image" src="http://steamcommunity-a.akamaihd.net/public/images/sharedfiles/icons/icon_warning.png"><span>Name Tag: ''AWP | Alah akbar ^_^''</span></div></div>
+                <div class="item_desc_game_info" id="largeiteminfo_game_info">
+                    <div class="item_desc_game_icon">
+                        <img id="largeiteminfo_game_icon" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/730/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg" alt="Counter-Strike: Global Offensive">
+                    </div>
+                    <div id="largeiteminfo_game_name" class="ellipsis">Counter-Strike: Global Offensive</div>
+                    <div id="largeiteminfo_item_type" class="">Classified Sniper Rifle</div>
+                </div>
+                <div class="item_desc_descriptors" id="largeiteminfo_item_descriptors"><div class="descriptor">Exterior: Field-Tested</div><div class="descriptor">&nbsp;</div><div class="descriptor">High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat.</div><div class="descriptor">&nbsp;</div><div class="descriptor" style="color: rgb(157, 161, 169);">The eSports 2013 Collection</div><div class="descriptor">&nbsp;</div><div class="descriptor"><br><div id="sticker_info" name="sticker_info" title="Sticker Details" style="border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;"><center><img width="64" height="48" src="http://media.steampowered.com/apps/730/icons/econ/stickers/cologne2014/wolf.708bdeede98c3cb7a54b25589b5b2236ff262870.png"><img width="64" height="48" src="http://media.steampowered.com/apps/730/icons/econ/stickers/cologne2014/wolf.708bdeede98c3cb7a54b25589b5b2236ff262870.png"><br>Sticker: MTS GameGod Wolf | Cologne 2014, MTS GameGod Wolf | Cologne 2014</center></div></div></div>
+                <div class="item_actions" id="largeiteminfo_item_actions"><a class="btn_small btn_grey_white_innerfade" href="steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M428176510385433816A1565231578D199426036939912751"><span>Inspect in Game...</span></a></div>
+                <div class="item_desc_descriptors" id="largeiteminfo_item_owner_descriptors" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+					<div style="clear: both"></div>
+					<div id="largeiteminfo_warning">
+						<br>
+						The appearance of items in the individual listings may vary slightly from the one above. For example, items could have custom names, descriptions, or colors.					</div>
+					<hr style="background-color: #333; border-style: solid none none; border-color: black; border-width: 1px 0 0; height: 2px">
+											<div id="pricehistory" class="jqplot-target" style="position: relative; height: 300px;"><canvas width="903" height="300" class="jqplot-base-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><div class="jqplot-title" style="position: absolute; top: 0px; left: 0px; width: 903px; text-align: left;">Median Sale Prices</div><div class="jqplot-axis jqplot-xaxis" style="position: absolute; width: 903px; height: 16px; left: 0px; bottom: 0px;"><div class="jqplot-xaxis-tick" style="position: absolute; left: 24px;">Jan 12<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 105.3px;">Jan 15<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 186.6px;">Jan 18<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 267.9px;">Jan 21<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 349.2px;">Jan 24<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 430.5px;">Jan 27<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 511.79999999999995px;">Jan 30<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 595.6px;">Feb 2<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 676.9px;">Feb 5<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 758.2px;">Feb 8<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 836px;">Feb 11<span class="priceHistoryTime"> 10AM<span></span></span></div></div><div class="jqplot-axis jqplot-yaxis" style="position: absolute; height: 300px; width: 48px; left: -7px; top: 0px;"><div class="jqplot-yaxis-tick" style="position: absolute; top: 232.83333333333334px;">$13.00</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 189.66666666666669px;">$14.00</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 146.5px;">$15.00</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 103.33333333333334px;">$16.00</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 60.16666666666666px;">$17.00</div></div><canvas width="903" height="300" class="jqplot-grid-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><canvas width="813" height="259" class="jqplot-series-shadowCanvas" style="position: absolute; left: 45px; top: 25px;"></canvas><canvas width="813" height="259" class="jqplot-series-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas><div class="jqplot-cursor-tooltip" style="position: absolute; display: none;"></div><canvas width="813" height="259" class="jqplot-zoom-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas><canvas width="813" height="259" class="jqplot-highlight-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas><div class="jqplot-highlighter-tooltip" style="position: absolute; display: none;"></div><canvas width="813" height="259" class="jqplot-lineRenderer-highlight-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas><canvas width="813" height="259" class="jqplot-event-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas></div>
+						<br>
+						<div class="zoom_controls pricehistory_zoom_controls">
+							Zoom graph:							<a class="zoomopt" onclick="return pricehistory_zoomDays( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest, 7 );" href="javascript:void(0)">Week</a>
+							<a class="zoomopt" onclick="return pricehistory_zoomDays( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest, 30 );" href="javascript:void(0)">Month</a>
+							<a class="zoomopt" onclick="return pricehistory_zoomLifetime( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest );" href="javascript:void(0)" style="padding-right: 0">Lifetime</a>
+						</div>
+										<div style="clear: both"></div>
+				</div>
+			</div>
+			<div id="listings" class="market_page_fullwidth" style="padding-top: 0">
+				<div class="market_listing_filter">
+	<div class="market_listing_filter_contents">
+		<form id="market_listing_filter_form" accept-charset="UTF8" action="http://steamcommunity.com/market/listings/730/AWP%20%7C%20BOOM%20%28Field-Tested%29" method="GET">
+					<span class="market_listing_filter_searchhint">
+									Looking for a specific item?							</span>
+			<span style="position: relative; display: inline-block;">
+									<input class="filter_search_box market_search_filter_search_box" type="text" id="market_listing_filter_search_box" value="" placeholder="Search name, description, type" name="filter" autocomplete="off">
+								<input class="market_search_submit_button" id="market_listing_filter_submit" type="submit" value="Submit">
+			</span>
+		</form>
+	</div>
+</div>				<div class="market_large_tab_well">
+					<h2 class="market_section_title">
+						Listings					</h2>
+					<div class="market_large_tab_well_gradient selectableNone"></div>
+					<div class="market_tab_well_tabs">
+					</div>
+					<div class="market_section_header_cap selectableNone"></div>
+									</div>
+				<div id="searchResultsTable" class="market_content_block market_home_listing_table market_home_main_listing_table market_listing_table">
+					<div id="searchResultsRows">
+						<div class="market_listing_table_header">
+	<span class="market_listing_right_cell market_listing_action_buttons"></span>
+	<span class="market_listing_right_cell market_listing_their_price">PRICE</span>
+	<span class="market_listing_right_cell market_listing_seller">SELLER</span>
+	<div><span class="market_listing_header_namespacer"></span>NAME</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_428176510385433816" id="listing_428176510385433816">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_428176510385433816_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_428176510385433816_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '428176510385433816', 730, '2', '1565231578')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					966,77 pуб.				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					840,68 pуб.				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/d7/d7c6b54b4a6ba38226b872dcc7b5675131744231.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_428176510385433816_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_437183709597152313" id="listing_437183709597152313">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_437183709597152313_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_437183709597152313_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '437183709597152313', 730, '2', '1565167202')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					£9.59				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					£8.35				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/cd/cd8eb476ce7cb3416a87283bf15615002ed7154e.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_437183709597152313_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_428176510385391946" id="listing_428176510385391946">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_428176510385391946_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_428176510385391946_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '428176510385391946', 730, '2', '1145301636')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					13,--€ 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					11,31€ 				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/c0/c0a039b73e4000b111fe0604e966bc83aca4150e.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_428176510385391946_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_427050610477993265" id="listing_427050610477993265">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_427050610477993265_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_427050610477993265_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '427050610477993265', 730, '2', '1564397363')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					$14.68 USD				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					$12.78 USD				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/4b/4b0a6a7c73250a21d4bb92d28b6318c7fb16a570.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_427050610477993265_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_428176510385368076" id="listing_428176510385368076">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_428176510385368076_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_428176510385368076_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '428176510385368076', 730, '2', '1565154545')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					115,00 kr				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					100,00 kr				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/76/76101326eb816f39ab5d72c616aaa9e72bc0171d.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_428176510385368076_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_428176510383526766" id="listing_428176510383526766">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_428176510383526766_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_428176510383526766_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '428176510383526766', 730, '2', '1563224821')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					$15.50 USD				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					$13.49 USD				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/d4/d477dc3573166843dbafdd998ebcb1eedeb122bb.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_428176510383526766_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_427050610478487585" id="listing_427050610478487585">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_427050610478487585_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_427050610478487585_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '427050610478487585', 730, '2', '1564464387')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					13,80€ 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					12,--€ 				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/7d/7d67087ebd8f7c0bfaf7cf056b0fe22a2562b6ba.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_427050610478487585_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_438309609503855864" id="listing_438309609503855864">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_438309609503855864_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_438309609503855864_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '438309609503855864', 730, '2', '1564985751')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					13,80€ 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					12,--€ 				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/87/87262575d7ae49d50489a9c1fb3d31d7e6f89a60.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_438309609503855864_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_432679475221217932" id="listing_432679475221217932">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_432679475221217932_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_432679475221217932_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '432679475221217932', 730, '2', '954587403')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					13,80€ 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					12,--€ 				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/c6/c6edfbe3beb6fbdeb5a7780e5f16ea8c8f177089.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_432679475221217932_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_428176510384465896" id="listing_428176510384465896">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_428176510384465896_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_428176510384465896_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '428176510384465896', 730, '2', '1537875012')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					1046,65 pуб.				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					910,14 pуб.				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/20/20bc65db4356231f576e485f5aa79fe93e4f4282.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_428176510384465896_name" class="market_listing_item_name" style="color: #D2D2D2;">AWP | BOOM (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+					</div>
+					
+		<div id="searchResults_ctn" class="market_paging" style="">
+			<div class="market_paging_summary">
+				Showing <span id="searchResults_start">1</span>-<span id="searchResults_end">10</span> of <span id="searchResults_total">63</span> results			</div>
+			<div class="market_paging_controls" id="searchResults_controls">
+				<span id="searchResults_btn_prev" class="pagebtn disabled">&lt;</span>
+				<span id="searchResults_links"><span class="market_paging_pagelink active">1 </span><span class="market_paging_pagelink">2 </span><span class="market_paging_pagelink">3 </span><span class="market_paging_pagelink">4 </span><span class="market_paging_pagelink">5 </span><span class="market_paging_pagelink">6 </span><span class="market_paging_pagelink">7 </span></span>
+				<span id="searchResults_btn_next" class="pagebtn">&gt;</span>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+						</div>
+			</div>
+				<div style="clear:both"></div>
+	</div>
+
+	<div id="hover" style="display: none;">
+		<div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div>		<div class="inventory_iteminfo hover_box shadow_content" id="iteminfo_clienthover">
+			<div class="item_desc_content" id="hover_content">
+				<div class="item_desc_icon">
+					<div class="item_desc_icon_center">
+						<img id="hover_item_icon" src="http://steamcommunity-a.akamaihd.net/public/images/trans.gif" alt="">
+					</div>
+				</div>
+				<div class="item_desc_description">
+					<h1 class="hover_item_name" id="hover_item_name"></h1>
+					<div class="fraud_warning" id="hover_fraud_warnings"></div>
+					<div class="item_desc_game_info" id="hover_game_info">
+						<div class="item_desc_game_icon">
+							<img id="hover_game_icon" src="http://steamcommunity-a.akamaihd.net/public/images/trans.gif" alt="">
+						</div>
+						<div id="hover_game_name" class="ellipsis"></div>
+						<div id="hover_item_type" class=""></div>
+					</div>
+					<div class="item_desc_descriptors" id="hover_item_descriptors">
+					</div>
+					<div class="item_desc_descriptors" id="hover_item_owner_descriptors">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hover_arrow_left" id="hover_arrow_left">
+			<div class="hover_arrow_inner"></div>
+		</div>
+		<div class="hover_arrow_right" id="hover_arrow_right">
+			<div class="hover_arrow_inner"></div>
+		</div>
+	</div>
+</div></div>
+<div id="market_buynow_dialog" class="market_modal_dialog" style="display: none;">
+	<div class="market_dialog_title">
+		<span id="market_buynow_dialog_title">
+			Buy an item		</span>
+		<span class="market_dialog_cancel">
+			<a id="market_buynow_dialog_cancel" href="#" class="market_dialog_title_cancel">Cancel<span class="market_dialog_title_cancel_X">X</span></a>
+			<a id="market_buynow_dialog_cancel_close" href="#" class="market_dialog_title_cancel" style="display: none">Close<span class="market_dialog_title_cancel_X">X</span></a>
+		</span>
+	</div>
+	<div id="market_buynow_dialog_contents" class="market_dialog_contents">
+		<div id="market_buynow_dialog_purchasecomplete_message">
+			<div class="market_dialog_topinfo">
+				Congratulations on your purchase! You can view your new item in your <a href="http://steamcommunity.com/my/inventory/">inventory</a>.			</div>
+			<div class="market_dialog_content_spacer">
+			</div>
+		</div>
+		<div id="market_buynow_dialog_item">
+		</div>
+		<div class="market_dialog_content_spacer">
+		</div>
+		<div id="market_buynow_dialog_totals" class="market_dialog_totals">
+			<div>
+				<span id="market_buynow_dialog_totals_subtotal" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Subtotal:</span>
+			</div>
+			<div style="clear: both"></div>
+			<br>
+			<div>
+				<span id="market_buynow_dialog_totals_publisherfee" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label"><span id="market_buynow_dialog_totals_publisherfee_gamename"></span> fee (<span id="market_buynow_dialog_totals_publisherfee_percent"></span>%):</span>
+			</div>
+			<div style="clear: both"></div>
+			<div>
+				<span id="market_buynow_dialog_totals_transactionfee" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Steam transaction fee (<span id="market_buynow_dialog_totals_transactionfee_percent"></span>%):</span>
+			</div>
+			<div>
+				<span class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label market_buynow_dialog_totals_fee_collector">
+											Fees charged by Valve Corporation									</span>
+			</div>
+			<div style="clear: both"></div>
+			<div class="market_dialog_totals_separator"></div>
+			<div>
+				<span id="market_buynow_dialog_totals_total" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Total:</span>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+		<div style="clear:both"></div>
+		<div class="market_dialog_content_spacer">
+		</div>
+		<div id="market_buynow_dialog_paymentinfo_frame_container">
+			<div id="market_buynow_dialog_paymentinfo_frame" class="market_dialog_content_frame">
+				<div id="market_buynow_dialog_paymentinfo" class="market_dialog_content market_dialog_content_darker">
+					<div>
+						<div id="market_buynow_dialog_paymentinfo_option_labels">
+							<span>Payment method:</span>
+							<br>
+							<br>
+							<span>Steam account:</span>
+						</div>
+						<div>
+							<span id="market_buynow_dialog_paymentmethod">My Steam Wallet <span id="market_buynow_dialog_walletbalance">(<span id="market_buynow_dialog_walletbalance_amount"></span>)</span></span>
+							<br>
+							<br>
+							<span id="market_buynow_dialog_myaccountname"></span>
+						</div>
+					</div>
+					<div id="market_buynow_dialog_paymentinfo_bottomactions">
+						<div id="market_buynow_dialog_purchase_throbber" style="display: none;">
+							<img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Working...">
+						</div>
+						<a id="market_buynow_dialog_purchase" href="#" class="btn_green_white_innerfade btn_medium_wide btn_uppercase"><span>Purchase</span></a>
+						<a id="market_buynow_dialog_addfunds" href="#" class="btn_green_white_innerfade btn_medium_wide btn_uppercase" style="display: none"><span>Add Funds</span></a>
+						<div id="market_buynow_dialog_accept_ssa_container">
+							<br>
+							<input id="market_buynow_dialog_accept_ssa" type="checkbox" value="0" name="accept_ssa">
+							<label id="market_buynow_dialog_accept_ssa_label" for="market_buynow_dialog_accept_ssa">I agree to the terms of the <a href="javascript:SSAPopup();" class="body_link">Steam Subscriber Agreement</a> (last updated 3 Jul, 2013.)</label>
+						</div>
+											</div>
+					<div style="clear: both"></div>
+				</div>
+			</div>
+		</div>
+		<div id="market_buynow_dialog_bottom_buttons" style="display: none">
+			<div class="market_dialog_bottom_buttons">
+				<a id="market_buynow_dialog_close" href="#" class="btn_grey_white_innerfade btn_medium_wide"><span>Close</span></a>
+				<a id="market_buynow_dialog_viewinventory" href="http://steamcommunity.com/my/inventory/" class="btn_grey_white_innerfade btn_medium_wide"><span>View Inventory</span></a>
+				<div style="clear: both"></div>
+			</div>
+		</div>
+		<div id="market_buynow_dialog_error">
+			<br>
+			<span id="market_buynow_dialog_error_text"></span>
+		</div>
+	</div>
+</div>
+<div id="market_removelisting_dialog" class="market_modal_dialog" style="display: none;">
+	<div class="market_dialog_title">
+		<span id="market_removelisting_dialog_title">
+			Remove a listing		</span>
+		<span class="market_dialog_cancel">
+			<a id="market_removelisting_dialog_cancel" href="#" class="market_dialog_title_cancel">Cancel<span class="market_dialog_title_cancel_X">X</span></a>
+		</span>
+	</div>
+	<div id="market_removelisting_dialog_contents" class="market_dialog_contents">
+		<div id="market_removelisting_dialog_confirmation">
+			<div>
+				Remove the listing for <span id="market_removelisting_dialog_itemname"></span> and return the item to your inventory?			</div>
+			<br>
+			<div id="market_removelisting_dialog_buttons">
+				<div id="market_removelisting_dialog_accept_throbber" style="display: none;">
+					<img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Working...">
+				</div>
+				<a id="market_removelisting_dialog_accept" href="#" class="btn_green_white_innerfade btn_medium_wide"><span>Remove Listing</span></a>
+				<div style="clear: both"></div>
+			</div>
+		</div>
+		<div id="market_removelisting_dialog_error">
+		</div>
+	</div>
+</div>
+<div id="market_action_popup" class="popup_block_new" style="display: none;">
+	<div class="popup_body popup_menu">
+		<div id="market_action_popup_itemactions">
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+	<div id="footer_spacer"></div>
+	<div id="footer">
+		<div class="footer_content">
+			<span id="footerLogo"><img src="http://steamcommunity-a.akamaihd.net/public/images/skin_1/footerLogo_valve.png" width="96" height="26" border="0" alt="Valve Logo"></span>
+			<span id="footerText">
+				© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.<br>Some geospatial data on this website is provided by <a target="_blank" href="https://steamcommunity.com/linkfilter/?url=http://www.geonames.org">geonames.org</a>.				<br>
+									<span class="valve_links">
+						<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a> | <a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a> | <a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+					</span>
+											
+							</span>
+		</div>
+	</div>
+	<!-- /footer -->
+
+<script type="text/javascript">
+var g_bLoggedIn = false;
+var g_strCountryCode = "CA";
+var g_strLanguage = "english";
+
+g_bModalModifyAnchorTargets = false;
+g_bModalCacheContent = false;
+</script>
+	<script type="text/javascript">
+		var g_rgAppContextData = {"730":{"appid":730,"name":"Counter-Strike: Global Offensive","icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","link":"http:\/\/steamcommunity.com\/app\/730"}};
+		var g_rgAssets = {"730":{"2":{"1565231578":{"currency":0,"appid":730,"contextid":"2","id":"1565231578","classid":"775620140","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/cologne2014\/wolf.708bdeede98c3cb7a54b25589b5b2236ff262870.png\"><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/cologne2014\/wolf.708bdeede98c3cb7a54b25589b5b2236ff262870.png\"><br>Sticker: MTS GameGod Wolf | Cologne 2014, MTS GameGod Wolf | Cologne 2014<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510385433816A%assetid%D199426036939912751","name":"Inspect in Game..."}],"fraudwarnings":["Name Tag: ''AWP | Alah akbar ^_^''"],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510385433816A%assetid%D199426036939912751","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1565167202":{"currency":0,"appid":730,"contextid":"2","id":"1565167202","classid":"745061902","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/dhw2014\/ninjasinpyjamas_holo.2b68ffd10077499ae717aea59efcbc0c9ff35258.png\"><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/standard\/fearsome.589b63da0a7cd24ee4b3a3fa25bd2bd104d69dad.png\"><br>Sticker: Ninjas in Pyjamas (Holo) | DreamHack 2014, Fearsome<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709597152313A%assetid%D9722746442938718443","name":"Inspect in Game..."}],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709597152313A%assetid%D9722746442938718443","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1145301636":{"currency":0,"appid":730,"contextid":"2","id":"1145301636","classid":"683585204","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community02\/oneshotonekill.58764f10f6e4e74dbce2e3d0513eacdb826b829c.png\"><br>Sticker: One Shot One Kill<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510385391946A%assetid%D2324106785411611271","name":"Inspect in Game..."}],"fraudwarnings":["Name Tag: ''PANG SA DET!''"],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510385391946A%assetid%D2324106785411611271","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1564397363":{"currency":0,"appid":730,"contextid":"2","id":"1564397363","classid":"310779804","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M427050610477993265A%assetid%D5081200171690949289","name":"Inspect in Game..."}],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M427050610477993265A%assetid%D5081200171690949289","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1565154545":{"currency":0,"appid":730,"contextid":"2","id":"1565154545","classid":"672846115","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community02\/warowl.8304162b4fb208169d3b82c57d6e6d83368037f9.png\"><br>Sticker: Warowl<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510385368076A%assetid%D9657455390157347973","name":"Inspect in Game..."}],"fraudwarnings":["Name Tag: ''AWP | BOOM HEADSHOT!''"],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510385368076A%assetid%D9657455390157347973","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1563224821":{"currency":0,"appid":730,"contextid":"2","id":"1563224821","classid":"674132023","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community01\/bomb_doge.12784a160092a0cb8456c8ca029cad7dae7db522.png\"><br>Sticker: Bomb Doge<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510383526766A%assetid%D5219153299418264289","name":"Inspect in Game..."}],"fraudwarnings":["Name Tag: ''''AWP | Peace Out''''"],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510383526766A%assetid%D5219153299418264289","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1564464387":{"currency":0,"appid":730,"contextid":"2","id":"1564464387","classid":"766593852","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community02\/blood_broiler.9df56bbebe4da613972eb3fc394e88bafeb2beb3.png\"><br>Sticker: Blood Boiler<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M427050610478487585A%assetid%D14286687423233539747","name":"Inspect in Game..."}],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M427050610478487585A%assetid%D14286687423233539747","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1564985751":{"currency":0,"appid":730,"contextid":"2","id":"1564985751","classid":"662692928","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community02\/neluthebear.f607cfb6b73a9bcdf7c7f2051cdae503ab8c13d2.png\"><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community02\/chickenstrike.ae0b98802890968e9ac424df87aa49c85df185af.png\"><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community02\/toncat.d4154c2f369d8a846f17f41a961f3d19d5197b41.png\"><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community01\/bomb_doge.12784a160092a0cb8456c8ca029cad7dae7db522.png\"><br>Sticker: Nelu the Bear, Chicken Strike, T On Cat, Bomb Doge<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M438309609503855864A%assetid%D5684923728337735785","name":"Inspect in Game..."}],"fraudwarnings":["Name Tag: ''Mrs.Fancypants''"],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M438309609503855864A%assetid%D5684923728337735785","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"954587403":{"currency":0,"appid":730,"contextid":"2","id":"954587403","classid":"619677677","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community02\/warpenguin.618274704c2e14ba6404915dec4c0588aad851eb.png\"><br>Sticker: War Penguin<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M432679475221217932A%assetid%D461661725723522595","name":"Inspect in Game..."}],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M432679475221217932A%assetid%D461661725723522595","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1537875012":{"currency":0,"appid":730,"contextid":"2","id":"1537875012","classid":"511679152","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJuGoPlo-JUeQS84NGSMuQvOdBISpKBU6TUMwqruxo50fdcfcaAqHnpj3z3ejBdzQVSDJ4","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKOC5YcAjDDJ9NVfgq-A3TBCI24dJua9u35bwDZwjssIvEM7h_ZIsYHpTTU_6CM1us4xlq1aILfsSI8Xzuj37gMj0MCUL1ujVT1u-L7HY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted using a hydrographic printed with comic book onomatopoeia over an orange base coat."},{"type":"html","value":" "},{"type":"html","value":"The eSports 2013 Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/community01\/to_b_or_not_to_b.9c7e83ca83056015dfade74eaaa7864c8fa73f1b.png\"><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/standard\/guarding_hell.19b448a63d53429844677cb8edd0f330d409d57b.png\"><br>Sticker: To B or not to B, Cerberus<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510384465896A%assetid%D4927549899765494981","name":"Inspect in Game..."}],"name":"AWP | BOOM","name_color":"D2D2D2","type":"Classified Sniper Rifle","market_name":"AWP | BOOM (Field-Tested)","market_hash_name":"AWP | BOOM (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510384465896A%assetid%D4927549899765494981","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0}}}};
+	var g_rgCurrency = [];
+	var g_rgListingInfo = {"428176510385433816":{"listingid":"428176510385433816","price":84068,"fee":12609,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2005","steam_fee":4203,"publisher_fee":8406,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1565231578","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D199426036939912751","name":"Inspect in Game..."}]}},"437183709597152313":{"listingid":"437183709597152313","price":835,"fee":124,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2002","steam_fee":41,"publisher_fee":83,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1565167202","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D9722746442938718443","name":"Inspect in Game..."}]}},"428176510385391946":{"listingid":"428176510385391946","price":1131,"fee":169,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":56,"publisher_fee":113,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1145301636","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D2324106785411611271","name":"Inspect in Game..."}]}},"427050610477993265":{"listingid":"427050610477993265","price":1278,"fee":190,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2001","steam_fee":63,"publisher_fee":127,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1564397363","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D5081200171690949289","name":"Inspect in Game..."}]}},"428176510385368076":{"listingid":"428176510385368076","price":10000,"fee":1500,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2009","steam_fee":500,"publisher_fee":1000,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1565154545","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D9657455390157347973","name":"Inspect in Game..."}]}},"428176510383526766":{"listingid":"428176510383526766","price":1349,"fee":201,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2001","steam_fee":67,"publisher_fee":134,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1563224821","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D5219153299418264289","name":"Inspect in Game..."}]}},"427050610478487585":{"listingid":"427050610478487585","price":1200,"fee":180,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":60,"publisher_fee":120,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1564464387","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D14286687423233539747","name":"Inspect in Game..."}]}},"438309609503855864":{"listingid":"438309609503855864","price":1200,"fee":180,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":60,"publisher_fee":120,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1564985751","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D5684923728337735785","name":"Inspect in Game..."}]}},"432679475221217932":{"listingid":"432679475221217932","price":1200,"fee":180,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":60,"publisher_fee":120,"asset":{"currency":0,"appid":730,"contextid":"2","id":"954587403","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D461661725723522595","name":"Inspect in Game..."}]}},"428176510384465896":{"listingid":"428176510384465896","price":91014,"fee":13651,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2005","steam_fee":4550,"publisher_fee":9101,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1537875012","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D4927549899765494981","name":"Inspect in Game..."}]}}};
+	var g_plotPriceHistory = null;
+	var g_timePriceHistoryEarliest = new Date();
+	var g_timePriceHistoryLatest = new Date();
+
+	ITEM_HOVER_DELAY = 250;
+
+	var g_oSearchResults = null;
+	Event.observe( document, 'dom:loaded', function() {
+		UserYou.LoadContexts( g_rgAppContextData );
+
+							CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510385433816_name', 730, '2', '1565231578', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510385433816_image', 730, '2', '1565231578', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709597152313_name', 730, '2', '1565167202', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709597152313_image', 730, '2', '1565167202', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510385391946_name', 730, '2', '1145301636', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510385391946_image', 730, '2', '1145301636', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_427050610477993265_name', 730, '2', '1564397363', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_427050610477993265_image', 730, '2', '1564397363', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510385368076_name', 730, '2', '1565154545', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510385368076_image', 730, '2', '1565154545', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510383526766_name', 730, '2', '1563224821', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510383526766_image', 730, '2', '1563224821', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_427050610478487585_name', 730, '2', '1564464387', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_427050610478487585_image', 730, '2', '1564464387', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_438309609503855864_name', 730, '2', '1564985751', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_438309609503855864_image', 730, '2', '1564985751', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_432679475221217932_name', 730, '2', '954587403', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_432679475221217932_image', 730, '2', '954587403', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510384465896_name', 730, '2', '1537875012', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510384465896_image', 730, '2', '1537875012', 1 );
+	
+			var rgAppItems = g_rgAssets[730];
+			var rgContextItems = rgAppItems['2'];
+			var rgItem = rgContextItems['1565231578'];
+			BuildHover( 'largeiteminfo', rgItem, '76561198116747594' );
+
+			g_oSearchResults = new CAjaxPagingControls( {"query":"","total_count":63,"pagesize":10,"prefix":"searchResults","class_prefix":"market"}, 'http://steamcommunity.com/market/listings/730/AWP%20%7C%20BOOM%20%28Field-Tested%29/' );
+
+			var oParams = {
+				country: g_strCountryCode,
+				language: g_strLanguage,
+				currency: typeof( g_rgWalletInfo ) != 'undefined' ? g_rgWalletInfo['wallet_currency'] : 1			};
+
+							oParams.currency = '1';
+			
+						g_oSearchResults.SetStaticParameters( oParams );
+
+			g_oSearchResults.SetResponseHandler( function( response ) {
+				g_rgAssets = response.assets;
+				g_rgCurrency = response.currency;
+				g_rgListingInfo = response.listinginfo;
+				eval( response.hovers );
+				MergeWithAppDataArray( response.app_data );
+				
+									InstallMarketActionMenuButtons();
+											});
+
+			MarketCheckHash();
+						} );
+
+			$J(document).ready(function(){
+			var line1=[["Aug 15 2013 01: +0",20.694,"4"],["Aug 16 2013 01: +0",20.952,"28"],["Aug 17 2013 01: +0",16.475,"29"],["Aug 18 2013 01: +0",16.992,"36"],["Aug 19 2013 01: +0",17.24,"41"],["Aug 20 2013 01: +0",15.812,"45"],["Aug 21 2013 01: +0",18.685,"22"],["Aug 22 2013 01: +0",18.271,"48"],["Aug 23 2013 01: +0",16.528,"62"],["Aug 24 2013 01: +0",15.573,"61"],["Aug 25 2013 01: +0",14.472,"74"],["Aug 26 2013 01: +0",14.817,"57"],["Aug 27 2013 01: +0",14.769,"50"],["Aug 28 2013 01: +0",14.97,"49"],["Aug 29 2013 01: +0",14.231,"49"],["Aug 30 2013 01: +0",13.978,"74"],["Aug 31 2013 01: +0",14.849,"61"],["Sep 01 2013 01: +0",14.381,"62"],["Sep 02 2013 01: +0",14.269,"69"],["Sep 03 2013 01: +0",14.664,"56"],["Sep 04 2013 01: +0",14.133,"48"],["Sep 05 2013 01: +0",14.602,"60"],["Sep 06 2013 01: +0",15.066,"62"],["Sep 07 2013 01: +0",15.203,"52"],["Sep 08 2013 01: +0",14.071,"69"],["Sep 09 2013 01: +0",14.608,"56"],["Sep 10 2013 01: +0",14.698,"62"],["Sep 11 2013 01: +0",14.596,"55"],["Sep 12 2013 01: +0",14.082,"59"],["Sep 13 2013 01: +0",14.343,"67"],["Sep 14 2013 01: +0",13.942,"83"],["Sep 15 2013 01: +0",13.848,"79"],["Sep 16 2013 01: +0",14.059,"60"],["Sep 17 2013 01: +0",13.514,"73"],["Sep 18 2013 01: +0",13.799,"56"],["Sep 19 2013 01: +0",13.396,"54"],["Sep 20 2013 01: +0",10.574,"106"],["Sep 21 2013 01: +0",10.266,"94"],["Sep 22 2013 01: +0",9.603,"88"],["Sep 23 2013 01: +0",9.597,"66"],["Sep 24 2013 01: +0",9.952,"61"],["Sep 25 2013 01: +0",10.298,"70"],["Sep 26 2013 01: +0",10.169,"78"],["Sep 27 2013 01: +0",9.843,"94"],["Sep 28 2013 01: +0",10.198,"77"],["Sep 29 2013 01: +0",9.875,"79"],["Sep 30 2013 01: +0",9.854,"72"],["Oct 01 2013 01: +0",9.717,"60"],["Oct 02 2013 01: +0",9.801,"65"],["Oct 03 2013 01: +0",9.933,"80"],["Oct 04 2013 01: +0",9.444,"70"],["Oct 05 2013 01: +0",9.259,"74"],["Oct 06 2013 01: +0",9.02,"72"],["Oct 07 2013 01: +0",8.853,"72"],["Oct 08 2013 01: +0",8.748,"80"],["Oct 09 2013 01: +0",8.728,"78"],["Oct 10 2013 01: +0",8.71,"77"],["Oct 11 2013 01: +0",8.669,"83"],["Oct 12 2013 01: +0",8.608,"92"],["Oct 13 2013 01: +0",8.253,"107"],["Oct 14 2013 01: +0",8.539,"65"],["Oct 15 2013 01: +0",8.613,"57"],["Oct 16 2013 01: +0",8.506,"77"],["Oct 17 2013 01: +0",8.355,"57"],["Oct 18 2013 01: +0",8.372,"66"],["Oct 19 2013 01: +0",8.548,"104"],["Oct 20 2013 01: +0",8.192,"112"],["Oct 21 2013 01: +0",8.31,"73"],["Oct 22 2013 01: +0",8.111,"69"],["Oct 23 2013 01: +0",7.835,"69"],["Oct 24 2013 01: +0",7.77,"83"],["Oct 25 2013 01: +0",7.954,"82"],["Oct 26 2013 01: +0",8.047,"71"],["Oct 27 2013 01: +0",7.936,"82"],["Oct 28 2013 01: +0",7.775,"88"],["Oct 29 2013 01: +0",7.533,"95"],["Oct 30 2013 01: +0",7.315,"74"],["Oct 31 2013 01: +0",7.188,"88"],["Nov 01 2013 01: +0",7.297,"72"],["Nov 02 2013 01: +0",7.454,"89"],["Nov 03 2013 01: +0",7.391,"59"],["Nov 04 2013 01: +0",7.145,"74"],["Nov 05 2013 01: +0",6.861,"86"],["Nov 06 2013 01: +0",6.898,"47"],["Nov 07 2013 01: +0",6.916,"77"],["Nov 08 2013 01: +0",6.7,"103"],["Nov 09 2013 01: +0",5.889,"90"],["Nov 10 2013 01: +0",5.969,"102"],["Nov 11 2013 01: +0",5.848,"88"],["Nov 12 2013 01: +0",5.841,"83"],["Nov 13 2013 01: +0",6.172,"77"],["Nov 14 2013 01: +0",6.174,"57"],["Nov 15 2013 01: +0",5.976,"75"],["Nov 16 2013 01: +0",6.262,"82"],["Nov 17 2013 01: +0",5.989,"79"],["Nov 18 2013 01: +0",5.719,"77"],["Nov 19 2013 01: +0",5.859,"76"],["Nov 20 2013 01: +0",6.535,"46"],["Nov 21 2013 01: +0",6.375,"63"],["Nov 22 2013 01: +0",6.012,"74"],["Nov 23 2013 01: +0",5.974,"101"],["Nov 24 2013 01: +0",6.189,"93"],["Nov 25 2013 01: +0",6.212,"59"],["Nov 26 2013 01: +0",6.004,"72"],["Nov 27 2013 01: +0",5.966,"81"],["Nov 28 2013 01: +0",5.703,"82"],["Nov 29 2013 01: +0",5.956,"117"],["Nov 30 2013 01: +0",5.943,"160"],["Dec 01 2013 01: +0",6.518,"138"],["Dec 02 2013 01: +0",6.304,"109"],["Dec 03 2013 01: +0",6.514,"91"],["Dec 04 2013 01: +0",6.819,"76"],["Dec 05 2013 01: +0",6.652,"92"],["Dec 06 2013 01: +0",6.756,"91"],["Dec 07 2013 01: +0",6.832,"113"],["Dec 08 2013 01: +0",6.764,"123"],["Dec 09 2013 01: +0",6.644,"86"],["Dec 10 2013 01: +0",6.927,"88"],["Dec 11 2013 01: +0",6.818,"97"],["Dec 12 2013 01: +0",6.733,"79"],["Dec 13 2013 01: +0",6.164,"111"],["Dec 14 2013 01: +0",6.303,"134"],["Dec 15 2013 01: +0",6.322,"92"],["Dec 16 2013 01: +0",5.982,"109"],["Dec 17 2013 01: +0",5.967,"97"],["Dec 18 2013 01: +0",5.88,"83"],["Dec 19 2013 01: +0",5.14,"114"],["Dec 20 2013 01: +0",5.036,"154"],["Dec 21 2013 01: +0",5.092,"158"],["Dec 22 2013 01: +0",4.897,"156"],["Dec 23 2013 01: +0",5.082,"146"],["Dec 24 2013 01: +0",5.245,"164"],["Dec 25 2013 01: +0",5.822,"96"],["Dec 26 2013 01: +0",6.114,"136"],["Dec 27 2013 01: +0",6.181,"138"],["Dec 28 2013 01: +0",5.826,"126"],["Dec 29 2013 01: +0",5.754,"146"],["Dec 30 2013 01: +0",5.827,"145"],["Dec 31 2013 01: +0",5.778,"126"],["Jan 01 2014 01: +0",5.781,"133"],["Jan 02 2014 01: +0",5.68,"169"],["Jan 03 2014 01: +0",5.638,"108"],["Jan 04 2014 01: +0",5.897,"136"],["Jan 05 2014 01: +0",5.842,"143"],["Jan 06 2014 01: +0",5.907,"126"],["Jan 07 2014 01: +0",5.944,"115"],["Jan 08 2014 01: +0",5.875,"110"],["Jan 09 2014 01: +0",5.86,"132"],["Jan 10 2014 01: +0",5.744,"124"],["Jan 11 2014 01: +0",6.202,"128"],["Jan 12 2014 01: +0",5.909,"126"],["Jan 13 2014 01: +0",5.684,"119"],["Jan 14 2014 01: +0",5.807,"122"],["Jan 15 2014 01: +0",5.824,"103"],["Jan 16 2014 01: +0",5.521,"119"],["Jan 17 2014 01: +0",5.828,"121"],["Jan 18 2014 01: +0",5.885,"131"],["Jan 19 2014 01: +0",5.657,"128"],["Jan 20 2014 01: +0",5.582,"128"],["Jan 21 2014 01: +0",5.619,"112"],["Jan 22 2014 01: +0",5.65,"93"],["Jan 23 2014 01: +0",5.6,"104"],["Jan 24 2014 01: +0",5.548,"129"],["Jan 25 2014 01: +0",5.558,"128"],["Jan 26 2014 01: +0",5.718,"127"],["Jan 27 2014 01: +0",5.326,"141"],["Jan 28 2014 01: +0",5.474,"115"],["Jan 29 2014 01: +0",5.449,"111"],["Jan 30 2014 01: +0",5.4,"130"],["Jan 31 2014 01: +0",5.355,"121"],["Feb 01 2014 01: +0",5.528,"152"],["Feb 02 2014 01: +0",5.333,"126"],["Feb 03 2014 01: +0",5.225,"126"],["Feb 04 2014 01: +0",5.14,"111"],["Feb 05 2014 01: +0",5.423,"112"],["Feb 06 2014 01: +0",5.38,"119"],["Feb 07 2014 01: +0",5.595,"133"],["Feb 08 2014 01: +0",5.529,"146"],["Feb 09 2014 01: +0",5.553,"132"],["Feb 10 2014 01: +0",5.593,"109"],["Feb 11 2014 01: +0",5.534,"111"],["Feb 12 2014 01: +0",5.538,"99"],["Feb 13 2014 01: +0",5.566,"97"],["Feb 14 2014 01: +0",5.667,"89"],["Feb 15 2014 01: +0",5.508,"125"],["Feb 16 2014 01: +0",5.399,"125"],["Feb 17 2014 01: +0",5.467,"102"],["Feb 18 2014 01: +0",5.325,"105"],["Feb 19 2014 01: +0",5.206,"93"],["Feb 20 2014 01: +0",5.15,"101"],["Feb 21 2014 01: +0",4.529,"187"],["Feb 22 2014 01: +0",4.673,"183"],["Feb 23 2014 01: +0",4.993,"138"],["Feb 24 2014 01: +0",5.007,"137"],["Feb 25 2014 01: +0",5.546,"111"],["Feb 26 2014 01: +0",5.686,"92"],["Feb 27 2014 01: +0",5.545,"114"],["Feb 28 2014 01: +0",5.766,"133"],["Mar 01 2014 01: +0",5.719,"123"],["Mar 02 2014 01: +0",5.737,"122"],["Mar 03 2014 01: +0",5.791,"105"],["Mar 04 2014 01: +0",5.515,"84"],["Mar 05 2014 01: +0",5.493,"109"],["Mar 06 2014 01: +0",6.072,"107"],["Mar 07 2014 01: +0",6.041,"98"],["Mar 08 2014 01: +0",5.987,"118"],["Mar 09 2014 01: +0",5.784,"138"],["Mar 10 2014 01: +0",5.885,"131"],["Mar 11 2014 01: +0",6.068,"122"],["Mar 12 2014 01: +0",6.081,"111"],["Mar 13 2014 01: +0",6.577,"91"],["Mar 14 2014 01: +0",6.732,"111"],["Mar 15 2014 01: +0",5.641,"172"],["Mar 16 2014 01: +0",5.695,"191"],["Mar 17 2014 01: +0",6.055,"110"],["Mar 18 2014 01: +0",6.546,"119"],["Mar 19 2014 01: +0",6.393,"115"],["Mar 20 2014 01: +0",6.298,"130"],["Mar 21 2014 01: +0",6.308,"133"],["Mar 22 2014 01: +0",6.463,"150"],["Mar 23 2014 01: +0",6.373,"138"],["Mar 24 2014 01: +0",6.464,"119"],["Mar 25 2014 01: +0",6.799,"89"],["Mar 26 2014 01: +0",6.945,"90"],["Mar 27 2014 01: +0",6.781,"96"],["Mar 28 2014 01: +0",6.897,"115"],["Mar 29 2014 01: +0",7.056,"172"],["Mar 30 2014 01: +0",6.772,"152"],["Mar 31 2014 01: +0",7.015,"103"],["Apr 01 2014 01: +0",7.82,"80"],["Apr 02 2014 01: +0",7.036,"120"],["Apr 03 2014 01: +0",7.062,"114"],["Apr 04 2014 01: +0",7.061,"136"],["Apr 05 2014 01: +0",7.031,"109"],["Apr 06 2014 01: +0",6.962,"121"],["Apr 07 2014 01: +0",7.03,"120"],["Apr 08 2014 01: +0",7.221,"128"],["Apr 09 2014 01: +0",7.423,"106"],["Apr 10 2014 01: +0",7.447,"110"],["Apr 11 2014 01: +0",7.374,"117"],["Apr 12 2014 01: +0",7.269,"142"],["Apr 13 2014 01: +0",7.216,"147"],["Apr 14 2014 01: +0",7.168,"151"],["Apr 15 2014 01: +0",7.553,"138"],["Apr 16 2014 01: +0",7.149,"123"],["Apr 17 2014 01: +0",7.439,"120"],["Apr 18 2014 01: +0",7.525,"141"],["Apr 19 2014 01: +0",8.368,"127"],["Apr 20 2014 01: +0",7.387,"142"],["Apr 21 2014 01: +0",7.282,"152"],["Apr 22 2014 01: +0",7.693,"130"],["Apr 23 2014 01: +0",7.803,"113"],["Apr 24 2014 01: +0",7.577,"123"],["Apr 25 2014 01: +0",7.897,"132"],["Apr 26 2014 01: +0",8.128,"117"],["Apr 27 2014 01: +0",7.825,"123"],["Apr 28 2014 01: +0",7.962,"105"],["Apr 29 2014 01: +0",8.131,"94"],["Apr 30 2014 01: +0",7.778,"129"],["May 01 2014 01: +0",7.717,"124"],["May 02 2014 01: +0",7.623,"156"],["May 03 2014 01: +0",7.795,"146"],["May 04 2014 01: +0",7.523,"167"],["May 05 2014 01: +0",7.321,"137"],["May 06 2014 01: +0",7.35,"141"],["May 07 2014 01: +0",7.413,"126"],["May 08 2014 01: +0",7.229,"127"],["May 09 2014 01: +0",6.856,"151"],["May 10 2014 01: +0",6.414,"161"],["May 11 2014 01: +0",6.065,"136"],["May 12 2014 01: +0",6.127,"122"],["May 13 2014 01: +0",6.276,"114"],["May 14 2014 01: +0",6.392,"133"],["May 15 2014 01: +0",6.385,"114"],["May 16 2014 01: +0",5.925,"162"],["May 17 2014 01: +0",5.895,"136"],["May 18 2014 01: +0",6.013,"129"],["May 19 2014 01: +0",6.094,"119"],["May 20 2014 01: +0",6.144,"125"],["May 21 2014 01: +0",6.214,"121"],["May 22 2014 01: +0",6.196,"134"],["May 23 2014 01: +0",6.219,"143"],["May 24 2014 01: +0",6.24,"128"],["May 25 2014 01: +0",6.088,"128"],["May 26 2014 01: +0",6.158,"113"],["May 27 2014 01: +0",6.362,"125"],["May 28 2014 01: +0",5.994,"128"],["May 29 2014 01: +0",6.165,"131"],["May 30 2014 01: +0",6.421,"133"],["May 31 2014 01: +0",6.241,"123"],["Jun 01 2014 01: +0",6.115,"105"],["Jun 02 2014 01: +0",5.756,"137"],["Jun 03 2014 01: +0",5.87,"119"],["Jun 04 2014 01: +0",5.794,"116"],["Jun 05 2014 01: +0",6.048,"131"],["Jun 06 2014 01: +0",6.114,"115"],["Jun 07 2014 01: +0",6.061,"118"],["Jun 08 2014 01: +0",5.882,"122"],["Jun 09 2014 01: +0",6.246,"98"],["Jun 10 2014 01: +0",5.981,"134"],["Jun 11 2014 01: +0",5.899,"121"],["Jun 12 2014 01: +0",5.738,"119"],["Jun 13 2014 01: +0",5.961,"139"],["Jun 14 2014 01: +0",6.432,"146"],["Jun 15 2014 01: +0",6.173,"149"],["Jun 16 2014 01: +0",6.496,"139"],["Jun 17 2014 01: +0",5.978,"122"],["Jun 18 2014 01: +0",5.845,"129"],["Jun 19 2014 01: +0",5.761,"113"],["Jun 20 2014 01: +0",5.007,"155"],["Jun 21 2014 01: +0",5.035,"141"],["Jun 22 2014 01: +0",4.753,"157"],["Jun 23 2014 01: +0",4.57,"158"],["Jun 24 2014 01: +0",4.61,"163"],["Jun 25 2014 01: +0",5.061,"115"],["Jun 26 2014 01: +0",5.229,"119"],["Jun 27 2014 01: +0",5.432,"131"],["Jun 28 2014 01: +0",5.487,"148"],["Jun 29 2014 01: +0",5.194,"150"],["Jun 30 2014 01: +0",5.247,"159"],["Jul 01 2014 01: +0",6.116,"135"],["Jul 02 2014 01: +0",4.537,"199"],["Jul 03 2014 01: +0",5.398,"150"],["Jul 04 2014 01: +0",5.704,"139"],["Jul 05 2014 01: +0",6.065,"134"],["Jul 06 2014 01: +0",6.137,"137"],["Jul 07 2014 01: +0",6.303,"160"],["Jul 08 2014 01: +0",6.301,"161"],["Jul 09 2014 01: +0",6.495,"160"],["Jul 10 2014 01: +0",6.578,"136"],["Jul 11 2014 01: +0",6.598,"129"],["Jul 12 2014 01: +0",6.578,"122"],["Jul 13 2014 01: +0",6.678,"113"],["Jul 14 2014 01: +0",6.638,"153"],["Jul 15 2014 01: +0",6.842,"150"],["Jul 16 2014 01: +0",6.884,"150"],["Jul 17 2014 01: +0",6.9,"145"],["Jul 18 2014 01: +0",6.729,"124"],["Jul 19 2014 01: +0",6.76,"129"],["Jul 20 2014 01: +0",6.289,"129"],["Jul 21 2014 01: +0",6.753,"140"],["Jul 22 2014 01: +0",6.769,"143"],["Jul 23 2014 01: +0",6.818,"142"],["Jul 24 2014 01: +0",6.94,"117"],["Jul 25 2014 01: +0",7.367,"130"],["Jul 26 2014 01: +0",7.177,"140"],["Jul 27 2014 01: +0",7.382,"114"],["Jul 28 2014 01: +0",7.609,"163"],["Jul 29 2014 01: +0",7.585,"141"],["Jul 30 2014 01: +0",7.725,"135"],["Jul 31 2014 01: +0",8.038,"131"],["Aug 01 2014 01: +0",8.069,"148"],["Aug 02 2014 01: +0",8.76,"159"],["Aug 03 2014 01: +0",8.473,"134"],["Aug 04 2014 01: +0",7.783,"156"],["Aug 05 2014 01: +0",7.906,"162"],["Aug 06 2014 01: +0",7.892,"147"],["Aug 07 2014 01: +0",8.211,"131"],["Aug 08 2014 01: +0",8.24,"177"],["Aug 09 2014 01: +0",8.08,"136"],["Aug 10 2014 01: +0",8.155,"141"],["Aug 11 2014 01: +0",8.411,"135"],["Aug 12 2014 01: +0",8.022,"140"],["Aug 13 2014 01: +0",8.603,"119"],["Aug 14 2014 01: +0",8.866,"154"],["Aug 15 2014 01: +0",9.02,"188"],["Aug 16 2014 01: +0",9.12,"173"],["Aug 17 2014 01: +0",7.842,"200"],["Aug 18 2014 01: +0",7.967,"157"],["Aug 19 2014 01: +0",8.539,"144"],["Aug 20 2014 01: +0",8.555,"123"],["Aug 21 2014 01: +0",8.469,"136"],["Aug 22 2014 01: +0",8.684,"131"],["Aug 23 2014 01: +0",8.509,"153"],["Aug 24 2014 01: +0",8.763,"125"],["Aug 25 2014 01: +0",8.772,"155"],["Aug 26 2014 01: +0",9,"163"],["Aug 27 2014 01: +0",9.19,"141"],["Aug 28 2014 01: +0",9.145,"129"],["Aug 29 2014 01: +0",9.298,"158"],["Aug 30 2014 01: +0",9.326,"154"],["Aug 31 2014 01: +0",9.271,"136"],["Sep 01 2014 01: +0",9.921,"152"],["Sep 02 2014 01: +0",9.496,"130"],["Sep 03 2014 01: +0",10.067,"128"],["Sep 04 2014 01: +0",10.367,"96"],["Sep 05 2014 01: +0",10.041,"127"],["Sep 06 2014 01: +0",9.807,"154"],["Sep 07 2014 01: +0",9.739,"153"],["Sep 08 2014 01: +0",9.879,"114"],["Sep 09 2014 01: +0",9.849,"105"],["Sep 10 2014 01: +0",9.937,"127"],["Sep 11 2014 01: +0",10.038,"128"],["Sep 12 2014 01: +0",9.444,"158"],["Sep 13 2014 01: +0",9.534,"150"],["Sep 14 2014 01: +0",9.592,"141"],["Sep 15 2014 01: +0",9.734,"113"],["Sep 16 2014 01: +0",9.763,"111"],["Sep 17 2014 01: +0",9.5,"129"],["Sep 18 2014 01: +0",9.889,"124"],["Sep 19 2014 01: +0",9.47,"138"],["Sep 20 2014 01: +0",9.363,"143"],["Sep 21 2014 01: +0",9.563,"135"],["Sep 22 2014 01: +0",9.188,"128"],["Sep 23 2014 01: +0",9.246,"101"],["Sep 24 2014 01: +0",9.559,"95"],["Sep 25 2014 01: +0",9.612,"98"],["Sep 26 2014 01: +0",9.218,"123"],["Sep 27 2014 01: +0",8.701,"165"],["Sep 28 2014 01: +0",8.852,"129"],["Sep 29 2014 01: +0",9.065,"123"],["Sep 30 2014 01: +0",9.617,"130"],["Oct 01 2014 01: +0",9.455,"132"],["Oct 02 2014 01: +0",9.363,"119"],["Oct 03 2014 01: +0",9.65,"134"],["Oct 04 2014 01: +0",9.932,"148"],["Oct 05 2014 01: +0",9.625,"152"],["Oct 06 2014 01: +0",9.753,"121"],["Oct 07 2014 01: +0",10.067,"112"],["Oct 08 2014 01: +0",10.212,"130"],["Oct 09 2014 01: +0",10.194,"125"],["Oct 10 2014 01: +0",9.939,"141"],["Oct 11 2014 01: +0",9.862,"176"],["Oct 12 2014 01: +0",9.764,"170"],["Oct 13 2014 01: +0",9.599,"140"],["Oct 14 2014 01: +0",10.194,"128"],["Oct 15 2014 01: +0",9.983,"139"],["Oct 16 2014 01: +0",10.093,"128"],["Oct 17 2014 01: +0",10.114,"133"],["Oct 18 2014 01: +0",9.918,"167"],["Oct 19 2014 01: +0",9.382,"142"],["Oct 20 2014 01: +0",9.215,"129"],["Oct 21 2014 01: +0",9.656,"116"],["Oct 22 2014 01: +0",9.719,"142"],["Oct 23 2014 01: +0",9.711,"129"],["Oct 24 2014 01: +0",10.409,"151"],["Oct 25 2014 01: +0",10.592,"177"],["Oct 26 2014 01: +0",9.224,"189"],["Oct 27 2014 01: +0",9.332,"141"],["Oct 28 2014 01: +0",10.025,"104"],["Oct 29 2014 01: +0",9.694,"121"],["Oct 30 2014 01: +0",11.703,"119"],["Oct 31 2014 01: +0",9.128,"225"],["Nov 01 2014 01: +0",9.944,"178"],["Nov 02 2014 01: +0",9.585,"151"],["Nov 03 2014 01: +0",9.225,"132"],["Nov 04 2014 01: +0",9.753,"144"],["Nov 05 2014 01: +0",9.865,"114"],["Nov 06 2014 01: +0",9.988,"120"],["Nov 07 2014 01: +0",10.171,"131"],["Nov 08 2014 01: +0",10.289,"148"],["Nov 09 2014 01: +0",9.502,"168"],["Nov 10 2014 01: +0",9.799,"136"],["Nov 11 2014 01: +0",9.783,"116"],["Nov 12 2014 01: +0",7.656,"293"],["Nov 13 2014 01: +0",7.837,"163"],["Nov 14 2014 01: +0",8.621,"169"],["Nov 15 2014 01: +0",8.561,"162"],["Nov 16 2014 01: +0",8.502,"162"],["Nov 17 2014 01: +0",8.59,"144"],["Nov 18 2014 01: +0",9.165,"107"],["Nov 19 2014 01: +0",9.313,"108"],["Nov 20 2014 01: +0",8.716,"136"],["Nov 21 2014 01: +0",8.196,"171"],["Nov 22 2014 01: +0",8.443,"187"],["Nov 23 2014 01: +0",8.275,"150"],["Nov 24 2014 01: +0",8.436,"140"],["Nov 25 2014 01: +0",9.195,"120"],["Nov 26 2014 01: +0",9.367,"164"],["Nov 27 2014 01: +0",10.102,"186"],["Nov 28 2014 01: +0",10.026,"174"],["Nov 29 2014 01: +0",14.763,"36"],["Nov 30 2014 01: +0",8.639,"247"],["Dec 01 2014 01: +0",8.471,"175"],["Dec 02 2014 01: +0",9.23,"168"],["Dec 03 2014 01: +0",10.232,"145"],["Dec 04 2014 01: +0",10.79,"127"],["Dec 05 2014 01: +0",11.392,"164"],["Dec 06 2014 01: +0",11.562,"193"],["Dec 07 2014 01: +0",11.001,"172"],["Dec 08 2014 01: +0",10.443,"164"],["Dec 09 2014 01: +0",10.639,"151"],["Dec 10 2014 01: +0",10.72,"154"],["Dec 11 2014 01: +0",11.265,"151"],["Dec 12 2014 01: +0",11.438,"160"],["Dec 13 2014 01: +0",11.543,"186"],["Dec 14 2014 01: +0",11.286,"160"],["Dec 15 2014 01: +0",11.553,"171"],["Dec 16 2014 01: +0",11.437,"144"],["Dec 17 2014 01: +0",11.048,"163"],["Dec 18 2014 01: +0",10.926,"163"],["Dec 19 2014 01: +0",11.523,"199"],["Dec 20 2014 01: +0",10.953,"194"],["Dec 21 2014 01: +0",11.013,"169"],["Dec 22 2014 01: +0",10.588,"182"],["Dec 23 2014 01: +0",11.253,"163"],["Dec 24 2014 01: +0",11.467,"209"],["Dec 25 2014 01: +0",13.271,"242"],["Dec 26 2014 01: +0",13.349,"231"],["Dec 27 2014 01: +0",13.892,"207"],["Dec 28 2014 01: +0",13.569,"161"],["Dec 29 2014 01: +0",14.043,"190"],["Dec 30 2014 01: +0",13.652,"176"],["Dec 31 2014 01: +0",14.138,"160"],["Jan 01 2015 01: +0",13.154,"163"],["Jan 02 2015 01: +0",13.324,"215"],["Jan 03 2015 01: +0",13.782,"198"],["Jan 04 2015 01: +0",13.891,"182"],["Jan 05 2015 01: +0",13.89,"176"],["Jan 06 2015 01: +0",14.096,"153"],["Jan 07 2015 01: +0",14.902,"135"],["Jan 08 2015 01: +0",14.476,"160"],["Jan 09 2015 01: +0",13.517,"237"],["Jan 10 2015 01: +0",13.843,"208"],["Jan 11 2015 01: +0",13.962,"50"],["Jan 11 2015 12: +0",13.964,"10"],["Jan 11 2015 13: +0",14.065,"16"],["Jan 11 2015 14: +0",13.499,"9"],["Jan 11 2015 15: +0",13.429,"8"],["Jan 11 2015 16: +0",13.471,"10"],["Jan 11 2015 17: +0",13.005,"15"],["Jan 11 2015 18: +0",13.364,"8"],["Jan 11 2015 19: +0",13.311,"11"],["Jan 11 2015 20: +0",13.657,"14"],["Jan 11 2015 21: +0",13.593,"12"],["Jan 11 2015 22: +0",13.029,"5"],["Jan 11 2015 23: +0",13.129,"8"],["Jan 12 2015 00: +0",13.97,"4"],["Jan 12 2015 01: +0",13.395,"4"],["Jan 12 2015 02: +0",12.93,"2"],["Jan 12 2015 03: +0",13.34,"2"],["Jan 12 2015 04: +0",12.484,"2"],["Jan 12 2015 05: +0",13.5,"2"],["Jan 12 2015 06: +0",12.955,"3"],["Jan 12 2015 07: +0",13.01,"5"],["Jan 12 2015 08: +0",13.234,"2"],["Jan 12 2015 09: +0",13.035,"4"],["Jan 12 2015 10: +0",13.805,"5"],["Jan 12 2015 11: +0",13.701,"6"],["Jan 12 2015 12: +0",13.883,"8"],["Jan 12 2015 13: +0",14.03,"9"],["Jan 12 2015 14: +0",14.126,"13"],["Jan 12 2015 15: +0",14.022,"13"],["Jan 12 2015 16: +0",13.868,"13"],["Jan 12 2015 17: +0",14.954,"20"],["Jan 12 2015 18: +0",15.52,"9"],["Jan 12 2015 19: +0",15.07,"6"],["Jan 12 2015 20: +0",14.937,"16"],["Jan 12 2015 21: +0",14.811,"5"],["Jan 12 2015 22: +0",14.806,"9"],["Jan 12 2015 23: +0",13.535,"9"],["Jan 13 2015 00: +0",14.017,"7"],["Jan 13 2015 01: +0",14.938,"5"],["Jan 13 2015 02: +0",13.863,"2"],["Jan 13 2015 03: +0",13.99,"7"],["Jan 13 2015 04: +0",14.535,"4"],["Jan 13 2015 05: +0",14.475,"2"],["Jan 13 2015 06: +0",13.12,"2"],["Jan 13 2015 07: +0",13.041,"4"],["Jan 13 2015 08: +0",13.397,"5"],["Jan 13 2015 09: +0",13.6,"1"],["Jan 13 2015 10: +0",14.191,"3"],["Jan 13 2015 11: +0",13.598,"3"],["Jan 13 2015 12: +0",14.28,"5"],["Jan 13 2015 13: +0",14.27,"9"],["Jan 13 2015 14: +0",14.366,"19"],["Jan 13 2015 15: +0",15.5,"13"],["Jan 13 2015 16: +0",15.632,"5"],["Jan 13 2015 17: +0",15.385,"17"],["Jan 13 2015 18: +0",15.743,"11"],["Jan 13 2015 19: +0",15.939,"12"],["Jan 13 2015 20: +0",15.849,"6"],["Jan 13 2015 21: +0",14.427,"13"],["Jan 13 2015 22: +0",15.346,"14"],["Jan 13 2015 23: +0",15.14,"5"],["Jan 14 2015 00: +0",14.42,"9"],["Jan 14 2015 01: +0",14.807,"10"],["Jan 14 2015 02: +0",13.802,"3"],["Jan 14 2015 03: +0",14.21,"1"],["Jan 14 2015 04: +0",15.07,"3"],["Jan 14 2015 05: +0",14.42,"2"],["Jan 14 2015 06: +0",14.79,"7"],["Jan 14 2015 07: +0",14.91,"3"],["Jan 14 2015 08: +0",14.09,"3"],["Jan 14 2015 09: +0",14.018,"3"],["Jan 14 2015 10: +0",13.15,"3"],["Jan 14 2015 11: +0",13.498,"6"],["Jan 14 2015 12: +0",13.66,"5"],["Jan 14 2015 13: +0",14.692,"12"],["Jan 14 2015 14: +0",14.715,"10"],["Jan 14 2015 15: +0",14.812,"16"],["Jan 14 2015 16: +0",15.402,"13"],["Jan 14 2015 17: +0",15.159,"8"],["Jan 14 2015 18: +0",15.484,"15"],["Jan 14 2015 19: +0",15.122,"10"],["Jan 14 2015 20: +0",15.389,"11"],["Jan 14 2015 21: +0",15.86,"12"],["Jan 14 2015 22: +0",15.86,"13"],["Jan 14 2015 23: +0",14.215,"5"],["Jan 15 2015 00: +0",14.58,"9"],["Jan 15 2015 01: +0",14.832,"4"],["Jan 15 2015 02: +0",15.3,"7"],["Jan 15 2015 03: +0",13.5,"1"],["Jan 15 2015 04: +0",15.215,"6"],["Jan 15 2015 06: +0",14.37,"3"],["Jan 15 2015 07: +0",15.486,"4"],["Jan 15 2015 09: +0",14.53,"4"],["Jan 15 2015 10: +0",14.456,"7"],["Jan 15 2015 11: +0",14.49,"5"],["Jan 15 2015 12: +0",14.862,"5"],["Jan 15 2015 13: +0",14.78,"6"],["Jan 15 2015 14: +0",15.127,"10"],["Jan 15 2015 15: +0",15.697,"11"],["Jan 15 2015 16: +0",15.508,"9"],["Jan 15 2015 17: +0",15.969,"17"],["Jan 15 2015 18: +0",16.348,"6"],["Jan 15 2015 19: +0",15.17,"8"],["Jan 15 2015 20: +0",15.637,"5"],["Jan 15 2015 21: +0",15.085,"8"],["Jan 15 2015 22: +0",14.944,"11"],["Jan 15 2015 23: +0",15,"7"],["Jan 16 2015 00: +0",13.455,"7"],["Jan 16 2015 01: +0",13.548,"3"],["Jan 16 2015 02: +0",13.89,"3"],["Jan 16 2015 03: +0",13.39,"4"],["Jan 16 2015 04: +0",14,"5"],["Jan 16 2015 05: +0",12.512,"3"],["Jan 16 2015 06: +0",13.38,"2"],["Jan 16 2015 07: +0",13.47,"5"],["Jan 16 2015 08: +0",14.2,"3"],["Jan 16 2015 09: +0",14.311,"4"],["Jan 16 2015 10: +0",13.848,"4"],["Jan 16 2015 11: +0",14.515,"6"],["Jan 16 2015 12: +0",13.861,"7"],["Jan 16 2015 13: +0",12.989,"12"],["Jan 16 2015 14: +0",14.38,"13"],["Jan 16 2015 15: +0",14.724,"18"],["Jan 16 2015 16: +0",14.825,"7"],["Jan 16 2015 17: +0",14.174,"15"],["Jan 16 2015 18: +0",14.604,"13"],["Jan 16 2015 19: +0",13.53,"10"],["Jan 16 2015 20: +0",13.71,"17"],["Jan 16 2015 21: +0",14.343,"10"],["Jan 16 2015 22: +0",15,"11"],["Jan 16 2015 23: +0",13.78,"12"],["Jan 17 2015 00: +0",14.156,"6"],["Jan 17 2015 01: +0",13.435,"4"],["Jan 17 2015 02: +0",13.36,"4"],["Jan 17 2015 03: +0",13,"9"],["Jan 17 2015 04: +0",13.698,"6"],["Jan 17 2015 05: +0",13.5,"7"],["Jan 17 2015 06: +0",14.15,"2"],["Jan 17 2015 07: +0",14.61,"1"],["Jan 17 2015 08: +0",13.69,"3"],["Jan 17 2015 09: +0",13.622,"5"],["Jan 17 2015 10: +0",13.9,"8"],["Jan 17 2015 11: +0",13.206,"9"],["Jan 17 2015 12: +0",13.307,"12"],["Jan 17 2015 13: +0",12.705,"18"],["Jan 17 2015 14: +0",14.059,"10"],["Jan 17 2015 15: +0",14.523,"9"],["Jan 17 2015 16: +0",14.003,"7"],["Jan 17 2015 17: +0",13.224,"12"],["Jan 17 2015 18: +0",14.102,"10"],["Jan 17 2015 19: +0",14.49,"11"],["Jan 17 2015 20: +0",13.932,"16"],["Jan 17 2015 21: +0",14.26,"13"],["Jan 17 2015 22: +0",13.842,"5"],["Jan 17 2015 23: +0",13.84,"11"],["Jan 18 2015 00: +0",13.478,"8"],["Jan 18 2015 01: +0",13.276,"5"],["Jan 18 2015 02: +0",13.005,"9"],["Jan 18 2015 03: +0",13.105,"7"],["Jan 18 2015 04: +0",12.5,"3"],["Jan 18 2015 06: +0",12.8,"5"],["Jan 18 2015 07: +0",12.959,"2"],["Jan 18 2015 08: +0",13.524,"5"],["Jan 18 2015 09: +0",13.5,"3"],["Jan 18 2015 10: +0",13.495,"8"],["Jan 18 2015 11: +0",13.136,"10"],["Jan 18 2015 12: +0",13.137,"12"],["Jan 18 2015 13: +0",13.13,"11"],["Jan 18 2015 14: +0",13.96,"13"],["Jan 18 2015 15: +0",13.241,"13"],["Jan 18 2015 16: +0",13.26,"15"],["Jan 18 2015 17: +0",13.738,"13"],["Jan 18 2015 18: +0",13.712,"8"],["Jan 18 2015 19: +0",13.867,"14"],["Jan 18 2015 20: +0",13.532,"10"],["Jan 18 2015 21: +0",13.276,"14"],["Jan 18 2015 22: +0",14.6,"10"],["Jan 18 2015 23: +0",14.783,"6"],["Jan 19 2015 00: +0",14.434,"5"],["Jan 19 2015 01: +0",13.221,"3"],["Jan 19 2015 02: +0",13,"3"],["Jan 19 2015 03: +0",13.07,"5"],["Jan 19 2015 04: +0",13.37,"3"],["Jan 19 2015 05: +0",13.87,"3"],["Jan 19 2015 06: +0",13.8,"3"],["Jan 19 2015 07: +0",12.47,"4"],["Jan 19 2015 08: +0",13.865,"6"],["Jan 19 2015 09: +0",13.361,"4"],["Jan 19 2015 10: +0",13.158,"6"],["Jan 19 2015 11: +0",13.132,"9"],["Jan 19 2015 12: +0",14.048,"9"],["Jan 19 2015 13: +0",14.501,"10"],["Jan 19 2015 14: +0",14.046,"7"],["Jan 19 2015 15: +0",14.269,"14"],["Jan 19 2015 16: +0",14.038,"13"],["Jan 19 2015 17: +0",14.121,"11"],["Jan 19 2015 18: +0",13.22,"20"],["Jan 19 2015 19: +0",14.534,"15"],["Jan 19 2015 20: +0",14.073,"13"],["Jan 19 2015 21: +0",13.915,"10"],["Jan 19 2015 22: +0",13.9,"9"],["Jan 19 2015 23: +0",13.715,"5"],["Jan 20 2015 00: +0",13.738,"5"],["Jan 20 2015 01: +0",12.93,"6"],["Jan 20 2015 02: +0",13.583,"4"],["Jan 20 2015 03: +0",13.718,"6"],["Jan 20 2015 04: +0",14.296,"2"],["Jan 20 2015 05: +0",14.06,"3"],["Jan 20 2015 06: +0",14.21,"4"],["Jan 20 2015 08: +0",13.276,"7"],["Jan 20 2015 09: +0",13.844,"5"],["Jan 20 2015 10: +0",13.857,"5"],["Jan 20 2015 11: +0",13.584,"4"],["Jan 20 2015 12: +0",14.302,"10"],["Jan 20 2015 13: +0",14.731,"9"],["Jan 20 2015 14: +0",14.205,"9"],["Jan 20 2015 15: +0",14.631,"16"],["Jan 20 2015 16: +0",14.95,"17"],["Jan 20 2015 17: +0",14.656,"16"],["Jan 20 2015 18: +0",15.048,"12"],["Jan 20 2015 19: +0",15.005,"10"],["Jan 20 2015 20: +0",14.51,"10"],["Jan 20 2015 21: +0",14.661,"11"],["Jan 20 2015 22: +0",14.16,"5"],["Jan 20 2015 23: +0",13.6,"8"],["Jan 21 2015 00: +0",13.5,"3"],["Jan 21 2015 01: +0",14.025,"4"],["Jan 21 2015 02: +0",13.77,"3"],["Jan 21 2015 03: +0",14,"7"],["Jan 21 2015 04: +0",15.006,"4"],["Jan 21 2015 05: +0",15.15,"2"],["Jan 21 2015 06: +0",13.006,"3"],["Jan 21 2015 07: +0",13.16,"1"],["Jan 21 2015 08: +0",13.938,"4"],["Jan 21 2015 09: +0",14.546,"1"],["Jan 21 2015 10: +0",14.478,"4"],["Jan 21 2015 11: +0",14.5,"3"],["Jan 21 2015 12: +0",14.59,"2"],["Jan 21 2015 13: +0",14.411,"7"],["Jan 21 2015 14: +0",14.942,"8"],["Jan 21 2015 15: +0",14.915,"10"],["Jan 21 2015 16: +0",14.41,"15"],["Jan 21 2015 17: +0",14.996,"15"],["Jan 21 2015 18: +0",14.929,"12"],["Jan 21 2015 19: +0",14.937,"11"],["Jan 21 2015 20: +0",14.881,"11"],["Jan 21 2015 21: +0",15.014,"10"],["Jan 21 2015 22: +0",15.387,"6"],["Jan 21 2015 23: +0",14.795,"4"],["Jan 22 2015 00: +0",12.995,"6"],["Jan 22 2015 01: +0",14.211,"3"],["Jan 22 2015 02: +0",13.926,"4"],["Jan 22 2015 03: +0",13.698,"8"],["Jan 22 2015 04: +0",12.65,"1"],["Jan 22 2015 05: +0",13.909,"6"],["Jan 22 2015 06: +0",13.93,"5"],["Jan 22 2015 07: +0",13.91,"3"],["Jan 22 2015 08: +0",12.801,"1"],["Jan 22 2015 09: +0",12.815,"5"],["Jan 22 2015 10: +0",12.79,"7"],["Jan 22 2015 11: +0",13.823,"7"],["Jan 22 2015 12: +0",14.07,"5"],["Jan 22 2015 13: +0",14.007,"9"],["Jan 22 2015 14: +0",13.831,"9"],["Jan 22 2015 15: +0",14.267,"10"],["Jan 22 2015 16: +0",14.619,"12"],["Jan 22 2015 17: +0",14.992,"12"],["Jan 22 2015 18: +0",15.11,"13"],["Jan 22 2015 19: +0",14.53,"11"],["Jan 22 2015 20: +0",14.296,"8"],["Jan 22 2015 21: +0",14.996,"4"],["Jan 22 2015 22: +0",15.023,"10"],["Jan 22 2015 23: +0",14.41,"7"],["Jan 23 2015 00: +0",13.743,"2"],["Jan 23 2015 01: +0",13.695,"6"],["Jan 23 2015 02: +0",13.846,"2"],["Jan 23 2015 03: +0",13.698,"3"],["Jan 23 2015 04: +0",12.905,"1"],["Jan 23 2015 05: +0",12.964,"2"],["Jan 23 2015 06: +0",13.782,"8"],["Jan 23 2015 07: +0",13.879,"4"],["Jan 23 2015 08: +0",14,"2"],["Jan 23 2015 09: +0",14.369,"5"],["Jan 23 2015 10: +0",14.035,"4"],["Jan 23 2015 11: +0",14.49,"5"],["Jan 23 2015 12: +0",14.419,"8"],["Jan 23 2015 13: +0",14.523,"8"],["Jan 23 2015 14: +0",15.321,"13"],["Jan 23 2015 15: +0",14.506,"19"],["Jan 23 2015 16: +0",14.77,"9"],["Jan 23 2015 17: +0",15.417,"18"],["Jan 23 2015 18: +0",15.119,"14"],["Jan 23 2015 19: +0",15.315,"12"],["Jan 23 2015 20: +0",15.011,"10"],["Jan 23 2015 21: +0",15.791,"10"],["Jan 23 2015 22: +0",15.888,"16"],["Jan 23 2015 23: +0",16.322,"6"],["Jan 24 2015 00: +0",16.055,"9"],["Jan 24 2015 01: +0",15.826,"7"],["Jan 24 2015 02: +0",14.786,"8"],["Jan 24 2015 03: +0",14.813,"4"],["Jan 24 2015 04: +0",15.04,"13"],["Jan 24 2015 05: +0",15.216,"6"],["Jan 24 2015 06: +0",15.89,"3"],["Jan 24 2015 07: +0",15.074,"5"],["Jan 24 2015 08: +0",13.976,"5"],["Jan 24 2015 09: +0",14.759,"3"],["Jan 24 2015 10: +0",15.421,"3"],["Jan 24 2015 11: +0",14.138,"6"],["Jan 24 2015 12: +0",15.448,"3"],["Jan 24 2015 13: +0",15.678,"7"],["Jan 24 2015 14: +0",16.357,"12"],["Jan 24 2015 15: +0",15.51,"10"],["Jan 24 2015 16: +0",16.019,"7"],["Jan 24 2015 17: +0",16.787,"5"],["Jan 24 2015 18: +0",17.927,"9"],["Jan 24 2015 19: +0",15.323,"14"],["Jan 24 2015 20: +0",14.566,"23"],["Jan 24 2015 21: +0",15.003,"9"],["Jan 24 2015 22: +0",14.547,"7"],["Jan 24 2015 23: +0",14.563,"7"],["Jan 25 2015 00: +0",14.637,"5"],["Jan 25 2015 01: +0",14.647,"5"],["Jan 25 2015 02: +0",13.44,"6"],["Jan 25 2015 03: +0",13.44,"11"],["Jan 25 2015 04: +0",14,"1"],["Jan 25 2015 05: +0",13.77,"4"],["Jan 25 2015 06: +0",14.13,"4"],["Jan 25 2015 07: +0",13.89,"5"],["Jan 25 2015 08: +0",14.294,"5"],["Jan 25 2015 09: +0",14.957,"4"],["Jan 25 2015 10: +0",14.616,"6"],["Jan 25 2015 11: +0",14.29,"9"],["Jan 25 2015 12: +0",14.614,"7"],["Jan 25 2015 13: +0",14.563,"12"],["Jan 25 2015 14: +0",14.138,"12"],["Jan 25 2015 15: +0",14.106,"13"],["Jan 25 2015 16: +0",14.626,"14"],["Jan 25 2015 17: +0",14.301,"16"],["Jan 25 2015 18: +0",14.29,"19"],["Jan 25 2015 19: +0",14.906,"13"],["Jan 25 2015 20: +0",14.801,"10"],["Jan 25 2015 21: +0",13.959,"10"],["Jan 25 2015 22: +0",14.011,"6"],["Jan 25 2015 23: +0",13.54,"11"],["Jan 26 2015 00: +0",13.525,"6"],["Jan 26 2015 01: +0",12.805,"9"],["Jan 26 2015 02: +0",13.45,"7"],["Jan 26 2015 03: +0",13.45,"3"],["Jan 26 2015 04: +0",13.998,"5"],["Jan 26 2015 05: +0",13.444,"1"],["Jan 26 2015 06: +0",13.29,"8"],["Jan 26 2015 07: +0",13.8,"3"],["Jan 26 2015 08: +0",13.965,"5"],["Jan 26 2015 09: +0",14.14,"1"],["Jan 26 2015 10: +0",14.16,"3"],["Jan 26 2015 11: +0",14.375,"5"],["Jan 26 2015 12: +0",14.01,"9"],["Jan 26 2015 13: +0",14.11,"9"],["Jan 26 2015 14: +0",14.166,"7"],["Jan 26 2015 15: +0",13.385,"12"],["Jan 26 2015 16: +0",14.547,"9"],["Jan 26 2015 17: +0",15.107,"13"],["Jan 26 2015 18: +0",14.01,"19"],["Jan 26 2015 19: +0",15.065,"14"],["Jan 26 2015 20: +0",15.003,"13"],["Jan 26 2015 21: +0",14.082,"8"],["Jan 26 2015 22: +0",13.175,"6"],["Jan 26 2015 23: +0",13.909,"5"],["Jan 27 2015 00: +0",13,"3"],["Jan 27 2015 01: +0",13.661,"8"],["Jan 27 2015 02: +0",13.849,"6"],["Jan 27 2015 03: +0",13.86,"3"],["Jan 27 2015 04: +0",14.583,"6"],["Jan 27 2015 05: +0",14.976,"2"],["Jan 27 2015 06: +0",13.445,"3"],["Jan 27 2015 07: +0",14.08,"2"],["Jan 27 2015 08: +0",13.546,"4"],["Jan 27 2015 09: +0",14.28,"3"],["Jan 27 2015 10: +0",14.219,"3"],["Jan 27 2015 11: +0",13.607,"5"],["Jan 27 2015 12: +0",14.102,"7"],["Jan 27 2015 13: +0",13.69,"7"],["Jan 27 2015 14: +0",14.039,"16"],["Jan 27 2015 15: +0",14.743,"18"],["Jan 27 2015 16: +0",15.045,"13"],["Jan 27 2015 17: +0",14.795,"8"],["Jan 27 2015 18: +0",14.643,"15"],["Jan 27 2015 19: +0",14.937,"10"],["Jan 27 2015 20: +0",14.075,"9"],["Jan 27 2015 21: +0",13.956,"8"],["Jan 27 2015 22: +0",14.413,"7"],["Jan 28 2015 00: +0",13.635,"11"],["Jan 28 2015 01: +0",14.5,"3"],["Jan 28 2015 02: +0",13.496,"4"],["Jan 28 2015 03: +0",14.72,"1"],["Jan 28 2015 04: +0",13.249,"2"],["Jan 28 2015 05: +0",14.661,"1"],["Jan 28 2015 06: +0",14.654,"2"],["Jan 28 2015 07: +0",14.515,"2"],["Jan 28 2015 08: +0",13.854,"2"],["Jan 28 2015 09: +0",13.998,"4"],["Jan 28 2015 10: +0",14.347,"2"],["Jan 28 2015 11: +0",14.31,"3"],["Jan 28 2015 12: +0",13.645,"8"],["Jan 28 2015 13: +0",12.96,"10"],["Jan 28 2015 14: +0",14.417,"5"],["Jan 28 2015 15: +0",14.747,"14"],["Jan 28 2015 16: +0",14.046,"23"],["Jan 28 2015 17: +0",14.23,"14"],["Jan 28 2015 18: +0",14.202,"13"],["Jan 28 2015 19: +0",14.289,"7"],["Jan 28 2015 20: +0",14.334,"16"],["Jan 28 2015 21: +0",14.816,"9"],["Jan 28 2015 22: +0",15.15,"8"],["Jan 28 2015 23: +0",14.78,"5"],["Jan 29 2015 00: +0",15.183,"5"],["Jan 29 2015 01: +0",14,"3"],["Jan 29 2015 02: +0",14.32,"3"],["Jan 29 2015 03: +0",14,"3"],["Jan 29 2015 04: +0",14.22,"3"],["Jan 29 2015 05: +0",13.817,"2"],["Jan 29 2015 06: +0",13.86,"2"],["Jan 29 2015 07: +0",13.165,"2"],["Jan 29 2015 08: +0",13.863,"1"],["Jan 29 2015 09: +0",13.719,"3"],["Jan 29 2015 10: +0",13.407,"5"],["Jan 29 2015 11: +0",13.39,"6"],["Jan 29 2015 12: +0",14.11,"9"],["Jan 29 2015 13: +0",13.205,"6"],["Jan 29 2015 14: +0",13.202,"9"],["Jan 29 2015 15: +0",13.389,"14"],["Jan 29 2015 16: +0",14.202,"18"],["Jan 29 2015 17: +0",14.157,"10"],["Jan 29 2015 18: +0",14.767,"14"],["Jan 29 2015 19: +0",13.64,"15"],["Jan 29 2015 20: +0",15.043,"5"],["Jan 29 2015 21: +0",14.787,"14"],["Jan 29 2015 22: +0",14.937,"5"],["Jan 29 2015 23: +0",13,"10"],["Jan 30 2015 00: +0",12.543,"5"],["Jan 30 2015 01: +0",12.69,"10"],["Jan 30 2015 02: +0",13.017,"6"],["Jan 30 2015 03: +0",13.433,"5"],["Jan 30 2015 04: +0",13.74,"4"],["Jan 30 2015 05: +0",13.59,"3"],["Jan 30 2015 06: +0",13.958,"8"],["Jan 30 2015 07: +0",14.21,"1"],["Jan 30 2015 08: +0",13.695,"2"],["Jan 30 2015 09: +0",13.685,"6"],["Jan 30 2015 10: +0",13.317,"6"],["Jan 30 2015 11: +0",13.89,"7"],["Jan 30 2015 12: +0",13.904,"9"],["Jan 30 2015 13: +0",13.925,"14"],["Jan 30 2015 14: +0",14.513,"14"],["Jan 30 2015 15: +0",14.549,"24"],["Jan 30 2015 16: +0",14.949,"13"],["Jan 30 2015 17: +0",14.951,"16"],["Jan 30 2015 18: +0",14.978,"16"],["Jan 30 2015 19: +0",15.277,"15"],["Jan 30 2015 20: +0",14.767,"17"],["Jan 30 2015 21: +0",15.226,"12"],["Jan 30 2015 22: +0",14.937,"11"],["Jan 30 2015 23: +0",14.77,"9"],["Jan 31 2015 00: +0",14.949,"11"],["Jan 31 2015 01: +0",15.087,"8"],["Jan 31 2015 02: +0",13.015,"4"],["Jan 31 2015 03: +0",13.897,"4"],["Jan 31 2015 04: +0",14.32,"7"],["Jan 31 2015 05: +0",15.628,"5"],["Jan 31 2015 06: +0",15,"3"],["Jan 31 2015 07: +0",14.115,"9"],["Jan 31 2015 08: +0",14.923,"2"],["Jan 31 2015 09: +0",16.04,"3"],["Jan 31 2015 10: +0",14.29,"7"],["Jan 31 2015 11: +0",14.284,"5"],["Jan 31 2015 12: +0",15.639,"13"],["Jan 31 2015 13: +0",15.55,"7"],["Jan 31 2015 14: +0",15.041,"12"],["Jan 31 2015 15: +0",14.133,"12"],["Jan 31 2015 16: +0",15.505,"17"],["Jan 31 2015 17: +0",15.067,"12"],["Jan 31 2015 18: +0",15.993,"10"],["Jan 31 2015 19: +0",16.371,"11"],["Jan 31 2015 20: +0",15.018,"11"],["Jan 31 2015 21: +0",15.221,"9"],["Jan 31 2015 22: +0",14.794,"15"],["Jan 31 2015 23: +0",15.153,"8"],["Feb 01 2015 00: +0",14.284,"7"],["Feb 01 2015 01: +0",14.724,"7"],["Feb 01 2015 02: +0",15.25,"9"],["Feb 01 2015 03: +0",14.579,"6"],["Feb 01 2015 04: +0",14.6,"2"],["Feb 01 2015 05: +0",14.4,"3"],["Feb 01 2015 06: +0",13.513,"5"],["Feb 01 2015 07: +0",13.73,"11"],["Feb 01 2015 08: +0",13.271,"6"],["Feb 01 2015 09: +0",13.706,"7"],["Feb 01 2015 10: +0",13.466,"6"],["Feb 01 2015 11: +0",14.68,"13"],["Feb 01 2015 12: +0",14.453,"5"],["Feb 01 2015 13: +0",14.57,"11"],["Feb 01 2015 14: +0",14.369,"10"],["Feb 01 2015 15: +0",15,"9"],["Feb 01 2015 16: +0",14.404,"10"],["Feb 01 2015 17: +0",13.561,"19"],["Feb 01 2015 18: +0",15.581,"11"],["Feb 01 2015 19: +0",15.594,"5"],["Feb 01 2015 20: +0",15.55,"15"],["Feb 01 2015 21: +0",14.228,"10"],["Feb 01 2015 22: +0",14.995,"9"],["Feb 01 2015 23: +0",13.996,"6"],["Feb 02 2015 00: +0",13.81,"9"],["Feb 02 2015 01: +0",15.462,"4"],["Feb 02 2015 02: +0",14.715,"2"],["Feb 02 2015 03: +0",14.83,"3"],["Feb 02 2015 04: +0",12.815,"1"],["Feb 02 2015 05: +0",14.875,"4"],["Feb 02 2015 06: +0",14.505,"2"],["Feb 02 2015 07: +0",13.054,"4"],["Feb 02 2015 08: +0",14.152,"4"],["Feb 02 2015 09: +0",13.707,"2"],["Feb 02 2015 10: +0",12.985,"5"],["Feb 02 2015 11: +0",13.73,"7"],["Feb 02 2015 12: +0",14.476,"5"],["Feb 02 2015 13: +0",14.608,"3"],["Feb 02 2015 14: +0",14.539,"12"],["Feb 02 2015 15: +0",14.826,"14"],["Feb 02 2015 16: +0",15.365,"12"],["Feb 02 2015 17: +0",15.045,"16"],["Feb 02 2015 18: +0",15.283,"12"],["Feb 02 2015 19: +0",13.957,"9"],["Feb 02 2015 20: +0",14.408,"11"],["Feb 02 2015 21: +0",14.597,"10"],["Feb 02 2015 22: +0",14.75,"7"],["Feb 02 2015 23: +0",14.668,"7"],["Feb 03 2015 00: +0",15.167,"6"],["Feb 03 2015 01: +0",14.45,"1"],["Feb 03 2015 02: +0",14.938,"4"],["Feb 03 2015 03: +0",14.93,"2"],["Feb 03 2015 04: +0",14.893,"2"],["Feb 03 2015 05: +0",14.87,"1"],["Feb 03 2015 06: +0",14.29,"1"],["Feb 03 2015 07: +0",15.165,"1"],["Feb 03 2015 08: +0",14.37,"7"],["Feb 03 2015 10: +0",14.42,"6"],["Feb 03 2015 11: +0",14.145,"7"],["Feb 03 2015 12: +0",14.703,"9"],["Feb 03 2015 13: +0",14.703,"10"],["Feb 03 2015 14: +0",14.828,"9"],["Feb 03 2015 15: +0",15.179,"8"],["Feb 03 2015 16: +0",15.257,"10"],["Feb 03 2015 17: +0",14.188,"10"],["Feb 03 2015 18: +0",15.325,"12"],["Feb 03 2015 19: +0",14.691,"9"],["Feb 03 2015 20: +0",14.691,"11"],["Feb 03 2015 21: +0",13.577,"12"],["Feb 03 2015 22: +0",14.137,"6"],["Feb 03 2015 23: +0",14.137,"7"],["Feb 04 2015 00: +0",14.68,"7"],["Feb 04 2015 01: +0",13.017,"3"],["Feb 04 2015 02: +0",14.081,"5"],["Feb 04 2015 03: +0",14.238,"2"],["Feb 04 2015 04: +0",14.052,"2"],["Feb 04 2015 05: +0",14.363,"3"],["Feb 04 2015 06: +0",13.69,"3"],["Feb 04 2015 08: +0",14.108,"5"],["Feb 04 2015 09: +0",14.951,"3"],["Feb 04 2015 10: +0",15.093,"3"],["Feb 04 2015 11: +0",13.781,"3"],["Feb 04 2015 12: +0",14.633,"9"],["Feb 04 2015 13: +0",14.982,"6"],["Feb 04 2015 14: +0",14.987,"7"],["Feb 04 2015 15: +0",14.725,"11"],["Feb 04 2015 16: +0",14.39,"9"],["Feb 04 2015 17: +0",14.93,"13"],["Feb 04 2015 18: +0",15.136,"10"],["Feb 04 2015 19: +0",15.191,"8"],["Feb 04 2015 20: +0",15.381,"12"],["Feb 04 2015 21: +0",15.615,"15"],["Feb 04 2015 22: +0",15.855,"9"],["Feb 04 2015 23: +0",14.64,"3"],["Feb 05 2015 00: +0",14.482,"6"],["Feb 05 2015 01: +0",14.295,"4"],["Feb 05 2015 02: +0",14.23,"3"],["Feb 05 2015 03: +0",14.305,"3"],["Feb 05 2015 04: +0",14.473,"2"],["Feb 05 2015 05: +0",14.665,"4"],["Feb 05 2015 06: +0",13.704,"7"],["Feb 05 2015 07: +0",14.516,"2"],["Feb 05 2015 08: +0",14.4,"3"],["Feb 05 2015 09: +0",14.462,"6"],["Feb 05 2015 10: +0",15.412,"4"],["Feb 05 2015 11: +0",14.958,"3"],["Feb 05 2015 12: +0",15.342,"3"],["Feb 05 2015 13: +0",15.072,"10"],["Feb 05 2015 14: +0",15.83,"12"],["Feb 05 2015 15: +0",15.692,"12"],["Feb 05 2015 16: +0",16.098,"9"],["Feb 05 2015 17: +0",15.619,"10"],["Feb 05 2015 18: +0",14.576,"12"],["Feb 05 2015 19: +0",16.141,"10"],["Feb 05 2015 20: +0",16.098,"11"],["Feb 05 2015 21: +0",14.82,"3"],["Feb 05 2015 22: +0",14.365,"9"],["Feb 05 2015 23: +0",13.91,"7"],["Feb 06 2015 00: +0",14.475,"3"],["Feb 06 2015 01: +0",13.875,"2"],["Feb 06 2015 02: +0",14.186,"7"],["Feb 06 2015 03: +0",14.311,"6"],["Feb 06 2015 04: +0",15.287,"5"],["Feb 06 2015 05: +0",14.702,"2"],["Feb 06 2015 06: +0",14.179,"2"],["Feb 06 2015 07: +0",14.75,"1"],["Feb 06 2015 08: +0",14.502,"3"],["Feb 06 2015 09: +0",14.264,"7"],["Feb 06 2015 10: +0",14.206,"6"],["Feb 06 2015 11: +0",14.399,"5"],["Feb 06 2015 12: +0",14.678,"10"],["Feb 06 2015 13: +0",15.121,"10"],["Feb 06 2015 14: +0",15.277,"9"],["Feb 06 2015 15: +0",15.134,"14"],["Feb 06 2015 16: +0",15.505,"16"],["Feb 06 2015 17: +0",16.143,"10"],["Feb 06 2015 18: +0",15.87,"8"],["Feb 06 2015 19: +0",15.889,"7"],["Feb 06 2015 20: +0",15.733,"11"],["Feb 06 2015 21: +0",15.509,"10"],["Feb 06 2015 22: +0",15.391,"10"],["Feb 06 2015 23: +0",15.35,"11"],["Feb 07 2015 00: +0",15.33,"7"],["Feb 07 2015 01: +0",15.36,"11"],["Feb 07 2015 02: +0",15.879,"6"],["Feb 07 2015 03: +0",15.513,"4"],["Feb 07 2015 04: +0",15.414,"3"],["Feb 07 2015 05: +0",15.39,"4"],["Feb 07 2015 06: +0",13.416,"7"],["Feb 07 2015 07: +0",15.5,"3"],["Feb 07 2015 08: +0",16.03,"5"],["Feb 07 2015 09: +0",15.813,"8"],["Feb 07 2015 10: +0",16.19,"11"],["Feb 07 2015 11: +0",16.321,"9"],["Feb 07 2015 12: +0",15.319,"9"],["Feb 07 2015 13: +0",15.562,"7"],["Feb 07 2015 14: +0",16.211,"18"],["Feb 07 2015 15: +0",16.296,"13"],["Feb 07 2015 16: +0",16.438,"13"],["Feb 07 2015 17: +0",16.79,"13"],["Feb 07 2015 18: +0",16.315,"9"],["Feb 07 2015 19: +0",16.784,"18"],["Feb 07 2015 20: +0",16.892,"17"],["Feb 07 2015 21: +0",15.751,"8"],["Feb 07 2015 22: +0",15.078,"13"],["Feb 07 2015 23: +0",14.738,"9"],["Feb 08 2015 00: +0",14.602,"5"],["Feb 08 2015 01: +0",14.68,"8"],["Feb 08 2015 02: +0",14.251,"6"],["Feb 08 2015 03: +0",13.73,"6"],["Feb 08 2015 04: +0",13.8,"9"],["Feb 08 2015 05: +0",13.505,"9"],["Feb 08 2015 06: +0",13.609,"6"],["Feb 08 2015 07: +0",13.87,"7"],["Feb 08 2015 08: +0",14.018,"7"],["Feb 08 2015 09: +0",14.284,"7"],["Feb 08 2015 10: +0",14.414,"7"],["Feb 08 2015 11: +0",15.104,"14"],["Feb 08 2015 12: +0",15.37,"7"],["Feb 08 2015 13: +0",15.112,"8"],["Feb 08 2015 14: +0",13.611,"19"],["Feb 08 2015 15: +0",14.466,"15"],["Feb 08 2015 16: +0",13.993,"10"],["Feb 08 2015 17: +0",14.967,"9"],["Feb 08 2015 18: +0",15.554,"7"],["Feb 08 2015 19: +0",15.491,"8"],["Feb 08 2015 20: +0",15.36,"5"],["Feb 08 2015 21: +0",15.189,"10"],["Feb 08 2015 22: +0",13.6,"11"],["Feb 08 2015 23: +0",13.64,"5"],["Feb 09 2015 00: +0",14.018,"9"],["Feb 09 2015 01: +0",15.177,"4"],["Feb 09 2015 02: +0",15,"3"],["Feb 09 2015 03: +0",15.044,"2"],["Feb 09 2015 04: +0",14.97,"1"],["Feb 09 2015 05: +0",14.86,"1"],["Feb 09 2015 06: +0",14.86,"3"],["Feb 09 2015 07: +0",13.899,"2"],["Feb 09 2015 08: +0",14.46,"1"],["Feb 09 2015 09: +0",14.177,"6"],["Feb 09 2015 10: +0",15.11,"2"],["Feb 09 2015 11: +0",14.95,"5"],["Feb 09 2015 12: +0",14.608,"8"],["Feb 09 2015 13: +0",14.85,"10"],["Feb 09 2015 14: +0",14.97,"8"],["Feb 09 2015 15: +0",14.522,"11"],["Feb 09 2015 16: +0",14.998,"14"],["Feb 09 2015 17: +0",14.885,"14"],["Feb 09 2015 18: +0",15.199,"13"],["Feb 09 2015 19: +0",15.403,"8"],["Feb 09 2015 20: +0",15.509,"5"],["Feb 09 2015 21: +0",15.248,"7"],["Feb 09 2015 22: +0",14.75,"3"],["Feb 09 2015 23: +0",14.1,"7"],["Feb 10 2015 00: +0",13.825,"6"],["Feb 10 2015 01: +0",13.649,"2"],["Feb 10 2015 02: +0",14.08,"3"],["Feb 10 2015 03: +0",13.168,"4"],["Feb 10 2015 04: +0",14.111,"3"],["Feb 10 2015 05: +0",14.5,"3"],["Feb 10 2015 06: +0",15.145,"2"],["Feb 10 2015 07: +0",15,"3"],["Feb 10 2015 08: +0",14.676,"2"],["Feb 10 2015 10: +0",14.87,"3"],["Feb 10 2015 11: +0",15.072,"4"],["Feb 10 2015 12: +0",14.87,"6"],["Feb 10 2015 13: +0",15.174,"10"],["Feb 10 2015 14: +0",15.49,"9"],["Feb 10 2015 15: +0",15.779,"3"],["Feb 10 2015 16: +0",15.824,"9"],["Feb 10 2015 17: +0",15.845,"6"],["Feb 10 2015 18: +0",15.598,"14"],["Feb 10 2015 19: +0",16.05,"11"],["Feb 10 2015 20: +0",15.541,"5"],["Feb 10 2015 21: +0",15.104,"6"],["Feb 10 2015 22: +0",14.866,"10"],["Feb 10 2015 23: +0",14.722,"4"],["Feb 11 2015 00: +0",15.349,"4"],["Feb 11 2015 01: +0",15.194,"1"],["Feb 11 2015 02: +0",15.3,"3"],["Feb 11 2015 03: +0",15.273,"2"],["Feb 11 2015 04: +0",15.37,"7"],["Feb 11 2015 08: +0",14.713,"4"],["Feb 11 2015 09: +0",14.502,"5"],["Feb 11 2015 10: +0",14.57,"5"]];
+			g_timePriceHistoryEarliest = new Date();
+			if ( line1 != false )
+			{
+				g_timePriceHistoryEarliest = new Date(line1[0][0]);
+				g_timePriceHistoryLatest = new Date(line1[line1.length-1][0]);
+			}
+
+			var strFormatPrefix = "&#36;";
+			var strFormatSuffix = "";
+
+			g_plotPriceHistory = CreatePriceHistoryGraph( line1, 7, strFormatPrefix, strFormatSuffix );
+
+			pricehistory_zoomMonthOrLifetime( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest );
+		});
+	
+			$J(document).ready( function(){
+			InstallMarketActionMenuButtons();
+		});
+	
+	</script>
+
+
+
+
+<div class="miniprofile_hover" style="display: none;"><div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="miniprofile_hover_inner shadow_content"></div><div class="hover_arrow left miniprofile_arrow"><div class="miniprofile_arrow_inner"></div></div><div class="hover_arrow right miniprofile_arrow"><div class="miniprofile_arrow_inner"></div></div></div></body></html>

@@ -1,0 +1,969 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<title>Steam Community Market :: Listings for AUG | Chameleon (Field-Tested)</title>
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/motiva_sans.css?v=F3z3QpekjE2f" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/buttons.css?v=43FYQIsUvs0y" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/shared/css/shared_global.css?v=i5aBvwlu3g6x" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/globalv2.css?v=935p86M6IRaZ" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/economy.css?v=XinXBy98PH5b" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/economy_market.css?v=eKbnRCQZ_xdy" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/html5.css?v=.MtSlvoLZL0Tb" rel="stylesheet" type="text/css">
+<link href="http://steamcommunity-a.akamaihd.net/public/css/skin_1/header.css?v=quvm2wU5yG0p" rel="stylesheet" type="text/css">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/prototype-1.7.js?v=.55t44gwuwgvw"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/scriptaculous/_combined.js?v=9XVsa_Ni33oN&amp;l=english&amp;load=effects,controls,slider,dragdrop"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/global.js?v=OlZi9wbs5O5-&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/tooltip.js?v=.nCjeRtNcVhbG"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/shared/javascript/shared_global.js?v=2EUy2xoM_Rkn&amp;l=english"></script>
+<script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/json2.js?v=pmScf4470EZP&amp;l=english\"><\/script>\n" ); };
+</script><script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/economy_common.js?v=1LohOdoSLPYI&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/economy.js?v=HRgy3uGJYQPv&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/market.js?v=5k5ze7AyHxZp&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/modalv2.js?v=HsicoS9FYYTz&amp;l=english"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/jquery.jqplot.min.js?v=.MtKHlYxlI0Rv"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/plugins/jqplot.cursor.min.js?v=.M2KHp3--unVY"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/plugins/jqplot.dateAxisRenderer.min.js?v=.4qfJsdWiq0OT"></script>
+<script type="text/javascript" src="http://steamcommunity-a.akamaihd.net/public/javascript/jqplot/plugins/jqplot.highlighter.min.js?v=.bt1BStJ5PY3c"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33779068-1']);
+  _gaq.push(['_setSampleRate', '0.4']);
+  _gaq.push(['_setCustomVar', 1, 'Logged In', 'false', 2]);
+  _gaq.push(['_setCustomVar', 2, 'Client Type', 'External', 2]);
+  _gaq.push(['_setCustomVar', 3, 'Cntrlr', 'market', 3]);
+  _gaq.push(['_setCustomVar', 4, 'Method', "market\/listings", 3]);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_setSessionCookieTimeout', 900000]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div style="width: 100%; text-align: center">
+<!-- header bar, contains info browsing user if logged in -->
+
+	<div id="global_header">
+		<div class="content">
+
+			<div class="logo">
+				<span id="logo_holder">
+					<a href="http://store.steampowered.com/">
+						<img src="http://steamcommunity-a.akamaihd.net/public/images/header/globalheader_logo.png" width="176" height="44" border="0" alt="Steam Logo">
+					</a>
+				</span>
+				<!--[if lt IE 7]>
+				<style type="text/css">
+				#logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+				#logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://steamcommunity-a.akamaihd.net/public/images/header/globalheader_logo.png'); }
+				</style>
+				<![endif]-->
+			</div>
+
+			<div style="position: absolute; left: 200px;" id="supernav">
+	<a class="menuitem supernav" href="http://store.steampowered.com/" data-tooltip-content="
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/&quot;&gt;Featured&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/explore/&quot;&gt;Explore&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/curators/&quot;&gt;Curators&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/my/wishlist/&quot;&gt;Wishlist&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/news/&quot;&gt;News&lt;/a&gt;
+		&lt;a class=&quot;submenuitem&quot; href=&quot;http://store.steampowered.com/stats/&quot;&gt;STATS&lt;/a&gt;
+	">
+		STORE	</a>
+
+
+	<a class="menuitem supernav" style="display: block" href="http://steamcommunity.com/" data-tooltip-content="
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/&quot;&gt;Home&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/discussions/&quot;&gt;DISCUSSIONS&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/workshop/&quot;&gt;Workshop&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/greenlight/&quot;&gt;Greenlight&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/market/&quot;&gt;Market&lt;/a&gt;
+					&lt;a class=&quot;submenuitem&quot; href=&quot;http://steamcommunity.com/?subsection=broadcasts&quot;&gt;Broadcasts&lt;/a&gt;
+													">
+
+		COMMUNITY	</a>
+
+	
+
+	
+	<a class="menuitem" href="http://store.steampowered.com/about/">
+		ABOUT	</a>
+
+	<a class="menuitem" href="http://support.steampowered.com/">
+		SUPPORT	</a>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function($) { 
+		$('.tooltip').v_tooltip();
+		$('.supernav').v_tooltip({'location':'bottom', 'tooltipClass': 'supernav_content', 'offsetY':-4, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#supernav', 'correctForScreenSize': false});
+	});
+</script>
+			<div id="global_actions">
+								<div id="global_action_menu">
+
+					<div class="header_installsteam_btn header_installsteam_btn_green">
+						<div class="header_installsteam_btn_leftcap"></div>
+						<div class="header_installsteam_btn_rightcap"></div>
+						<a class="header_installsteam_btn_content" href="http://store.steampowered.com/about/">
+							Install Steam						</a>
+					</div>
+
+																							<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=market%2Flistings%2F730%2FAUG+%7C+Chameleon+%28Field-Tested%29">Login</a>
+							&nbsp;|&nbsp;
+												<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block" id="language_dropdown" style="display: none;">
+							<div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div>							<div class="popup_body popup_menu shadow_content">
+																										<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">Български (Bulgarian)</a>
+																										<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">čeština (Czech)</a>
+																										<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">Dansk (Danish)</a>
+																										<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">Nederlands (Dutch)</a>
+																																			<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">Suomi (Finnish)</a>
+																										<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">Français (French)</a>
+																										<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">Deutsch (German)</a>
+																										<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">Ελληνικά (Greek)</a>
+																										<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">Magyar (Hungarian)</a>
+																										<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">Italiano (Italian)</a>
+																										<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">日本語 (Japanese)</a>
+																										<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">한국어 (Korean)</a>
+																										<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">Norsk (Norwegian)</a>
+																										<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">Polski (Polish)</a>
+																										<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">Português (Portuguese)</a>
+																										<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">Português-Brasil (Portuguese-Brazil)</a>
+																										<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">Română (Romanian)</a>
+																										<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">Русский (Russian)</a>
+																										<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">简体中文 (Simplified Chinese)</a>
+																										<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">Español (Spanish)</a>
+																										<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">Svenska (Swedish)</a>
+																										<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">繁體中文 (Traditional Chinese)</a>
+																										<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">ไทย (Thai)</a>
+																										<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe (Turkish)</a>
+																										<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська (Ukrainian)</a>
+																<a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank">Help us translate Steam</a>
+							</div>
+						</div>
+									</div>
+			</div>
+			
+			
+			
+		</div>
+
+	</div>
+
+
+<div id="modalBG" style="display: none"></div><script type="text/javascript">
+	g_sessionID = "112b08d99c04e89f74dac9de";
+	g_steamID = false;
+	$J( InitMiniprofileHovers );
+	$J( InitEmoticonHovers );
+
+	$J( function() {
+		window.BindCommunityTooltip = function( $Selector ) { $Selector.v_tooltip( {'tooltipClass': 'community_tooltip', 'dataName': 'communityTooltip' } ); };
+		BindCommunityTooltip( $J('[data-community-tooltip]') );
+	})
+
+	$J( function() { InitEconomyHovers( "http:\/\/steamcommunity-a.akamaihd.net\/public\/css\/skin_1\/economy.css?v=XinXBy98PH5b", "http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy_common.js?v=1LohOdoSLPYI&l=english", "http:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy.js?v=HRgy3uGJYQPv&l=english" );});</script><!-- /header bar -->
+</div>
+
+<div id="NotLoggedInWarning" class="modal_frame" style="display: none">
+	<div class="modal_box">
+		<div class="modal_box_ctn">
+			<div class="notLoggedInText">You need to sign in or create an account to do that.</div>
+			<div class="notLoggedInButtons">
+				<a class="btn_green_white_innerfade btn_medium" href="https://steamcommunity.com/login/home/?goto=market%2Flistings%2F730%2FAUG%2520%257C%2520Chameleon%2520%2528Field-Tested%2529"><span>Sign In</span></a>
+				<a class="btn_green_white_innerfade btn_medium" href="http://store.steampowered.com/join"><span>Create an Account</span></a>
+				<a class="btn_grey_black btn_medium" onclick="hideModal( 'NotLoggedInWarning' )"><span>Cancel</span></a>
+				<div style="clear: left"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="pagecontent no_header ">
+<!-- top content -->
+<div id="modalContentScrollbarHack" style="display: none"></div>
+
+<div id="modalContent" class="modal_frame" style="display: none">
+	<div id="modalContentTitleBar">
+		<a id="modalContentTitleBarLink" href="" target="_blank">&nbsp;</a>
+		<a id="modalContentTitleBarImageLink" href="" target="_blank"><img src="http://steamcommunity-a.akamaihd.net/public/images/skin_1/ico_external_link.gif" alt=""></a>
+		<div id="modalContentDismiss" class="modalContentDismissImage" onclick="HideModalContent();">
+			<img src="http://steamcommunity-a.akamaihd.net/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close">
+		</div>
+	</div>
+	<div id="modalContentWait"><img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Loading"></div>
+	<div id="modalContentFrameContainer"></div>
+</div><div id="BG_top">
+	<h1 class="market_header_title">
+		<a href="http://steamcommunity.com/market/">
+			<img src="http://steamcommunity-a.akamaihd.net/public/images/economy/market/header/header_en.png" alt="Steam Community Market">
+		</a>
+	</h1>
+		<div class="market_header_hidden">
+		<p>Buy and sell items with community members for Steam Wallet funds.</p>
+	</div>
+	</div><!-- /top content -->
+<!-- main body -->
+<div id="BG_bottom">
+	<div id="mainContents">
+		<div class="market_listing_nav_container">
+						<div class="market_listing_nav">
+									<a href="http://steamcommunity.com/market/search?appid=730">Counter-Strike: Global Offensive</a>
+					&gt;
+															<a href="http://steamcommunity.com/market/listings/730/AUG%20%7C%20Chameleon%20%28Field-Tested%29">AUG | Chameleon (Field-Tested)</a>
+							</div>
+		</div>
+					<div class="market_listing_warning_msg">
+				Note: Some items purchased for Counter-Strike: Global Offensive either in-game or on the Steam Community Market will not be tradable or marketable for one week after purchase. We are making this change to combat fraud and scams, and to help maintain a safe and healthy item economy within Counter-Strike: Global Offensive.			</div>
+							<div class="market_page_fullwidth market_listing_firstsection">
+				<div class="market_listing_iteminfo">
+                    <div class="market_listing_largeimage">
+        <img src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY/360fx360f" alt="">
+</div>
+<div id="largeiteminfo">
+    <div class="inventory_iteminfo hover_box" id="largeiteminfo_clienthover" style="border-color: rgb(210, 210, 210);">
+        <div class="item_desc_content app730 context2" id="largeiteminfo_content">
+            <div class="item_desc_icon">
+                <div class="item_desc_icon_center">
+                    <img id="largeiteminfo_item_icon" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY/330x192" alt="AUG | Chameleon">
+                </div>
+            </div>
+            <div class="item_desc_description">
+                <h1 class="hover_item_name" id="largeiteminfo_item_name" style="color: rgb(210, 210, 210);">AUG | Chameleon</h1>
+                <div class="fraud_warning" id="largeiteminfo_fraud_warnings" style="display: none;"></div>
+                <div class="item_desc_game_info" id="largeiteminfo_game_info">
+                    <div class="item_desc_game_icon">
+                        <img id="largeiteminfo_game_icon" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/730/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg" alt="Counter-Strike: Global Offensive">
+                    </div>
+                    <div id="largeiteminfo_game_name" class="ellipsis">Counter-Strike: Global Offensive</div>
+                    <div id="largeiteminfo_item_type" class="">Covert Rifle</div>
+                </div>
+                <div class="item_desc_descriptors" id="largeiteminfo_item_descriptors"><div class="descriptor">Exterior: Field-Tested</div><div class="descriptor">&nbsp;</div><div class="descriptor">Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon.</div><div class="descriptor">&nbsp;</div><div class="descriptor" style="color: rgb(157, 161, 169);">The Phoenix Collection</div><div class="descriptor">&nbsp;</div></div>
+                <div class="item_actions" id="largeiteminfo_item_actions"><a class="btn_small btn_grey_white_innerfade" href="steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M438309609504130949A1565299235D4954780026578148362"><span>Inspect in Game...</span></a></div>
+                <div class="item_desc_descriptors" id="largeiteminfo_item_owner_descriptors" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+					<div style="clear: both"></div>
+					<div id="largeiteminfo_warning">
+						<br>
+						The appearance of items in the individual listings may vary slightly from the one above. For example, items could have custom names, descriptions, or colors.					</div>
+					<hr style="background-color: #333; border-style: solid none none; border-color: black; border-width: 1px 0 0; height: 2px">
+											<div id="pricehistory" class="jqplot-target" style="position: relative; height: 300px;"><canvas width="903" height="300" class="jqplot-base-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><div class="jqplot-title" style="position: absolute; top: 0px; left: 0px; width: 903px; text-align: left;">Median Sale Prices</div><div class="jqplot-axis jqplot-xaxis" style="position: absolute; width: 903px; height: 16px; left: 0px; bottom: 0px;"><div class="jqplot-xaxis-tick" style="position: absolute; left: 24px;">Jan 12<span class="priceHistoryTime"> 10AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 86.53846141782407px;">Jan 14<span class="priceHistoryTime"> 5PM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 149.07692283564813px;">Jan 17<span class="priceHistoryTime"> 12AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 211.61538456712964px;">Jan 19<span class="priceHistoryTime"> 8AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 274.1538459849537px;">Jan 21<span class="priceHistoryTime"> 3PM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 336.6923074027778px;">Jan 23<span class="priceHistoryTime"> 10PM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 399.2307691342593px;">Jan 26<span class="priceHistoryTime"> 6AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 461.76923055208334px;">Jan 28<span class="priceHistoryTime"> 1PM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 524.3076922835648px;">Jan 30<span class="priceHistoryTime"> 9PM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 589.3461537013889px;">Feb 2<span class="priceHistoryTime"> 4AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 651.884615119213px;">Feb 4<span class="priceHistoryTime"> 11AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 714.4230768506944px;">Feb 6<span class="priceHistoryTime"> 7PM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 776.9615382685186px;">Feb 9<span class="priceHistoryTime"> 2AM<span></span></span></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 836px;">Feb 11<span class="priceHistoryTime"> 10AM<span></span></span></div></div><div class="jqplot-axis jqplot-yaxis" style="position: absolute; height: 300px; width: 48px; left: -7px; top: 0px;"><div class="jqplot-yaxis-tick" style="position: absolute; top: 232.83333333333331px;">$2.10</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 189.66666666666666px;">$2.60</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 146.49999999999997px;">$3.10</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 103.33333333333331px;">$3.60</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 60.166666666666686px;">$4.10</div></div><canvas width="903" height="300" class="jqplot-grid-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><canvas width="813" height="259" class="jqplot-series-shadowCanvas" style="position: absolute; left: 45px; top: 25px;"></canvas><canvas width="813" height="259" class="jqplot-series-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas><div class="jqplot-cursor-tooltip" style="position: absolute; display: none;"></div><canvas width="813" height="259" class="jqplot-zoom-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas><canvas width="813" height="259" class="jqplot-highlight-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas><div class="jqplot-highlighter-tooltip" style="position: absolute; display: none;"></div><canvas width="813" height="259" class="jqplot-lineRenderer-highlight-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas><canvas width="813" height="259" class="jqplot-event-canvas" style="position: absolute; left: 45px; top: 25px;"></canvas></div>
+						<br>
+						<div class="zoom_controls pricehistory_zoom_controls">
+							Zoom graph:							<a class="zoomopt" onclick="return pricehistory_zoomDays( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest, 7 );" href="javascript:void(0)">Week</a>
+							<a class="zoomopt" onclick="return pricehistory_zoomDays( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest, 30 );" href="javascript:void(0)">Month</a>
+							<a class="zoomopt" onclick="return pricehistory_zoomLifetime( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest );" href="javascript:void(0)" style="padding-right: 0">Lifetime</a>
+						</div>
+										<div style="clear: both"></div>
+				</div>
+			</div>
+			<div id="listings" class="market_page_fullwidth" style="padding-top: 0">
+				<div class="market_listing_filter">
+	<div class="market_listing_filter_contents">
+		<form id="market_listing_filter_form" accept-charset="UTF8" action="http://steamcommunity.com/market/listings/730/AUG%20%7C%20Chameleon%20%28Field-Tested%29" method="GET">
+					<span class="market_listing_filter_searchhint">
+									Looking for a specific item?							</span>
+			<span style="position: relative; display: inline-block;">
+									<input class="filter_search_box market_search_filter_search_box" type="text" id="market_listing_filter_search_box" value="" placeholder="Search name, description, type" name="filter" autocomplete="off">
+								<input class="market_search_submit_button" id="market_listing_filter_submit" type="submit" value="Submit">
+			</span>
+		</form>
+	</div>
+</div>				<div class="market_large_tab_well">
+					<h2 class="market_section_title">
+						Listings					</h2>
+					<div class="market_large_tab_well_gradient selectableNone"></div>
+					<div class="market_tab_well_tabs">
+					</div>
+					<div class="market_section_header_cap selectableNone"></div>
+									</div>
+				<div id="searchResultsTable" class="market_content_block market_home_listing_table market_home_main_listing_table market_listing_table">
+					<div id="searchResultsRows">
+						<div class="market_listing_table_header">
+	<span class="market_listing_right_cell market_listing_action_buttons"></span>
+	<span class="market_listing_right_cell market_listing_their_price">PRICE</span>
+	<span class="market_listing_right_cell market_listing_seller">SELLER</span>
+	<div><span class="market_listing_header_namespacer"></span>NAME</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_438309609504130949" id="listing_438309609504130949">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_438309609504130949_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_438309609504130949_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '438309609504130949', 730, '2', '1565299235')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					1,88€ 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					1,64€ 				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/e2/e20ee452bddd8e187206ad5262d2e4de6d3b2e5e.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_438309609504130949_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_428176510385323066" id="listing_428176510385323066">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_428176510385323066_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_428176510385323066_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '428176510385323066', 730, '2', '1530829910')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					1,90€ 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					1,66€ 				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar in-game">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_428176510385323066_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_437183709596224488" id="listing_437183709596224488">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_437183709596224488_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_437183709596224488_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '437183709596224488', 730, '2', '1564218360')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					$2.18 USD				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					$1.90 USD				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/76/769fd9d227c95ecfa1f2d0db828f5f73b585c11a.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_437183709596224488_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_437183709596254148" id="listing_437183709596254148">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_437183709596254148_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_437183709596254148_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '437183709596254148', 730, '2', '1454822286')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					144,99 pуб.				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					126,09 pуб.				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/ca/ca1b94f59e4f2a79534c1543d2d90b0309d8024d.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_437183709596254148_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_438309609503852364" id="listing_438309609503852364">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_438309609503852364_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_438309609503852364_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '438309609503852364', 730, '2', '1564519101')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					146 pуб.				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					126,97 pуб.				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/f8/f8158be11f6b032f84fe6c7978c9f8ba99e7cd3e.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_438309609503852364_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_437183709595730283" id="listing_437183709595730283">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_437183709595730283_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_437183709595730283_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '437183709595730283', 730, '2', '1356398857')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					$2.20 USD				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					$1.92 USD				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/5f/5f54e99b0f3ad4242374d227450bef113607e9c7.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_437183709595730283_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_428176510384606501" id="listing_428176510384606501">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_428176510384606501_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_428176510384606501_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '428176510384606501', 730, '2', '1564364066')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					145,47 pуб.				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					126,50 pуб.				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/9a/9a8123333abbe0f4a0a699c58f9e6275a2a27185.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_428176510384606501_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_437183709596861653" id="listing_437183709596861653">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_437183709596861653_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_437183709596861653_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '437183709596861653', 730, '2', '1564791856')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					¥ 264.50				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					¥ 230				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/c8/c8e96c54eb42c5cd99452b63ceccf845f8c7a5d2.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_437183709596861653_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_427050610478593625" id="listing_427050610478593625">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_427050610478593625_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_427050610478593625_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '427050610478593625', 730, '2', '1565259513')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					1,96€ 				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					1,71€ 				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar offline">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/0c/0c37f33e42188232877b5c0c38a19f23c186d08f.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_427050610478593625_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+
+<div class="market_listing_row market_recent_listing_row listing_432679475220341882" id="listing_432679475220341882">
+	
+	<div class="market_listing_item_img_container">		<img id="listing_432679475220341882_image" src="http://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk/62fx62f" style="border-color: #D2D2D2;" class="market_listing_item_img" alt="">	<a id="listing_432679475220341882_actionmenu_button" class="market_actionmenu_button" href="javascript:void(0)"></a></div>
+			<div class="market_listing_right_cell market_listing_action_buttons">
+					<div class="market_listing_buy_button">
+								<a href="javascript:BuyMarketListing('listing', '432679475220341882', 730, '2', '1560954344')" class="item_market_action_button item_market_action_button_green">
+					<span class="item_market_action_button_edge item_market_action_button_left"></span>
+					<span class="item_market_action_button_contents">
+						Buy Now					</span>
+					<span class="item_market_action_button_edge item_market_action_button_right"></span>
+					<span class="item_market_action_button_preload"></span>
+				</a>
+							</div>
+			</div>
+		<div class="market_listing_right_cell market_listing_their_price">
+		<span class="market_table_value">
+											<span class="market_listing_price market_listing_price_with_fee">
+					£1.46				</span>
+				<span class="market_listing_price market_listing_price_without_fee">
+					£1.28				</span>
+						<br>
+					</span>
+	</div>
+	<div class="market_listing_right_cell market_listing_seller">
+		<span class="market_listing_owner_avatar">
+			<span class="playerAvatar online">
+				<img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/52/5255f63406f84a2a2fe03ab76afc3d3675a36dc3.jpg" alt="">
+			</span>
+		</span>
+	</div>
+
+		<div class="market_listing_item_name_block">
+		<span id="listing_432679475220341882_name" class="market_listing_item_name" style="color: #D2D2D2;">AUG | Chameleon (Field-Tested)</span>
+		<br>
+		<span class="market_listing_game_name">Counter-Strike: Global Offensive</span>
+	</div>
+</div>
+					</div>
+					
+		<div id="searchResults_ctn" class="market_paging" style="">
+			<div class="market_paging_summary">
+				Showing <span id="searchResults_start">1</span>-<span id="searchResults_end">10</span> of <span id="searchResults_total">240</span> results			</div>
+			<div class="market_paging_controls" id="searchResults_controls">
+				<span id="searchResults_btn_prev" class="pagebtn disabled">&lt;</span>
+				<span id="searchResults_links"><span class="market_paging_pagelink active">1 </span><span class="market_paging_pagelink">2 </span><span class="market_paging_pagelink">3 </span><span class="market_paging_pagelink">4 </span><span class="market_paging_pagelink">5 </span><span class="market_paging_pagelink">6 </span> ... <span class="market_paging_pagelink">24 </span></span>
+				<span id="searchResults_btn_next" class="pagebtn">&gt;</span>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+						</div>
+			</div>
+				<div style="clear:both"></div>
+	</div>
+
+	<div id="hover" style="display: none;">
+		<div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div>		<div class="inventory_iteminfo hover_box shadow_content" id="iteminfo_clienthover">
+			<div class="item_desc_content" id="hover_content">
+				<div class="item_desc_icon">
+					<div class="item_desc_icon_center">
+						<img id="hover_item_icon" src="http://steamcommunity-a.akamaihd.net/public/images/trans.gif" alt="">
+					</div>
+				</div>
+				<div class="item_desc_description">
+					<h1 class="hover_item_name" id="hover_item_name"></h1>
+					<div class="fraud_warning" id="hover_fraud_warnings"></div>
+					<div class="item_desc_game_info" id="hover_game_info">
+						<div class="item_desc_game_icon">
+							<img id="hover_game_icon" src="http://steamcommunity-a.akamaihd.net/public/images/trans.gif" alt="">
+						</div>
+						<div id="hover_game_name" class="ellipsis"></div>
+						<div id="hover_item_type" class=""></div>
+					</div>
+					<div class="item_desc_descriptors" id="hover_item_descriptors">
+					</div>
+					<div class="item_desc_descriptors" id="hover_item_owner_descriptors">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hover_arrow_left" id="hover_arrow_left">
+			<div class="hover_arrow_inner"></div>
+		</div>
+		<div class="hover_arrow_right" id="hover_arrow_right">
+			<div class="hover_arrow_inner"></div>
+		</div>
+	</div>
+</div></div>
+<div id="market_buynow_dialog" class="market_modal_dialog" style="display: none;">
+	<div class="market_dialog_title">
+		<span id="market_buynow_dialog_title">
+			Buy an item		</span>
+		<span class="market_dialog_cancel">
+			<a id="market_buynow_dialog_cancel" href="#" class="market_dialog_title_cancel">Cancel<span class="market_dialog_title_cancel_X">X</span></a>
+			<a id="market_buynow_dialog_cancel_close" href="#" class="market_dialog_title_cancel" style="display: none">Close<span class="market_dialog_title_cancel_X">X</span></a>
+		</span>
+	</div>
+	<div id="market_buynow_dialog_contents" class="market_dialog_contents">
+		<div id="market_buynow_dialog_purchasecomplete_message">
+			<div class="market_dialog_topinfo">
+				Congratulations on your purchase! You can view your new item in your <a href="http://steamcommunity.com/my/inventory/">inventory</a>.			</div>
+			<div class="market_dialog_content_spacer">
+			</div>
+		</div>
+		<div id="market_buynow_dialog_item">
+		</div>
+		<div class="market_dialog_content_spacer">
+		</div>
+		<div id="market_buynow_dialog_totals" class="market_dialog_totals">
+			<div>
+				<span id="market_buynow_dialog_totals_subtotal" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Subtotal:</span>
+			</div>
+			<div style="clear: both"></div>
+			<br>
+			<div>
+				<span id="market_buynow_dialog_totals_publisherfee" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label"><span id="market_buynow_dialog_totals_publisherfee_gamename"></span> fee (<span id="market_buynow_dialog_totals_publisherfee_percent"></span>%):</span>
+			</div>
+			<div style="clear: both"></div>
+			<div>
+				<span id="market_buynow_dialog_totals_transactionfee" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Steam transaction fee (<span id="market_buynow_dialog_totals_transactionfee_percent"></span>%):</span>
+			</div>
+			<div>
+				<span class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label market_buynow_dialog_totals_fee_collector">
+											Fees charged by Valve Corporation									</span>
+			</div>
+			<div style="clear: both"></div>
+			<div class="market_dialog_totals_separator"></div>
+			<div>
+				<span id="market_buynow_dialog_totals_total" class="market_dialog_totals_cost">&nbsp;</span>
+				<span class="market_dialog_totals_label">Total:</span>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+		<div style="clear:both"></div>
+		<div class="market_dialog_content_spacer">
+		</div>
+		<div id="market_buynow_dialog_paymentinfo_frame_container">
+			<div id="market_buynow_dialog_paymentinfo_frame" class="market_dialog_content_frame">
+				<div id="market_buynow_dialog_paymentinfo" class="market_dialog_content market_dialog_content_darker">
+					<div>
+						<div id="market_buynow_dialog_paymentinfo_option_labels">
+							<span>Payment method:</span>
+							<br>
+							<br>
+							<span>Steam account:</span>
+						</div>
+						<div>
+							<span id="market_buynow_dialog_paymentmethod">My Steam Wallet <span id="market_buynow_dialog_walletbalance">(<span id="market_buynow_dialog_walletbalance_amount"></span>)</span></span>
+							<br>
+							<br>
+							<span id="market_buynow_dialog_myaccountname"></span>
+						</div>
+					</div>
+					<div id="market_buynow_dialog_paymentinfo_bottomactions">
+						<div id="market_buynow_dialog_purchase_throbber" style="display: none;">
+							<img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Working...">
+						</div>
+						<a id="market_buynow_dialog_purchase" href="#" class="btn_green_white_innerfade btn_medium_wide btn_uppercase"><span>Purchase</span></a>
+						<a id="market_buynow_dialog_addfunds" href="#" class="btn_green_white_innerfade btn_medium_wide btn_uppercase" style="display: none"><span>Add Funds</span></a>
+						<div id="market_buynow_dialog_accept_ssa_container">
+							<br>
+							<input id="market_buynow_dialog_accept_ssa" type="checkbox" value="0" name="accept_ssa">
+							<label id="market_buynow_dialog_accept_ssa_label" for="market_buynow_dialog_accept_ssa">I agree to the terms of the <a href="javascript:SSAPopup();" class="body_link">Steam Subscriber Agreement</a> (last updated 3 Jul, 2013.)</label>
+						</div>
+											</div>
+					<div style="clear: both"></div>
+				</div>
+			</div>
+		</div>
+		<div id="market_buynow_dialog_bottom_buttons" style="display: none">
+			<div class="market_dialog_bottom_buttons">
+				<a id="market_buynow_dialog_close" href="#" class="btn_grey_white_innerfade btn_medium_wide"><span>Close</span></a>
+				<a id="market_buynow_dialog_viewinventory" href="http://steamcommunity.com/my/inventory/" class="btn_grey_white_innerfade btn_medium_wide"><span>View Inventory</span></a>
+				<div style="clear: both"></div>
+			</div>
+		</div>
+		<div id="market_buynow_dialog_error">
+			<br>
+			<span id="market_buynow_dialog_error_text"></span>
+		</div>
+	</div>
+</div>
+<div id="market_removelisting_dialog" class="market_modal_dialog" style="display: none;">
+	<div class="market_dialog_title">
+		<span id="market_removelisting_dialog_title">
+			Remove a listing		</span>
+		<span class="market_dialog_cancel">
+			<a id="market_removelisting_dialog_cancel" href="#" class="market_dialog_title_cancel">Cancel<span class="market_dialog_title_cancel_X">X</span></a>
+		</span>
+	</div>
+	<div id="market_removelisting_dialog_contents" class="market_dialog_contents">
+		<div id="market_removelisting_dialog_confirmation">
+			<div>
+				Remove the listing for <span id="market_removelisting_dialog_itemname"></span> and return the item to your inventory?			</div>
+			<br>
+			<div id="market_removelisting_dialog_buttons">
+				<div id="market_removelisting_dialog_accept_throbber" style="display: none;">
+					<img src="http://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif" alt="Working...">
+				</div>
+				<a id="market_removelisting_dialog_accept" href="#" class="btn_green_white_innerfade btn_medium_wide"><span>Remove Listing</span></a>
+				<div style="clear: both"></div>
+			</div>
+		</div>
+		<div id="market_removelisting_dialog_error">
+		</div>
+	</div>
+</div>
+<div id="market_action_popup" class="popup_block_new" style="display: none;">
+	<div class="popup_body popup_menu">
+		<div id="market_action_popup_itemactions">
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+	<div id="footer_spacer"></div>
+	<div id="footer">
+		<div class="footer_content">
+			<span id="footerLogo"><img src="http://steamcommunity-a.akamaihd.net/public/images/skin_1/footerLogo_valve.png" width="96" height="26" border="0" alt="Valve Logo"></span>
+			<span id="footerText">
+				© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.<br>Some geospatial data on this website is provided by <a target="_blank" href="https://steamcommunity.com/linkfilter/?url=http://www.geonames.org">geonames.org</a>.				<br>
+									<span class="valve_links">
+						<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a> | <a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a> | <a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+					</span>
+											
+							</span>
+		</div>
+	</div>
+	<!-- /footer -->
+
+<script type="text/javascript">
+var g_bLoggedIn = false;
+var g_strCountryCode = "CA";
+var g_strLanguage = "english";
+
+g_bModalModifyAnchorTargets = false;
+g_bModalCacheContent = false;
+</script>
+	<script type="text/javascript">
+		var g_rgAppContextData = {"730":{"appid":730,"name":"Counter-Strike: Global Offensive","icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","link":"http:\/\/steamcommunity.com\/app\/730"}};
+		var g_rgAssets = {"730":{"2":{"1565299235":{"currency":0,"appid":730,"contextid":"2","id":"1565299235","classid":"360475142","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M438309609504130949A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M438309609504130949A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1530829910":{"currency":0,"appid":730,"contextid":"2","id":"1530829910","classid":"402397163","instanceid":"480085569","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "},{"type":"html","value":"<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker Details\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"http:\/\/media.steampowered.com\/apps\/730\/icons\/econ\/stickers\/stickers2\/metal.5237be9c03c5c23deaf8940738bef0f45a21ea59.png\"><br>Sticker: Metal<\/center><\/div>"}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510385323066A%assetid%D5217987714581837038","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510385323066A%assetid%D5217987714581837038","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1564218360":{"currency":0,"appid":730,"contextid":"2","id":"1564218360","classid":"360475142","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709596224488A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709596224488A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1454822286":{"currency":0,"appid":730,"contextid":"2","id":"1454822286","classid":"360475142","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709596254148A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709596254148A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1564519101":{"currency":0,"appid":730,"contextid":"2","id":"1564519101","classid":"360475142","instanceid":"480085569","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M438309609503852364A%assetid%D12172883227119852258","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M438309609503852364A%assetid%D12172883227119852258","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1356398857":{"currency":0,"appid":730,"contextid":"2","id":"1356398857","classid":"360475142","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709595730283A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709595730283A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1564364066":{"currency":0,"appid":730,"contextid":"2","id":"1564364066","classid":"360475142","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510384606501A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M428176510384606501A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1564791856":{"currency":0,"appid":730,"contextid":"2","id":"1564791856","classid":"360475142","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709596861653A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M437183709596861653A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1565259513":{"currency":0,"appid":730,"contextid":"2","id":"1565259513","classid":"360475142","instanceid":"480085569","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M427050610478593625A%assetid%D12172883227119852258","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M427050610478593625A%assetid%D12172883227119852258","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0},"1560954344":{"currency":0,"appid":730,"contextid":"2","id":"1560954344","classid":"360475142","instanceid":"188530139","amount":"1","status":2,"original_amount":"1","background_color":"","icon_url":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LZwq9t4KTZ-UtZIwfHsiEWPOOM1ur705q0vMLe8OI8Svs1XvsOD8NDxD1ujVTA4wQYEk","icon_url_large":"fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKMyJYcxHFPqNWXfg_-A3jByY7-sJcWdKy_q4LFlC-9tWTLeV6MNpEF8nTWPHQZlirux4w0aRYK5GA9H-52yXvOGtfUhXv_m8CzbCZ-uw8VYSwNaY","descriptions":[{"type":"html","value":"Exterior: Field-Tested"},{"type":"html","value":" "},{"type":"html","value":"Powerful and accurate, the AUG scoped assault rifle compensates for its long reload times with low spread and a high rate of fire. It has been custom painted with the image of a chameleon."},{"type":"html","value":" "},{"type":"html","value":"The Phoenix Collection","color":"9da1a9"},{"type":"html","value":" "}],"tradable":1,"actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M432679475220341882A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"name":"AUG | Chameleon","name_color":"D2D2D2","type":"Covert Rifle","market_name":"AUG | Chameleon (Field-Tested)","market_hash_name":"AUG | Chameleon (Field-Tested)","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M432679475220341882A%assetid%D4954780026578148362","name":"Inspect in Game..."}],"commodity":0,"app_icon":"http:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/images\/apps\/730\/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg","owner":0}}}};
+	var g_rgCurrency = [];
+	var g_rgListingInfo = {"438309609504130949":{"listingid":"438309609504130949","price":164,"fee":24,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":8,"publisher_fee":16,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1565299235","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D4954780026578148362","name":"Inspect in Game..."}]}},"428176510385323066":{"listingid":"428176510385323066","price":166,"fee":24,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":8,"publisher_fee":16,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1530829910","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D5217987714581837038","name":"Inspect in Game..."}]}},"437183709596224488":{"listingid":"437183709596224488","price":190,"fee":28,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2001","steam_fee":9,"publisher_fee":19,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1564218360","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D4954780026578148362","name":"Inspect in Game..."}]}},"437183709596254148":{"listingid":"437183709596254148","price":12609,"fee":1890,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2005","steam_fee":630,"publisher_fee":1260,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1454822286","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D4954780026578148362","name":"Inspect in Game..."}]}},"438309609503852364":{"listingid":"438309609503852364","price":12697,"fee":1903,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2005","steam_fee":634,"publisher_fee":1269,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1564519101","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D12172883227119852258","name":"Inspect in Game..."}]}},"437183709595730283":{"listingid":"437183709595730283","price":192,"fee":28,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2001","steam_fee":9,"publisher_fee":19,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1356398857","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D4954780026578148362","name":"Inspect in Game..."}]}},"428176510384606501":{"listingid":"428176510384606501","price":12650,"fee":1897,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2005","steam_fee":632,"publisher_fee":1265,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1564364066","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D4954780026578148362","name":"Inspect in Game..."}]}},"437183709596861653":{"listingid":"437183709596861653","price":23000,"fee":3450,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2008","steam_fee":1150,"publisher_fee":2300,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1564791856","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D4954780026578148362","name":"Inspect in Game..."}]}},"427050610478593625":{"listingid":"427050610478593625","price":171,"fee":25,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2003","steam_fee":8,"publisher_fee":17,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1565259513","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D12172883227119852258","name":"Inspect in Game..."}]}},"432679475220341882":{"listingid":"432679475220341882","price":128,"fee":18,"publisher_fee_app":730,"publisher_fee_percent":"0.10000000149011612","currencyid":"2002","steam_fee":6,"publisher_fee":12,"asset":{"currency":0,"appid":730,"contextid":"2","id":"1560954344","amount":"1","market_actions":[{"link":"steam:\/\/rungame\/730\/76561202255233023\/+csgo_econ_action_preview%20M%listingid%A%assetid%D4954780026578148362","name":"Inspect in Game..."}]}}};
+	var g_plotPriceHistory = null;
+	var g_timePriceHistoryEarliest = new Date();
+	var g_timePriceHistoryLatest = new Date();
+
+	ITEM_HOVER_DELAY = 250;
+
+	var g_oSearchResults = null;
+	Event.observe( document, 'dom:loaded', function() {
+		UserYou.LoadContexts( g_rgAppContextData );
+
+							CreateItemHoverFromContainer( g_rgAssets, 'listing_438309609504130949_name', 730, '2', '1565299235', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_438309609504130949_image', 730, '2', '1565299235', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510385323066_name', 730, '2', '1530829910', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510385323066_image', 730, '2', '1530829910', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709596224488_name', 730, '2', '1564218360', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709596224488_image', 730, '2', '1564218360', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709596254148_name', 730, '2', '1454822286', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709596254148_image', 730, '2', '1454822286', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_438309609503852364_name', 730, '2', '1564519101', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_438309609503852364_image', 730, '2', '1564519101', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709595730283_name', 730, '2', '1356398857', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709595730283_image', 730, '2', '1356398857', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510384606501_name', 730, '2', '1564364066', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_428176510384606501_image', 730, '2', '1564364066', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709596861653_name', 730, '2', '1564791856', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_437183709596861653_image', 730, '2', '1564791856', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_427050610478593625_name', 730, '2', '1565259513', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_427050610478593625_image', 730, '2', '1565259513', 1 );
+			CreateItemHoverFromContainer( g_rgAssets, 'listing_432679475220341882_name', 730, '2', '1560954344', 1 );
+		CreateItemHoverFromContainer( g_rgAssets, 'listing_432679475220341882_image', 730, '2', '1560954344', 1 );
+	
+			var rgAppItems = g_rgAssets[730];
+			var rgContextItems = rgAppItems['2'];
+			var rgItem = rgContextItems['1565299235'];
+			BuildHover( 'largeiteminfo', rgItem, '76561198154700037' );
+
+			g_oSearchResults = new CAjaxPagingControls( {"query":"","total_count":240,"pagesize":10,"prefix":"searchResults","class_prefix":"market"}, 'http://steamcommunity.com/market/listings/730/AUG%20%7C%20Chameleon%20%28Field-Tested%29/' );
+
+			var oParams = {
+				country: g_strCountryCode,
+				language: g_strLanguage,
+				currency: typeof( g_rgWalletInfo ) != 'undefined' ? g_rgWalletInfo['wallet_currency'] : 1			};
+
+							oParams.currency = '1';
+			
+						g_oSearchResults.SetStaticParameters( oParams );
+
+			g_oSearchResults.SetResponseHandler( function( response ) {
+				g_rgAssets = response.assets;
+				g_rgCurrency = response.currency;
+				g_rgListingInfo = response.listinginfo;
+				eval( response.hovers );
+				MergeWithAppDataArray( response.app_data );
+				
+									InstallMarketActionMenuButtons();
+											});
+
+			MarketCheckHash();
+						} );
+
+			$J(document).ready(function(){
+			var line1=[["Feb 21 2014 01: +0",14.949,"11"],["Feb 22 2014 01: +0",11.852,"30"],["Feb 23 2014 01: +0",13.012,"11"],["Feb 24 2014 01: +0",11.304,"18"],["Feb 25 2014 01: +0",12.141,"21"],["Feb 26 2014 01: +0",13.231,"16"],["Feb 27 2014 01: +0",14.393,"9"],["Feb 28 2014 01: +0",12.649,"16"],["Mar 01 2014 01: +0",9.785,"34"],["Mar 02 2014 01: +0",8.768,"24"],["Mar 03 2014 01: +0",9.321,"33"],["Mar 04 2014 01: +0",8.901,"23"],["Mar 05 2014 01: +0",8.621,"18"],["Mar 06 2014 01: +0",10.209,"17"],["Mar 07 2014 01: +0",10.622,"16"],["Mar 08 2014 01: +0",9.024,"28"],["Mar 09 2014 01: +0",7.959,"27"],["Mar 10 2014 01: +0",8.061,"28"],["Mar 11 2014 01: +0",7.679,"24"],["Mar 12 2014 01: +0",8.204,"17"],["Mar 13 2014 01: +0",8.007,"20"],["Mar 14 2014 01: +0",8.244,"27"],["Mar 15 2014 01: +0",8.094,"40"],["Mar 16 2014 01: +0",7.51,"43"],["Mar 17 2014 01: +0",7.431,"32"],["Mar 18 2014 01: +0",6.96,"28"],["Mar 19 2014 01: +0",7.579,"25"],["Mar 20 2014 01: +0",7.111,"23"],["Mar 21 2014 01: +0",6.774,"42"],["Mar 22 2014 01: +0",7.112,"40"],["Mar 23 2014 01: +0",7.19,"34"],["Mar 24 2014 01: +0",7.129,"27"],["Mar 25 2014 01: +0",6.559,"38"],["Mar 26 2014 01: +0",6.464,"53"],["Mar 27 2014 01: +0",6.584,"34"],["Mar 28 2014 01: +0",6.959,"34"],["Mar 29 2014 01: +0",6.54,"48"],["Mar 30 2014 01: +0",6.086,"47"],["Mar 31 2014 01: +0",5.701,"34"],["Apr 01 2014 01: +0",5.911,"41"],["Apr 02 2014 01: +0",6.046,"31"],["Apr 03 2014 01: +0",6.533,"32"],["Apr 04 2014 01: +0",6.084,"44"],["Apr 05 2014 01: +0",6.234,"54"],["Apr 06 2014 01: +0",5.944,"49"],["Apr 07 2014 01: +0",6.149,"39"],["Apr 08 2014 01: +0",6.764,"37"],["Apr 09 2014 01: +0",7.324,"43"],["Apr 10 2014 01: +0",6.556,"34"],["Apr 11 2014 01: +0",6.314,"51"],["Apr 12 2014 01: +0",6.463,"49"],["Apr 13 2014 01: +0",6.146,"50"],["Apr 14 2014 01: +0",5.932,"70"],["Apr 15 2014 01: +0",6.088,"44"],["Apr 16 2014 01: +0",5.861,"53"],["Apr 17 2014 01: +0",5.914,"54"],["Apr 18 2014 01: +0",5.573,"63"],["Apr 19 2014 01: +0",5.9,"77"],["Apr 20 2014 01: +0",5.447,"61"],["Apr 21 2014 01: +0",5.566,"58"],["Apr 22 2014 01: +0",5.768,"59"],["Apr 23 2014 01: +0",5.818,"58"],["Apr 24 2014 01: +0",6.026,"49"],["Apr 25 2014 01: +0",6.197,"58"],["Apr 26 2014 01: +0",6.205,"57"],["Apr 27 2014 01: +0",5.94,"68"],["Apr 28 2014 01: +0",5.651,"53"],["Apr 29 2014 01: +0",5.956,"55"],["Apr 30 2014 01: +0",5.736,"54"],["May 01 2014 01: +0",6.426,"52"],["May 02 2014 01: +0",5.168,"82"],["May 03 2014 01: +0",4.733,"103"],["May 04 2014 01: +0",4.539,"90"],["May 05 2014 01: +0",4.296,"66"],["May 06 2014 01: +0",4.067,"114"],["May 07 2014 01: +0",4.482,"90"],["May 08 2014 01: +0",4.836,"69"],["May 09 2014 01: +0",3.979,"69"],["May 10 2014 01: +0",3.832,"83"],["May 11 2014 01: +0",3.035,"71"],["May 12 2014 01: +0",3.056,"83"],["May 13 2014 01: +0",3.25,"77"],["May 14 2014 01: +0",3.049,"94"],["May 15 2014 01: +0",3.139,"82"],["May 16 2014 01: +0",3.197,"91"],["May 17 2014 01: +0",3.008,"84"],["May 18 2014 01: +0",2.874,"106"],["May 19 2014 01: +0",2.925,"100"],["May 20 2014 01: +0",3.027,"89"],["May 21 2014 01: +0",2.922,"69"],["May 22 2014 01: +0",2.782,"63"],["May 23 2014 01: +0",2.984,"98"],["May 24 2014 01: +0",2.927,"104"],["May 25 2014 01: +0",2.82,"112"],["May 26 2014 01: +0",3.013,"65"],["May 27 2014 01: +0",3.263,"88"],["May 28 2014 01: +0",2.571,"105"],["May 29 2014 01: +0",2.811,"86"],["May 30 2014 01: +0",3.259,"87"],["May 31 2014 01: +0",2.777,"95"],["Jun 01 2014 01: +0",2.694,"102"],["Jun 02 2014 01: +0",2.697,"88"],["Jun 03 2014 01: +0",2.816,"95"],["Jun 04 2014 01: +0",2.895,"69"],["Jun 05 2014 01: +0",2.714,"73"],["Jun 06 2014 01: +0",2.769,"61"],["Jun 07 2014 01: +0",2.551,"93"],["Jun 08 2014 01: +0",2.779,"101"],["Jun 09 2014 01: +0",2.857,"66"],["Jun 10 2014 01: +0",2.761,"88"],["Jun 11 2014 01: +0",2.694,"98"],["Jun 12 2014 01: +0",2.89,"84"],["Jun 13 2014 01: +0",2.892,"112"],["Jun 14 2014 01: +0",2.859,"85"],["Jun 15 2014 01: +0",2.91,"94"],["Jun 16 2014 01: +0",2.913,"92"],["Jun 17 2014 01: +0",2.679,"100"],["Jun 18 2014 01: +0",2.702,"76"],["Jun 19 2014 01: +0",2.455,"107"],["Jun 20 2014 01: +0",2.098,"123"],["Jun 21 2014 01: +0",2.131,"105"],["Jun 22 2014 01: +0",1.973,"96"],["Jun 23 2014 01: +0",2.05,"99"],["Jun 24 2014 01: +0",1.911,"107"],["Jun 25 2014 01: +0",2.125,"82"],["Jun 26 2014 01: +0",2.134,"96"],["Jun 27 2014 01: +0",2.136,"106"],["Jun 28 2014 01: +0",2.223,"145"],["Jun 29 2014 01: +0",2.211,"114"],["Jun 30 2014 01: +0",2.24,"129"],["Jul 01 2014 01: +0",2.391,"126"],["Jul 02 2014 01: +0",1.776,"165"],["Jul 03 2014 01: +0",2.168,"173"],["Jul 04 2014 01: +0",2.475,"105"],["Jul 05 2014 01: +0",2.664,"76"],["Jul 06 2014 01: +0",2.596,"89"],["Jul 07 2014 01: +0",2.681,"107"],["Jul 08 2014 01: +0",2.739,"100"],["Jul 09 2014 01: +0",2.753,"110"],["Jul 10 2014 01: +0",2.758,"136"],["Jul 11 2014 01: +0",2.501,"152"],["Jul 12 2014 01: +0",2.48,"126"],["Jul 13 2014 01: +0",2.625,"112"],["Jul 14 2014 01: +0",2.624,"116"],["Jul 15 2014 01: +0",2.569,"111"],["Jul 16 2014 01: +0",2.482,"130"],["Jul 17 2014 01: +0",2.316,"118"],["Jul 18 2014 01: +0",2.351,"134"],["Jul 19 2014 01: +0",2.291,"140"],["Jul 20 2014 01: +0",2.348,"121"],["Jul 21 2014 01: +0",2.22,"132"],["Jul 22 2014 01: +0",2.283,"130"],["Jul 23 2014 01: +0",2.273,"147"],["Jul 24 2014 01: +0",2.242,"110"],["Jul 25 2014 01: +0",2.322,"135"],["Jul 26 2014 01: +0",2.18,"174"],["Jul 27 2014 01: +0",2.458,"153"],["Jul 28 2014 01: +0",2.527,"127"],["Jul 29 2014 01: +0",2.573,"155"],["Jul 30 2014 01: +0",2.523,"150"],["Jul 31 2014 01: +0",2.51,"129"],["Aug 01 2014 01: +0",2.406,"158"],["Aug 02 2014 01: +0",2.602,"153"],["Aug 03 2014 01: +0",2.549,"134"],["Aug 04 2014 01: +0",2.456,"144"],["Aug 05 2014 01: +0",2.107,"175"],["Aug 06 2014 01: +0",2.3,"146"],["Aug 07 2014 01: +0",2.272,"169"],["Aug 08 2014 01: +0",2.391,"145"],["Aug 09 2014 01: +0",2.396,"147"],["Aug 10 2014 01: +0",2.438,"131"],["Aug 11 2014 01: +0",2.573,"110"],["Aug 12 2014 01: +0",2.551,"175"],["Aug 13 2014 01: +0",2.469,"169"],["Aug 14 2014 01: +0",2.434,"188"],["Aug 15 2014 01: +0",2.32,"215"],["Aug 16 2014 01: +0",2.347,"165"],["Aug 17 2014 01: +0",1.897,"251"],["Aug 18 2014 01: +0",2.038,"199"],["Aug 19 2014 01: +0",2.228,"176"],["Aug 20 2014 01: +0",2.295,"173"],["Aug 21 2014 01: +0",2.267,"174"],["Aug 22 2014 01: +0",2.256,"171"],["Aug 23 2014 01: +0",2.393,"189"],["Aug 24 2014 01: +0",2.386,"168"],["Aug 25 2014 01: +0",2.404,"202"],["Aug 26 2014 01: +0",2.387,"187"],["Aug 27 2014 01: +0",2.562,"161"],["Aug 28 2014 01: +0",2.492,"170"],["Aug 29 2014 01: +0",2.423,"208"],["Aug 30 2014 01: +0",2.576,"171"],["Aug 31 2014 01: +0",2.45,"190"],["Sep 01 2014 01: +0",2.428,"207"],["Sep 02 2014 01: +0",2.494,"179"],["Sep 03 2014 01: +0",2.55,"156"],["Sep 04 2014 01: +0",2.496,"181"],["Sep 05 2014 01: +0",2.309,"180"],["Sep 06 2014 01: +0",2.404,"204"],["Sep 07 2014 01: +0",2.334,"232"],["Sep 08 2014 01: +0",2.441,"176"],["Sep 09 2014 01: +0",2.452,"151"],["Sep 10 2014 01: +0",2.445,"175"],["Sep 11 2014 01: +0",2.37,"181"],["Sep 12 2014 01: +0",2.351,"204"],["Sep 13 2014 01: +0",2.296,"211"],["Sep 14 2014 01: +0",2.27,"190"],["Sep 15 2014 01: +0",2.233,"202"],["Sep 16 2014 01: +0",2.325,"173"],["Sep 17 2014 01: +0",2.319,"179"],["Sep 18 2014 01: +0",2.272,"162"],["Sep 19 2014 01: +0",2.205,"213"],["Sep 20 2014 01: +0",2.134,"252"],["Sep 21 2014 01: +0",2.156,"199"],["Sep 22 2014 01: +0",2.133,"200"],["Sep 23 2014 01: +0",2.141,"177"],["Sep 24 2014 01: +0",2.132,"161"],["Sep 25 2014 01: +0",2.25,"144"],["Sep 26 2014 01: +0",2.203,"202"],["Sep 27 2014 01: +0",2.136,"224"],["Sep 28 2014 01: +0",1.991,"197"],["Sep 29 2014 01: +0",1.905,"192"],["Sep 30 2014 01: +0",1.992,"204"],["Oct 01 2014 01: +0",2.087,"187"],["Oct 02 2014 01: +0",2.09,"181"],["Oct 03 2014 01: +0",2.144,"187"],["Oct 04 2014 01: +0",2.195,"246"],["Oct 05 2014 01: +0",2.098,"204"],["Oct 06 2014 01: +0",1.97,"191"],["Oct 07 2014 01: +0",2.184,"193"],["Oct 08 2014 01: +0",2.014,"180"],["Oct 09 2014 01: +0",1.974,"183"],["Oct 10 2014 01: +0",2.002,"240"],["Oct 11 2014 01: +0",2.001,"244"],["Oct 12 2014 01: +0",2.069,"216"],["Oct 13 2014 01: +0",2.028,"236"],["Oct 14 2014 01: +0",2.11,"203"],["Oct 15 2014 01: +0",2.052,"168"],["Oct 16 2014 01: +0",2.043,"200"],["Oct 17 2014 01: +0",2.042,"281"],["Oct 18 2014 01: +0",1.983,"272"],["Oct 19 2014 01: +0",1.865,"264"],["Oct 20 2014 01: +0",1.879,"218"],["Oct 21 2014 01: +0",1.903,"180"],["Oct 22 2014 01: +0",1.952,"204"],["Oct 23 2014 01: +0",1.967,"197"],["Oct 24 2014 01: +0",2.041,"245"],["Oct 25 2014 01: +0",2.164,"250"],["Oct 26 2014 01: +0",1.724,"307"],["Oct 27 2014 01: +0",1.737,"229"],["Oct 28 2014 01: +0",1.816,"223"],["Oct 29 2014 01: +0",1.865,"236"],["Oct 30 2014 01: +0",2.136,"171"],["Oct 31 2014 01: +0",1.757,"345"],["Nov 01 2014 01: +0",1.854,"338"],["Nov 02 2014 01: +0",1.801,"316"],["Nov 03 2014 01: +0",1.739,"225"],["Nov 04 2014 01: +0",1.885,"217"],["Nov 05 2014 01: +0",1.841,"200"],["Nov 06 2014 01: +0",1.829,"232"],["Nov 07 2014 01: +0",1.825,"221"],["Nov 08 2014 01: +0",1.805,"332"],["Nov 09 2014 01: +0",1.763,"266"],["Nov 10 2014 01: +0",1.723,"266"],["Nov 11 2014 01: +0",1.754,"226"],["Nov 12 2014 01: +0",1.342,"445"],["Nov 13 2014 01: +0",1.364,"329"],["Nov 14 2014 01: +0",1.434,"274"],["Nov 15 2014 01: +0",1.452,"335"],["Nov 16 2014 01: +0",1.469,"320"],["Nov 17 2014 01: +0",1.399,"205"],["Nov 18 2014 01: +0",1.445,"199"],["Nov 19 2014 01: +0",1.485,"227"],["Nov 20 2014 01: +0",1.452,"221"],["Nov 21 2014 01: +0",1.406,"230"],["Nov 22 2014 01: +0",1.383,"267"],["Nov 23 2014 01: +0",1.379,"248"],["Nov 24 2014 01: +0",1.364,"228"],["Nov 25 2014 01: +0",1.453,"180"],["Nov 26 2014 01: +0",1.444,"240"],["Nov 27 2014 01: +0",1.363,"303"],["Nov 28 2014 01: +0",1.456,"288"],["Nov 29 2014 01: +0",1.944,"74"],["Nov 30 2014 01: +0",1.475,"389"],["Dec 01 2014 01: +0",1.257,"289"],["Dec 02 2014 01: +0",1.332,"299"],["Dec 03 2014 01: +0",1.471,"259"],["Dec 04 2014 01: +0",1.732,"237"],["Dec 05 2014 01: +0",1.749,"242"],["Dec 06 2014 01: +0",1.785,"292"],["Dec 07 2014 01: +0",1.731,"312"],["Dec 08 2014 01: +0",1.674,"286"],["Dec 09 2014 01: +0",1.74,"276"],["Dec 10 2014 01: +0",1.69,"272"],["Dec 11 2014 01: +0",1.69,"352"],["Dec 12 2014 01: +0",1.859,"351"],["Dec 13 2014 01: +0",1.784,"376"],["Dec 14 2014 01: +0",1.766,"459"],["Dec 15 2014 01: +0",1.728,"326"],["Dec 16 2014 01: +0",1.952,"384"],["Dec 17 2014 01: +0",1.824,"358"],["Dec 18 2014 01: +0",2.142,"425"],["Dec 19 2014 01: +0",2.201,"411"],["Dec 20 2014 01: +0",1.89,"422"],["Dec 21 2014 01: +0",1.765,"411"],["Dec 22 2014 01: +0",1.726,"376"],["Dec 23 2014 01: +0",1.762,"377"],["Dec 24 2014 01: +0",1.797,"513"],["Dec 25 2014 01: +0",2.03,"467"],["Dec 26 2014 01: +0",2.034,"499"],["Dec 27 2014 01: +0",2.097,"487"],["Dec 28 2014 01: +0",2.216,"475"],["Dec 29 2014 01: +0",2.178,"544"],["Dec 30 2014 01: +0",2.193,"639"],["Dec 31 2014 01: +0",2.362,"543"],["Jan 01 2015 01: +0",2.248,"544"],["Jan 02 2015 01: +0",2.435,"795"],["Jan 03 2015 01: +0",2.494,"545"],["Jan 04 2015 01: +0",2.367,"547"],["Jan 05 2015 01: +0",2.326,"569"],["Jan 06 2015 01: +0",2.29,"474"],["Jan 07 2015 01: +0",2.382,"415"],["Jan 08 2015 01: +0",2.267,"483"],["Jan 09 2015 01: +0",2.22,"662"],["Jan 10 2015 01: +0",2.242,"741"],["Jan 11 2015 01: +0",2.155,"199"],["Jan 11 2015 12: +0",2.166,"33"],["Jan 11 2015 13: +0",2.173,"30"],["Jan 11 2015 14: +0",2.16,"31"],["Jan 11 2015 15: +0",2.227,"35"],["Jan 11 2015 16: +0",2.138,"37"],["Jan 11 2015 17: +0",2.307,"49"],["Jan 11 2015 18: +0",2.291,"46"],["Jan 11 2015 19: +0",2.103,"27"],["Jan 11 2015 20: +0",2.06,"29"],["Jan 11 2015 21: +0",2.206,"35"],["Jan 11 2015 22: +0",2.3,"29"],["Jan 11 2015 23: +0",2.307,"29"],["Jan 12 2015 00: +0",2.354,"11"],["Jan 12 2015 01: +0",2.337,"32"],["Jan 12 2015 02: +0",2.439,"9"],["Jan 12 2015 03: +0",2.285,"8"],["Jan 12 2015 04: +0",2.431,"15"],["Jan 12 2015 05: +0",2.432,"8"],["Jan 12 2015 06: +0",2.222,"4"],["Jan 12 2015 07: +0",2.036,"10"],["Jan 12 2015 08: +0",2.072,"14"],["Jan 12 2015 09: +0",2.3,"20"],["Jan 12 2015 10: +0",2.439,"12"],["Jan 12 2015 11: +0",2.477,"35"],["Jan 12 2015 12: +0",2.58,"33"],["Jan 12 2015 13: +0",2.412,"27"],["Jan 12 2015 14: +0",2.472,"37"],["Jan 12 2015 15: +0",2.439,"40"],["Jan 12 2015 16: +0",2.576,"60"],["Jan 12 2015 17: +0",2.436,"46"],["Jan 12 2015 18: +0",2.612,"43"],["Jan 12 2015 19: +0",2.443,"30"],["Jan 12 2015 20: +0",2.457,"30"],["Jan 12 2015 21: +0",2.368,"25"],["Jan 12 2015 22: +0",2.301,"19"],["Jan 12 2015 23: +0",2.368,"16"],["Jan 13 2015 00: +0",2.014,"9"],["Jan 13 2015 01: +0",2.079,"13"],["Jan 13 2015 02: +0",2.138,"17"],["Jan 13 2015 03: +0",2.354,"16"],["Jan 13 2015 04: +0",2.35,"2"],["Jan 13 2015 05: +0",2.148,"10"],["Jan 13 2015 06: +0",2.285,"8"],["Jan 13 2015 07: +0",2.228,"16"],["Jan 13 2015 08: +0",2.289,"9"],["Jan 13 2015 09: +0",2.318,"11"],["Jan 13 2015 10: +0",2.32,"10"],["Jan 13 2015 11: +0",2.268,"20"],["Jan 13 2015 12: +0",2.385,"28"],["Jan 13 2015 13: +0",2.362,"33"],["Jan 13 2015 14: +0",2.38,"39"],["Jan 13 2015 15: +0",2.535,"63"],["Jan 13 2015 16: +0",2.603,"40"],["Jan 13 2015 17: +0",2.486,"62"],["Jan 13 2015 18: +0",2.578,"33"],["Jan 13 2015 19: +0",2.38,"61"],["Jan 13 2015 20: +0",2.649,"38"],["Jan 13 2015 21: +0",2.233,"26"],["Jan 13 2015 22: +0",2.245,"40"],["Jan 13 2015 23: +0",2.41,"15"],["Jan 14 2015 00: +0",2.415,"6"],["Jan 14 2015 01: +0",2.311,"10"],["Jan 14 2015 02: +0",2.323,"11"],["Jan 14 2015 03: +0",2.358,"13"],["Jan 14 2015 04: +0",2.3,"9"],["Jan 14 2015 05: +0",2.3,"16"],["Jan 14 2015 06: +0",2.185,"3"],["Jan 14 2015 07: +0",2.082,"10"],["Jan 14 2015 08: +0",2.07,"15"],["Jan 14 2015 09: +0",2.231,"17"],["Jan 14 2015 10: +0",2.418,"20"],["Jan 14 2015 11: +0",2.439,"24"],["Jan 14 2015 12: +0",2.472,"33"],["Jan 14 2015 13: +0",2.589,"42"],["Jan 14 2015 14: +0",2.656,"51"],["Jan 14 2015 15: +0",2.621,"38"],["Jan 14 2015 16: +0",2.438,"51"],["Jan 14 2015 17: +0",2.619,"47"],["Jan 14 2015 18: +0",2.26,"43"],["Jan 14 2015 19: +0",2.604,"43"],["Jan 14 2015 20: +0",2.576,"24"],["Jan 14 2015 21: +0",2.432,"33"],["Jan 14 2015 22: +0",2.361,"12"],["Jan 14 2015 23: +0",2.36,"14"],["Jan 15 2015 00: +0",2.185,"19"],["Jan 15 2015 01: +0",2.275,"7"],["Jan 15 2015 02: +0",2.451,"33"],["Jan 15 2015 03: +0",2.3,"6"],["Jan 15 2015 04: +0",2.384,"8"],["Jan 15 2015 05: +0",2.44,"1"],["Jan 15 2015 06: +0",2.39,"9"],["Jan 15 2015 07: +0",2.295,"8"],["Jan 15 2015 08: +0",2.3,"11"],["Jan 15 2015 09: +0",2.312,"16"],["Jan 15 2015 10: +0",2.411,"12"],["Jan 15 2015 11: +0",2.568,"52"],["Jan 15 2015 12: +0",2.69,"28"],["Jan 15 2015 13: +0",2.744,"27"],["Jan 15 2015 14: +0",2.761,"44"],["Jan 15 2015 15: +0",2.655,"61"],["Jan 15 2015 16: +0",2.61,"51"],["Jan 15 2015 17: +0",2.43,"61"],["Jan 15 2015 18: +0",2.618,"42"],["Jan 15 2015 19: +0",2.601,"38"],["Jan 15 2015 20: +0",2.472,"31"],["Jan 15 2015 21: +0",2.432,"15"],["Jan 15 2015 22: +0",2.133,"20"],["Jan 15 2015 23: +0",2.185,"17"],["Jan 16 2015 00: +0",2.359,"28"],["Jan 16 2015 01: +0",2.445,"16"],["Jan 16 2015 02: +0",2.553,"18"],["Jan 16 2015 03: +0",2.597,"16"],["Jan 16 2015 04: +0",2.53,"7"],["Jan 16 2015 05: +0",2.444,"10"],["Jan 16 2015 06: +0",2.61,"18"],["Jan 16 2015 07: +0",2.39,"5"],["Jan 16 2015 08: +0",2.412,"12"],["Jan 16 2015 09: +0",2.475,"10"],["Jan 16 2015 10: +0",2.565,"33"],["Jan 16 2015 11: +0",2.567,"30"],["Jan 16 2015 12: +0",2.686,"37"],["Jan 16 2015 13: +0",2.608,"40"],["Jan 16 2015 14: +0",2.658,"56"],["Jan 16 2015 15: +0",2.578,"56"],["Jan 16 2015 16: +0",2.405,"51"],["Jan 16 2015 17: +0",2.404,"48"],["Jan 16 2015 18: +0",2.418,"37"],["Jan 16 2015 19: +0",2.23,"41"],["Jan 16 2015 20: +0",2.469,"42"],["Jan 16 2015 21: +0",2.283,"26"],["Jan 16 2015 22: +0",2.338,"41"],["Jan 16 2015 23: +0",2.209,"26"],["Jan 17 2015 00: +0",2.338,"29"],["Jan 17 2015 01: +0",2.436,"19"],["Jan 17 2015 02: +0",2.38,"7"],["Jan 17 2015 03: +0",2.338,"17"],["Jan 17 2015 04: +0",2.151,"6"],["Jan 17 2015 05: +0",2.084,"6"],["Jan 17 2015 06: +0",2.275,"7"],["Jan 17 2015 07: +0",2.361,"10"],["Jan 17 2015 08: +0",2.371,"9"],["Jan 17 2015 09: +0",2.456,"35"],["Jan 17 2015 10: +0",2.504,"23"],["Jan 17 2015 11: +0",2.494,"57"],["Jan 17 2015 12: +0",2.502,"70"],["Jan 17 2015 13: +0",2.39,"49"],["Jan 17 2015 14: +0",2.455,"41"],["Jan 17 2015 15: +0",2.436,"42"],["Jan 17 2015 16: +0",2.489,"55"],["Jan 17 2015 17: +0",2.454,"26"],["Jan 17 2015 18: +0",2.635,"44"],["Jan 17 2015 19: +0",2.391,"46"],["Jan 17 2015 20: +0",2.284,"32"],["Jan 17 2015 21: +0",2.455,"26"],["Jan 17 2015 22: +0",2.417,"9"],["Jan 17 2015 23: +0",2.283,"48"],["Jan 18 2015 00: +0",2.434,"44"],["Jan 18 2015 01: +0",2.39,"13"],["Jan 18 2015 02: +0",2.49,"11"],["Jan 18 2015 03: +0",2.376,"7"],["Jan 18 2015 04: +0",2.376,"16"],["Jan 18 2015 05: +0",2.397,"7"],["Jan 18 2015 06: +0",2.403,"9"],["Jan 18 2015 07: +0",2.333,"14"],["Jan 18 2015 08: +0",2.403,"21"],["Jan 18 2015 09: +0",2.291,"27"],["Jan 18 2015 10: +0",2.179,"24"],["Jan 18 2015 11: +0",2.541,"69"],["Jan 18 2015 12: +0",2.549,"27"],["Jan 18 2015 13: +0",2.482,"45"],["Jan 18 2015 14: +0",2.38,"51"],["Jan 18 2015 15: +0",2.38,"38"],["Jan 18 2015 16: +0",2.385,"44"],["Jan 18 2015 17: +0",2.45,"36"],["Jan 18 2015 18: +0",2.31,"31"],["Jan 18 2015 19: +0",2.429,"33"],["Jan 18 2015 20: +0",2.52,"30"],["Jan 18 2015 21: +0",2.549,"23"],["Jan 18 2015 22: +0",2.634,"21"],["Jan 18 2015 23: +0",2.447,"34"],["Jan 19 2015 00: +0",2.429,"11"],["Jan 19 2015 01: +0",2.498,"6"],["Jan 19 2015 02: +0",2.5,"17"],["Jan 19 2015 03: +0",2.415,"7"],["Jan 19 2015 04: +0",1.931,"1"],["Jan 19 2015 05: +0",2.052,"8"],["Jan 19 2015 06: +0",2.208,"7"],["Jan 19 2015 07: +0",1.99,"22"],["Jan 19 2015 08: +0",2.399,"38"],["Jan 19 2015 09: +0",2.458,"13"],["Jan 19 2015 10: +0",2.429,"13"],["Jan 19 2015 11: +0",2.39,"27"],["Jan 19 2015 12: +0",2.353,"29"],["Jan 19 2015 13: +0",2.617,"53"],["Jan 19 2015 14: +0",2.58,"30"],["Jan 19 2015 15: +0",2.549,"36"],["Jan 19 2015 16: +0",2.53,"53"],["Jan 19 2015 17: +0",2.579,"56"],["Jan 19 2015 18: +0",2.424,"58"],["Jan 19 2015 19: +0",2.367,"32"],["Jan 19 2015 20: +0",2.376,"21"],["Jan 19 2015 21: +0",2.367,"33"],["Jan 19 2015 22: +0",2.323,"13"],["Jan 19 2015 23: +0",2.38,"21"],["Jan 20 2015 00: +0",2.363,"8"],["Jan 20 2015 01: +0",2.3,"1"],["Jan 20 2015 02: +0",2.26,"3"],["Jan 20 2015 03: +0",2.32,"2"],["Jan 20 2015 04: +0",2.265,"2"],["Jan 20 2015 05: +0",2.202,"4"],["Jan 20 2015 06: +0",2.19,"8"],["Jan 20 2015 07: +0",2.241,"16"],["Jan 20 2015 08: +0",2.295,"24"],["Jan 20 2015 09: +0",2.467,"21"],["Jan 20 2015 10: +0",2.412,"19"],["Jan 20 2015 11: +0",2.454,"24"],["Jan 20 2015 12: +0",2.581,"43"],["Jan 20 2015 13: +0",2.61,"37"],["Jan 20 2015 14: +0",2.54,"32"],["Jan 20 2015 15: +0",2.642,"45"],["Jan 20 2015 16: +0",2.615,"51"],["Jan 20 2015 17: +0",2.471,"38"],["Jan 20 2015 18: +0",2.469,"33"],["Jan 20 2015 19: +0",2.58,"46"],["Jan 20 2015 20: +0",2.288,"28"],["Jan 20 2015 21: +0",2.3,"27"],["Jan 20 2015 22: +0",2.319,"16"],["Jan 20 2015 23: +0",2.43,"15"],["Jan 21 2015 00: +0",2.49,"21"],["Jan 21 2015 01: +0",2.426,"4"],["Jan 21 2015 02: +0",2.272,"4"],["Jan 21 2015 03: +0",2.07,"5"],["Jan 21 2015 04: +0",2.187,"8"],["Jan 21 2015 05: +0",2.3,"16"],["Jan 21 2015 06: +0",2.107,"9"],["Jan 21 2015 07: +0",2.3,"21"],["Jan 21 2015 08: +0",2.382,"15"],["Jan 21 2015 09: +0",2.312,"6"],["Jan 21 2015 10: +0",2.137,"10"],["Jan 21 2015 11: +0",2.331,"19"],["Jan 21 2015 12: +0",2.283,"27"],["Jan 21 2015 13: +0",2.3,"23"],["Jan 21 2015 14: +0",2.323,"46"],["Jan 21 2015 15: +0",2.299,"34"],["Jan 21 2015 16: +0",2.47,"50"],["Jan 21 2015 17: +0",2.518,"45"],["Jan 21 2015 18: +0",2.429,"51"],["Jan 21 2015 19: +0",2.283,"27"],["Jan 21 2015 20: +0",2.3,"36"],["Jan 21 2015 21: +0",2.263,"27"],["Jan 21 2015 22: +0",2.465,"26"],["Jan 21 2015 23: +0",2.344,"13"],["Jan 22 2015 00: +0",2.382,"12"],["Jan 22 2015 01: +0",2.18,"3"],["Jan 22 2015 02: +0",2.045,"11"],["Jan 22 2015 03: +0",2.17,"6"],["Jan 22 2015 04: +0",2.2,"13"],["Jan 22 2015 05: +0",2.266,"8"],["Jan 22 2015 06: +0",2.265,"5"],["Jan 22 2015 07: +0",2.187,"11"],["Jan 22 2015 08: +0",2.445,"23"],["Jan 22 2015 09: +0",2.447,"24"],["Jan 22 2015 10: +0",2.449,"20"],["Jan 22 2015 11: +0",2.519,"43"],["Jan 22 2015 12: +0",2.416,"29"],["Jan 22 2015 13: +0",2.522,"66"],["Jan 22 2015 14: +0",2.447,"41"],["Jan 22 2015 15: +0",2.528,"49"],["Jan 22 2015 16: +0",2.513,"53"],["Jan 22 2015 17: +0",2.43,"47"],["Jan 22 2015 18: +0",2.308,"36"],["Jan 22 2015 19: +0",2.403,"23"],["Jan 22 2015 20: +0",2.305,"36"],["Jan 22 2015 21: +0",2.433,"21"],["Jan 22 2015 22: +0",2.447,"31"],["Jan 22 2015 23: +0",2.341,"9"],["Jan 23 2015 00: +0",2.292,"10"],["Jan 23 2015 01: +0",2.139,"7"],["Jan 23 2015 02: +0",2.15,"11"],["Jan 23 2015 03: +0",2.3,"32"],["Jan 23 2015 04: +0",2.461,"9"],["Jan 23 2015 05: +0",2.439,"8"],["Jan 23 2015 06: +0",2.403,"15"],["Jan 23 2015 07: +0",2.326,"10"],["Jan 23 2015 08: +0",2.403,"9"],["Jan 23 2015 09: +0",2.598,"45"],["Jan 23 2015 10: +0",2.668,"11"],["Jan 23 2015 11: +0",2.624,"21"],["Jan 23 2015 12: +0",2.62,"20"],["Jan 23 2015 13: +0",2.611,"37"],["Jan 23 2015 14: +0",2.615,"77"],["Jan 23 2015 15: +0",2.339,"49"],["Jan 23 2015 16: +0",2.5,"54"],["Jan 23 2015 17: +0",2.416,"46"],["Jan 23 2015 18: +0",2.476,"52"],["Jan 23 2015 19: +0",2.317,"24"],["Jan 23 2015 20: +0",2.296,"38"],["Jan 23 2015 21: +0",2.308,"25"],["Jan 23 2015 22: +0",2.297,"18"],["Jan 23 2015 23: +0",2.3,"15"],["Jan 24 2015 00: +0",2.37,"11"],["Jan 24 2015 01: +0",2.278,"13"],["Jan 24 2015 02: +0",2.409,"16"],["Jan 24 2015 03: +0",2.3,"12"],["Jan 24 2015 04: +0",2.39,"15"],["Jan 24 2015 05: +0",2.236,"14"],["Jan 24 2015 06: +0",2.22,"17"],["Jan 24 2015 07: +0",2.144,"12"],["Jan 24 2015 08: +0",2.16,"28"],["Jan 24 2015 09: +0",2.292,"33"],["Jan 24 2015 10: +0",2.346,"22"],["Jan 24 2015 11: +0",2.33,"30"],["Jan 24 2015 12: +0",2.518,"19"],["Jan 24 2015 13: +0",2.61,"37"],["Jan 24 2015 14: +0",2.897,"29"],["Jan 24 2015 15: +0",2.641,"35"],["Jan 24 2015 16: +0",2.71,"23"],["Jan 24 2015 17: +0",2.952,"20"],["Jan 24 2015 18: +0",2.737,"36"],["Jan 24 2015 19: +0",2.498,"50"],["Jan 24 2015 20: +0",2.369,"46"],["Jan 24 2015 21: +0",2.484,"49"],["Jan 24 2015 22: +0",2.357,"69"],["Jan 24 2015 23: +0",2.122,"18"],["Jan 25 2015 00: +0",2.189,"37"],["Jan 25 2015 01: +0",2.24,"16"],["Jan 25 2015 02: +0",2.18,"10"],["Jan 25 2015 03: +0",1.911,"16"],["Jan 25 2015 04: +0",1.976,"10"],["Jan 25 2015 05: +0",1.976,"12"],["Jan 25 2015 06: +0",2.003,"14"],["Jan 25 2015 07: +0",1.92,"18"],["Jan 25 2015 08: +0",1.769,"31"],["Jan 25 2015 09: +0",2.005,"21"],["Jan 25 2015 10: +0",2.144,"31"],["Jan 25 2015 11: +0",2.173,"39"],["Jan 25 2015 12: +0",2.111,"46"],["Jan 25 2015 13: +0",2.185,"45"],["Jan 25 2015 14: +0",2.189,"44"],["Jan 25 2015 15: +0",2.161,"53"],["Jan 25 2015 16: +0",2.162,"43"],["Jan 25 2015 17: +0",2.09,"47"],["Jan 25 2015 18: +0",2.039,"30"],["Jan 25 2015 19: +0",2.035,"34"],["Jan 25 2015 20: +0",2.32,"94"],["Jan 25 2015 21: +0",2.19,"24"],["Jan 25 2015 22: +0",2.234,"34"],["Jan 25 2015 23: +0",1.998,"8"],["Jan 26 2015 00: +0",1.97,"5"],["Jan 26 2015 01: +0",2.185,"39"],["Jan 26 2015 02: +0",2.208,"11"],["Jan 26 2015 03: +0",2.208,"10"],["Jan 26 2015 04: +0",2.252,"9"],["Jan 26 2015 05: +0",2.27,"9"],["Jan 26 2015 06: +0",2.144,"5"],["Jan 26 2015 07: +0",1.926,"18"],["Jan 26 2015 08: +0",2.057,"12"],["Jan 26 2015 09: +0",2.037,"20"],["Jan 26 2015 10: +0",2.005,"21"],["Jan 26 2015 11: +0",2.133,"24"],["Jan 26 2015 12: +0",2.138,"30"],["Jan 26 2015 13: +0",2.215,"53"],["Jan 26 2015 14: +0",2.169,"52"],["Jan 26 2015 15: +0",2.254,"43"],["Jan 26 2015 16: +0",2.144,"58"],["Jan 26 2015 17: +0",2.16,"52"],["Jan 26 2015 18: +0",2.357,"94"],["Jan 26 2015 19: +0",2.144,"38"],["Jan 26 2015 20: +0",2.113,"33"],["Jan 26 2015 21: +0",2.117,"19"],["Jan 26 2015 22: +0",1.993,"11"],["Jan 26 2015 23: +0",2.04,"24"],["Jan 27 2015 00: +0",2.123,"12"],["Jan 27 2015 01: +0",2.178,"28"],["Jan 27 2015 02: +0",2.04,"7"],["Jan 27 2015 03: +0",2.012,"11"],["Jan 27 2015 04: +0",2.165,"2"],["Jan 27 2015 05: +0",2.224,"10"],["Jan 27 2015 06: +0",2.055,"11"],["Jan 27 2015 07: +0",2.073,"5"],["Jan 27 2015 08: +0",2.088,"23"],["Jan 27 2015 09: +0",1.931,"11"],["Jan 27 2015 10: +0",1.911,"12"],["Jan 27 2015 11: +0",2.1,"19"],["Jan 27 2015 12: +0",2.193,"27"],["Jan 27 2015 13: +0",2.261,"58"],["Jan 27 2015 14: +0",2.249,"68"],["Jan 27 2015 15: +0",2.268,"35"],["Jan 27 2015 16: +0",2.242,"43"],["Jan 27 2015 17: +0",2.19,"39"],["Jan 27 2015 18: +0",2.278,"36"],["Jan 27 2015 19: +0",2.254,"35"],["Jan 27 2015 20: +0",2.163,"28"],["Jan 27 2015 21: +0",2.228,"30"],["Jan 27 2015 22: +0",1.918,"16"],["Jan 27 2015 23: +0",1.943,"6"],["Jan 28 2015 00: +0",2.111,"11"],["Jan 28 2015 01: +0",2.2,"9"],["Jan 28 2015 02: +0",2.208,"12"],["Jan 28 2015 03: +0",2.266,"19"],["Jan 28 2015 04: +0",2.27,"6"],["Jan 28 2015 05: +0",2.252,"10"],["Jan 28 2015 06: +0",2.273,"14"],["Jan 28 2015 07: +0",2.254,"8"],["Jan 28 2015 08: +0",2.205,"13"],["Jan 28 2015 09: +0",2.216,"24"],["Jan 28 2015 10: +0",2.242,"21"],["Jan 28 2015 11: +0",2.358,"21"],["Jan 28 2015 12: +0",2.267,"18"],["Jan 28 2015 13: +0",2.3,"32"],["Jan 28 2015 14: +0",2.352,"45"],["Jan 28 2015 15: +0",2.287,"41"],["Jan 28 2015 16: +0",2.355,"41"],["Jan 28 2015 17: +0",2.355,"42"],["Jan 28 2015 18: +0",2.358,"39"],["Jan 28 2015 19: +0",2.286,"37"],["Jan 28 2015 20: +0",2.298,"38"],["Jan 28 2015 21: +0",2.221,"17"],["Jan 28 2015 22: +0",2.262,"17"],["Jan 28 2015 23: +0",2.102,"5"],["Jan 29 2015 00: +0",2.507,"42"],["Jan 29 2015 01: +0",2.104,"3"],["Jan 29 2015 02: +0",2.076,"11"],["Jan 29 2015 03: +0",2.058,"10"],["Jan 29 2015 04: +0",2.093,"6"],["Jan 29 2015 05: +0",2.03,"5"],["Jan 29 2015 06: +0",2.028,"12"],["Jan 29 2015 07: +0",2.022,"17"],["Jan 29 2015 08: +0",1.991,"13"],["Jan 29 2015 09: +0",2.023,"22"],["Jan 29 2015 10: +0",2.104,"29"],["Jan 29 2015 11: +0",2.3,"23"],["Jan 29 2015 12: +0",2.343,"46"],["Jan 29 2015 13: +0",2.137,"27"],["Jan 29 2015 14: +0",2.212,"33"],["Jan 29 2015 15: +0",2.339,"37"],["Jan 29 2015 16: +0",2.286,"29"],["Jan 29 2015 17: +0",2.287,"40"],["Jan 29 2015 18: +0",2.273,"32"],["Jan 29 2015 19: +0",2.216,"32"],["Jan 29 2015 20: +0",2.287,"31"],["Jan 29 2015 21: +0",2.208,"13"],["Jan 29 2015 22: +0",2.162,"21"],["Jan 29 2015 23: +0",2.208,"27"],["Jan 30 2015 00: +0",2.171,"10"],["Jan 30 2015 01: +0",2.187,"7"],["Jan 30 2015 02: +0",2.13,"9"],["Jan 30 2015 03: +0",2.012,"3"],["Jan 30 2015 04: +0",2.03,"6"],["Jan 30 2015 05: +0",2.18,"7"],["Jan 30 2015 06: +0",2.07,"14"],["Jan 30 2015 07: +0",2.215,"6"],["Jan 30 2015 08: +0",2.149,"8"],["Jan 30 2015 09: +0",1.993,"13"],["Jan 30 2015 10: +0",1.94,"29"],["Jan 30 2015 11: +0",2.167,"14"],["Jan 30 2015 12: +0",2.208,"43"],["Jan 30 2015 13: +0",2.279,"32"],["Jan 30 2015 14: +0",2.187,"53"],["Jan 30 2015 15: +0",2.172,"37"],["Jan 30 2015 16: +0",2.208,"45"],["Jan 30 2015 17: +0",2.208,"80"],["Jan 30 2015 18: +0",2.281,"39"],["Jan 30 2015 19: +0",2.3,"36"],["Jan 30 2015 20: +0",2.179,"41"],["Jan 30 2015 21: +0",2.101,"26"],["Jan 30 2015 22: +0",2.341,"68"],["Jan 30 2015 23: +0",2.211,"14"],["Jan 31 2015 00: +0",2.392,"31"],["Jan 31 2015 01: +0",2.06,"8"],["Jan 31 2015 02: +0",1.98,"11"],["Jan 31 2015 03: +0",2.283,"32"],["Jan 31 2015 04: +0",2.153,"10"],["Jan 31 2015 05: +0",2.084,"13"],["Jan 31 2015 06: +0",2.07,"11"],["Jan 31 2015 07: +0",1.993,"9"],["Jan 31 2015 08: +0",1.996,"26"],["Jan 31 2015 09: +0",2.087,"26"],["Jan 31 2015 10: +0",2.215,"56"],["Jan 31 2015 11: +0",2.403,"28"],["Jan 31 2015 12: +0",2.221,"39"],["Jan 31 2015 13: +0",2.136,"60"],["Jan 31 2015 14: +0",2.24,"46"],["Jan 31 2015 15: +0",2.285,"53"],["Jan 31 2015 16: +0",2.3,"37"],["Jan 31 2015 17: +0",2.449,"27"],["Jan 31 2015 18: +0",2.517,"21"],["Jan 31 2015 19: +0",2.54,"48"],["Jan 31 2015 20: +0",2.281,"21"],["Jan 31 2015 21: +0",2.189,"20"],["Jan 31 2015 22: +0",1.993,"23"],["Jan 31 2015 23: +0",1.978,"32"],["Feb 01 2015 00: +0",2.156,"47"],["Feb 01 2015 01: +0",2.278,"15"],["Feb 01 2015 02: +0",2.156,"18"],["Feb 01 2015 03: +0",2.285,"24"],["Feb 01 2015 04: +0",2.288,"9"],["Feb 01 2015 05: +0",2.283,"12"],["Feb 01 2015 06: +0",2.188,"4"],["Feb 01 2015 07: +0",2.195,"23"],["Feb 01 2015 08: +0",2.117,"33"],["Feb 01 2015 09: +0",2.114,"32"],["Feb 01 2015 10: +0",2.162,"34"],["Feb 01 2015 11: +0",2.112,"39"],["Feb 01 2015 12: +0",2.049,"44"],["Feb 01 2015 13: +0",2.09,"55"],["Feb 01 2015 14: +0",2.207,"51"],["Feb 01 2015 15: +0",2.157,"47"],["Feb 01 2015 16: +0",1.987,"46"],["Feb 01 2015 17: +0",2.091,"61"],["Feb 01 2015 18: +0",2.207,"35"],["Feb 01 2015 19: +0",2.134,"34"],["Feb 01 2015 20: +0",2.157,"23"],["Feb 01 2015 21: +0",2.08,"29"],["Feb 01 2015 22: +0",2.162,"28"],["Feb 01 2015 23: +0",1.948,"6"],["Feb 02 2015 00: +0",1.993,"25"],["Feb 02 2015 01: +0",2.128,"19"],["Feb 02 2015 02: +0",2.012,"5"],["Feb 02 2015 03: +0",2.134,"14"],["Feb 02 2015 04: +0",2.078,"17"],["Feb 02 2015 05: +0",2.093,"9"],["Feb 02 2015 06: +0",2.104,"13"],["Feb 02 2015 07: +0",2.113,"16"],["Feb 02 2015 08: +0",2.122,"9"],["Feb 02 2015 09: +0",2.093,"14"],["Feb 02 2015 10: +0",2.078,"11"],["Feb 02 2015 11: +0",1.976,"21"],["Feb 02 2015 12: +0",2.129,"28"],["Feb 02 2015 13: +0",2.091,"29"],["Feb 02 2015 14: +0",2.014,"41"],["Feb 02 2015 15: +0",2.208,"35"],["Feb 02 2015 16: +0",2.148,"46"],["Feb 02 2015 17: +0",2.139,"33"],["Feb 02 2015 18: +0",2.117,"43"],["Feb 02 2015 19: +0",2.179,"61"],["Feb 02 2015 20: +0",2.033,"34"],["Feb 02 2015 21: +0",2.258,"43"],["Feb 02 2015 22: +0",2.021,"25"],["Feb 02 2015 23: +0",2.04,"8"],["Feb 03 2015 00: +0",2.052,"15"],["Feb 03 2015 01: +0",2.057,"20"],["Feb 03 2015 02: +0",2.058,"13"],["Feb 03 2015 03: +0",2.068,"12"],["Feb 03 2015 04: +0",2.105,"10"],["Feb 03 2015 05: +0",2.128,"6"],["Feb 03 2015 06: +0",2.03,"8"],["Feb 03 2015 07: +0",2.12,"15"],["Feb 03 2015 08: +0",2.111,"16"],["Feb 03 2015 09: +0",2.055,"13"],["Feb 03 2015 10: +0",2.21,"44"],["Feb 03 2015 11: +0",2.169,"23"],["Feb 03 2015 12: +0",2.002,"39"],["Feb 03 2015 13: +0",2.053,"41"],["Feb 03 2015 14: +0",2.172,"45"],["Feb 03 2015 15: +0",2.136,"35"],["Feb 03 2015 16: +0",2.252,"48"],["Feb 03 2015 17: +0",2.3,"54"],["Feb 03 2015 18: +0",2.169,"26"],["Feb 03 2015 19: +0",2.106,"44"],["Feb 03 2015 20: +0",2.149,"32"],["Feb 03 2015 21: +0",2.177,"41"],["Feb 03 2015 22: +0",2.124,"20"],["Feb 03 2015 23: +0",2.172,"16"],["Feb 04 2015 00: +0",2.024,"9"],["Feb 04 2015 01: +0",2.104,"17"],["Feb 04 2015 02: +0",2.16,"10"],["Feb 04 2015 03: +0",2.132,"8"],["Feb 04 2015 04: +0",2.16,"7"],["Feb 04 2015 05: +0",2.155,"6"],["Feb 04 2015 06: +0",2.171,"10"],["Feb 04 2015 07: +0",2.232,"16"],["Feb 04 2015 08: +0",2.297,"15"],["Feb 04 2015 09: +0",2.257,"25"],["Feb 04 2015 10: +0",2.181,"15"],["Feb 04 2015 11: +0",2.202,"24"],["Feb 04 2015 12: +0",2.18,"21"],["Feb 04 2015 13: +0",2.274,"46"],["Feb 04 2015 14: +0",2.257,"36"],["Feb 04 2015 15: +0",2.329,"37"],["Feb 04 2015 16: +0",2.182,"38"],["Feb 04 2015 17: +0",2.34,"39"],["Feb 04 2015 18: +0",2.297,"27"],["Feb 04 2015 19: +0",2.271,"40"],["Feb 04 2015 20: +0",2.165,"26"],["Feb 04 2015 21: +0",2.132,"20"],["Feb 04 2015 22: +0",2.156,"26"],["Feb 04 2015 23: +0",2.221,"18"],["Feb 05 2015 00: +0",2.179,"15"],["Feb 05 2015 01: +0",2.07,"8"],["Feb 05 2015 02: +0",2.034,"13"],["Feb 05 2015 03: +0",2.19,"8"],["Feb 05 2015 04: +0",2.127,"6"],["Feb 05 2015 05: +0",2.121,"10"],["Feb 05 2015 06: +0",2.182,"21"],["Feb 05 2015 07: +0",2.185,"8"],["Feb 05 2015 08: +0",2.086,"12"],["Feb 05 2015 09: +0",2.006,"15"],["Feb 05 2015 10: +0",2.155,"24"],["Feb 05 2015 11: +0",2.236,"30"],["Feb 05 2015 12: +0",2.22,"25"],["Feb 05 2015 13: +0",2.2,"51"],["Feb 05 2015 14: +0",2.204,"42"],["Feb 05 2015 15: +0",2.151,"66"],["Feb 05 2015 16: +0",2.185,"51"],["Feb 05 2015 17: +0",2.221,"45"],["Feb 05 2015 18: +0",2.228,"34"],["Feb 05 2015 19: +0",2.155,"29"],["Feb 05 2015 20: +0",2.268,"31"],["Feb 05 2015 21: +0",2.069,"28"],["Feb 05 2015 22: +0",1.961,"14"],["Feb 05 2015 23: +0",1.918,"18"],["Feb 06 2015 00: +0",1.961,"19"],["Feb 06 2015 01: +0",2.053,"32"],["Feb 06 2015 02: +0",2.13,"7"],["Feb 06 2015 03: +0",2.001,"13"],["Feb 06 2015 04: +0",2.05,"6"],["Feb 06 2015 05: +0",2.162,"24"],["Feb 06 2015 06: +0",2.086,"6"],["Feb 06 2015 07: +0",2.13,"9"],["Feb 06 2015 08: +0",1.978,"12"],["Feb 06 2015 09: +0",2.051,"21"],["Feb 06 2015 10: +0",2.136,"26"],["Feb 06 2015 11: +0",2.036,"36"],["Feb 06 2015 12: +0",2.082,"36"],["Feb 06 2015 13: +0",2.057,"39"],["Feb 06 2015 14: +0",2.132,"56"],["Feb 06 2015 15: +0",2.083,"52"],["Feb 06 2015 16: +0",2.236,"49"],["Feb 06 2015 17: +0",2.228,"35"],["Feb 06 2015 18: +0",2.229,"34"],["Feb 06 2015 19: +0",2.219,"27"],["Feb 06 2015 20: +0",2.098,"34"],["Feb 06 2015 21: +0",2.141,"36"],["Feb 06 2015 22: +0",2.12,"23"],["Feb 06 2015 23: +0",2.228,"29"],["Feb 07 2015 00: +0",2.114,"14"],["Feb 07 2015 01: +0",2.3,"39"],["Feb 07 2015 02: +0",2.15,"3"],["Feb 07 2015 03: +0",2.122,"4"],["Feb 07 2015 04: +0",2.118,"6"],["Feb 07 2015 05: +0",2.219,"16"],["Feb 07 2015 06: +0",2.21,"6"],["Feb 07 2015 07: +0",2.199,"21"],["Feb 07 2015 08: +0",2.223,"27"],["Feb 07 2015 09: +0",2.295,"32"],["Feb 07 2015 10: +0",2.096,"14"],["Feb 07 2015 11: +0",2.119,"39"],["Feb 07 2015 12: +0",2.197,"38"],["Feb 07 2015 13: +0",2.16,"49"],["Feb 07 2015 14: +0",2.202,"39"],["Feb 07 2015 15: +0",2.184,"58"],["Feb 07 2015 16: +0",2.347,"59"],["Feb 07 2015 17: +0",2.147,"34"],["Feb 07 2015 18: +0",2.051,"49"],["Feb 07 2015 19: +0",2.153,"49"],["Feb 07 2015 20: +0",2.154,"39"],["Feb 07 2015 21: +0",2.154,"33"],["Feb 07 2015 22: +0",2.125,"30"],["Feb 07 2015 23: +0",2.094,"21"],["Feb 08 2015 00: +0",2.127,"44"],["Feb 08 2015 01: +0",2.073,"18"],["Feb 08 2015 02: +0",1.943,"11"],["Feb 08 2015 03: +0",1.903,"29"],["Feb 08 2015 04: +0",1.965,"11"],["Feb 08 2015 05: +0",1.833,"10"],["Feb 08 2015 06: +0",1.88,"15"],["Feb 08 2015 07: +0",1.878,"26"],["Feb 08 2015 08: +0",2.136,"42"],["Feb 08 2015 09: +0",2.08,"23"],["Feb 08 2015 10: +0",1.965,"39"],["Feb 08 2015 11: +0",2.071,"44"],["Feb 08 2015 12: +0",1.879,"39"],["Feb 08 2015 13: +0",2.07,"37"],["Feb 08 2015 14: +0",1.99,"49"],["Feb 08 2015 15: +0",1.897,"46"],["Feb 08 2015 16: +0",1.966,"40"],["Feb 08 2015 17: +0",2.099,"35"],["Feb 08 2015 18: +0",1.962,"27"],["Feb 08 2015 19: +0",1.851,"30"],["Feb 08 2015 20: +0",2.06,"32"],["Feb 08 2015 21: +0",1.893,"36"],["Feb 08 2015 22: +0",1.962,"24"],["Feb 08 2015 23: +0",1.98,"21"],["Feb 09 2015 00: +0",2.051,"9"],["Feb 09 2015 01: +0",1.81,"5"],["Feb 09 2015 02: +0",1.86,"7"],["Feb 09 2015 03: +0",1.963,"10"],["Feb 09 2015 04: +0",1.971,"2"],["Feb 09 2015 05: +0",1.966,"11"],["Feb 09 2015 06: +0",2.012,"7"],["Feb 09 2015 07: +0",1.991,"8"],["Feb 09 2015 08: +0",2.009,"14"],["Feb 09 2015 09: +0",2.051,"17"],["Feb 09 2015 10: +0",2.034,"34"],["Feb 09 2015 11: +0",1.909,"23"],["Feb 09 2015 12: +0",2.016,"34"],["Feb 09 2015 13: +0",2.06,"29"],["Feb 09 2015 14: +0",2.029,"31"],["Feb 09 2015 15: +0",1.927,"37"],["Feb 09 2015 16: +0",2.091,"42"],["Feb 09 2015 17: +0",1.973,"38"],["Feb 09 2015 18: +0",1.995,"39"],["Feb 09 2015 19: +0",2.143,"40"],["Feb 09 2015 20: +0",2.073,"35"],["Feb 09 2015 21: +0",1.882,"13"],["Feb 09 2015 22: +0",2.041,"13"],["Feb 09 2015 23: +0",1.936,"20"],["Feb 10 2015 00: +0",1.99,"15"],["Feb 10 2015 01: +0",2.124,"15"],["Feb 10 2015 02: +0",2.012,"6"],["Feb 10 2015 03: +0",2.056,"4"],["Feb 10 2015 04: +0",2.03,"6"],["Feb 10 2015 05: +0",2.129,"27"],["Feb 10 2015 06: +0",2.104,"5"],["Feb 10 2015 07: +0",2.135,"10"],["Feb 10 2015 08: +0",2.095,"9"],["Feb 10 2015 09: +0",2.159,"29"],["Feb 10 2015 10: +0",2.262,"39"],["Feb 10 2015 11: +0",2.217,"21"],["Feb 10 2015 12: +0",2.15,"26"],["Feb 10 2015 13: +0",2.3,"57"],["Feb 10 2015 14: +0",2.095,"35"],["Feb 10 2015 15: +0",2.254,"38"],["Feb 10 2015 16: +0",2.15,"38"],["Feb 10 2015 17: +0",2.283,"49"],["Feb 10 2015 18: +0",2.08,"31"],["Feb 10 2015 19: +0",2.201,"19"],["Feb 10 2015 20: +0",1.989,"37"],["Feb 10 2015 21: +0",1.978,"18"],["Feb 10 2015 22: +0",1.938,"17"],["Feb 10 2015 23: +0",2.034,"22"],["Feb 11 2015 00: +0",2.093,"11"],["Feb 11 2015 01: +0",2.056,"8"],["Feb 11 2015 02: +0",2.068,"12"],["Feb 11 2015 03: +0",2.052,"6"],["Feb 11 2015 04: +0",2.074,"10"],["Feb 11 2015 05: +0",2.127,"4"],["Feb 11 2015 06: +0",2.104,"9"],["Feb 11 2015 07: +0",1.982,"10"],["Feb 11 2015 08: +0",1.92,"15"],["Feb 11 2015 09: +0",1.91,"24"],["Feb 11 2015 10: +0",2.039,"18"]];
+			g_timePriceHistoryEarliest = new Date();
+			if ( line1 != false )
+			{
+				g_timePriceHistoryEarliest = new Date(line1[0][0]);
+				g_timePriceHistoryLatest = new Date(line1[line1.length-1][0]);
+			}
+
+			var strFormatPrefix = "&#36;";
+			var strFormatSuffix = "";
+
+			g_plotPriceHistory = CreatePriceHistoryGraph( line1, 7, strFormatPrefix, strFormatSuffix );
+
+			pricehistory_zoomMonthOrLifetime( g_plotPriceHistory, g_timePriceHistoryEarliest, g_timePriceHistoryLatest );
+		});
+	
+			$J(document).ready( function(){
+			InstallMarketActionMenuButtons();
+		});
+	
+	</script>
+
+
+
+
+<div class="miniprofile_hover" style="display: none;"><div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="miniprofile_hover_inner shadow_content"></div><div class="hover_arrow left miniprofile_arrow"><div class="miniprofile_arrow_inner"></div></div><div class="hover_arrow right miniprofile_arrow"><div class="miniprofile_arrow_inner"></div></div></div></body></html>
